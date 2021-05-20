@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- 반응형 웹을 휘한 라이브러리 링크 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
+  <title>Mtone_MainPage</title>
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+
+  <!-- styles for media type -->
+  <link href="style.css" rel="stylesheet">
+
+  <!-- Bootstrap styles for this template -->
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <!--Font Noto Sans JP-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+  <!-- JAVASCRIPT DIV -->
+  <script type="text/javascript">
+
+window.addEventListener('resize', function() {
+ 
+  var width_size = window.outerWidth;
+
+  if(width_size<991){
+    var i = 1;
+
+  }else{
+    var i = 2;
+  }
+}, true);
+  
+    
+    function mobileStyle(i){
+    if(i===1){
+
+      mbNavbar.clickOne()
+
+    }
+
+    }
+
+    function desktopStyle(i){
+    if(i===2){
+
+      nav3.clickOne()
+   
+    }
+    
+    }
+
+    //mobile js navTabar
+    function clickOne() {
+      var location = document.querySelector("#onePage").offsetTop;
+      var menuHeight = document.querySelector("#onePage").offsetHeight;
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+      
+      document.getElementById("navMtap01").style.color = '#2e2e2e';
+      document.getElementById("navMtap02").style.color = '#2e2e2e';
+      document.getElementById("navMtap03").style.color = '#2e2e2e';
+      document.getElementById("navMtap04").style.color = '#2e2e2e';
+      document.getElementById("navMtap05").style.color = '#2e2e2e';
+      document.getElementById("navMtap06").style.color = '#2e2e2e';
+      document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+      document.getElementById("navMtap01").style.color = '#6ab8ee';
+    }
+    
+    function clickSecond() {
+      var location = document.querySelector("#secondPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#secondPage").offsetHeight;
+
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+      
+      document.getElementById("navMtap01").style.color = '#2e2e2e';
+      document.getElementById("navMtap02").style.color = '#2e2e2e';
+      document.getElementById("navMtap03").style.color = '#2e2e2e';
+      document.getElementById("navMtap04").style.color = '#2e2e2e';
+      document.getElementById("navMtap05").style.color = '#2e2e2e';
+      document.getElementById("navMtap06").style.color = '#2e2e2e';
+      document.getElementById("navMtap07").style.color = '#2e2e2e';
+      
+      document.getElementById("navMtap02").style.color = '#6ab8ee';
+    }
+    function clickThird() {
+      var location = document.querySelector("#thirdPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#thirdPage").offsetHeight;
+
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+
+      document.getElementById("navMtap01").style.color = '#2e2e2e';
+      document.getElementById("navMtap02").style.color = '#2e2e2e';
+      document.getElementById("navMtap03").style.color = '#2e2e2e';
+      document.getElementById("navMtap04").style.color = '#2e2e2e';
+      document.getElementById("navMtap05").style.color = '#2e2e2e';
+      document.getElementById("navMtap06").style.color = '#2e2e2e';
+      document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+      
+      document.getElementById("navMtap03").style.color = '#6ab8ee';
+    }
+    function clickFourth() {
+      var location = document.querySelector("#fourthPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#fourthPage").offsetHeight;
+
+   
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+
+      document.getElementById("navMtap01").style.color = '#2e2e2e';
+      document.getElementById("navMtap02").style.color = '#2e2e2e';
+      document.getElementById("navMtap03").style.color = '#2e2e2e';
+      document.getElementById("navMtap04").style.color = '#2e2e2e';
+      document.getElementById("navMtap05").style.color = '#2e2e2e';
+      document.getElementById("navMtap06").style.color = '#2e2e2e';
+      document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+      document.getElementById("navMtap04").style.color = '#6ab8ee';
+    }
+    function clickFifth() {
+      var location = document.querySelector("#fifthPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#fifthPage").offsetHeight;
+
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+
+      document.getElementById("navMtap01").style.color = '#2e2e2e';
+      document.getElementById("navMtap02").style.color = '#2e2e2e';
+      document.getElementById("navMtap03").style.color = '#2e2e2e';
+      document.getElementById("navMtap04").style.color = '#2e2e2e';
+      document.getElementById("navMtap05").style.color = '#2e2e2e';
+      document.getElementById("navMtap06").style.color = '#2e2e2e';
+      document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+      document.getElementById("navMtap05").style.color = '#6ab8ee';
+    }
+    function clickSixth() {
+      var location = document.querySelector("#sixPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#sixPage").offsetHeight;
+    
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+
+      document.getElementById("navMtap01").style.color = '#2e2e2e';
+      document.getElementById("navMtap02").style.color = '#2e2e2e';
+      document.getElementById("navMtap03").style.color = '#2e2e2e';
+      document.getElementById("navMtap04").style.color = '#2e2e2e';
+      document.getElementById("navMtap05").style.color = '#2e2e2e';
+      document.getElementById("navMtap06").style.color = '#2e2e2e';
+      document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+      document.getElementById("navMtap06").style.color = '#6ab8ee';
+    }
+    function clickSeven() {
+      var location = document.querySelector("#sevenPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#sevenPage").offsetHeight;
+    
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+
+      document.getElementById("navMtap01").style.color = '#2e2e2e';
+      document.getElementById("navMtap02").style.color = '#2e2e2e';
+      document.getElementById("navMtap03").style.color = '#2e2e2e';
+      document.getElementById("navMtap04").style.color = '#2e2e2e';
+      document.getElementById("navMtap05").style.color = '#2e2e2e';
+      document.getElementById("navMtap06").style.color = '#2e2e2e';
+      document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+      document.getElementById("navMtap07").style.color = '#6ab8ee';
+    }
+
+    // 領域別スクロール時色付け　//
+
+    document.addEventListener('scroll', function() {
+      console.log(`10`)
+        var currentScrollValue = document.documentElement.scrollTop;
+        if (currentScrollValue >= document.querySelector("#onePage").offsetTop - 100) {
+          var location = document.querySelector("#onePage").offsetTop
+          
+
+          document.getElementById("navMtap01").style.color = '#2e2e2e';
+          document.getElementById("navMtap02").style.color = '#2e2e2e';
+          document.getElementById("navMtap03").style.color = '#2e2e2e';
+          document.getElementById("navMtap04").style.color = '#2e2e2e';
+          document.getElementById("navMtap05").style.color = '#2e2e2e';
+          document.getElementById("navMtap06").style.color = '#2e2e2e';
+          document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+          document.getElementById("navMtap01").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#secondPage").offsetTop - 100) {
+          var location = document.querySelector("#secondPage").offsetTop
+      
+
+          document.getElementById("navMtap01").style.color = '#2e2e2e';
+          document.getElementById("navMtap02").style.color = '#2e2e2e';
+          document.getElementById("navMtap03").style.color = '#2e2e2e';
+          document.getElementById("navMtap04").style.color = '#2e2e2e';
+          document.getElementById("navMtap05").style.color = '#2e2e2e';
+          document.getElementById("navMtap06").style.color = '#2e2e2e';
+          document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+          document.getElementById("navMtap02").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#thirdPage").offsetTop - 100) {
+          var location = document.querySelector("#thirdPage").offsetTop
+         
+
+          document.getElementById("navMtap01").style.color = '#2e2e2e';
+          document.getElementById("navMtap02").style.color = '#2e2e2e';
+          document.getElementById("navMtap03").style.color = '#2e2e2e';
+          document.getElementById("navMtap04").style.color = '#2e2e2e';
+          document.getElementById("navMtap05").style.color = '#2e2e2e';
+          document.getElementById("navMtap06").style.color = '#2e2e2e';
+          document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+          document.getElementById("navMtap03").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#fourthPage").offsetTop - 100) {
+          var location = document.querySelector("#fourthPage").offsetTop
+        
+
+          document.getElementById("navMtap01").style.color = '#2e2e2e';
+          document.getElementById("navMtap02").style.color = '#2e2e2e';
+          document.getElementById("navMtap03").style.color = '#2e2e2e';
+          document.getElementById("navMtap04").style.color = '#2e2e2e';
+          document.getElementById("navMtap05").style.color = '#2e2e2e';
+          document.getElementById("navMtap06").style.color = '#2e2e2e';
+          document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+          document.getElementById("navMtap04").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#fifthPage").offsetTop - 100) {
+          var location = document.querySelector("#fifthPage").offsetTop
+
+
+          document.getElementById("navMtap01").style.color = '#2e2e2e';
+          document.getElementById("navMtap02").style.color = '#2e2e2e';
+          document.getElementById("navMtap03").style.color = '#2e2e2e';
+          document.getElementById("navMtap04").style.color = '#2e2e2e';
+          document.getElementById("navMtap05").style.color = '#2e2e2e';
+          document.getElementById("navMtap06").style.color = '#2e2e2e';
+          document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+          document.getElementById("navMtap05").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#sixPage").offsetTop - 100) {
+          var location = document.querySelector("#sixPage").offsetTop
+ 
+          document.getElementById("navMtap01").style.color = '#2e2e2e';
+          document.getElementById("navMtap02").style.color = '#2e2e2e';
+          document.getElementById("navMtap03").style.color = '#2e2e2e';
+          document.getElementById("navMtap04").style.color = '#2e2e2e';
+          document.getElementById("navMtap05").style.color = '#2e2e2e';
+          document.getElementById("navMtap06").style.color = '#2e2e2e';
+          document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+          document.getElementById("navMtap06").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#sevenPage").offsetTop - 100) {
+          var location = document.querySelector("#sevenPage").offsetTop
+        
+          document.getElementById("navMtap01").style.color = '#2e2e2e';
+          document.getElementById("navMtap02").style.color = '#2e2e2e';
+          document.getElementById("navMtap03").style.color = '#2e2e2e';
+          document.getElementById("navMtap04").style.color = '#2e2e2e';
+          document.getElementById("navMtap05").style.color = '#2e2e2e';
+          document.getElementById("navMtap06").style.color = '#2e2e2e';
+          document.getElementById("navMtap07").style.color = '#2e2e2e';
+
+          document.getElementById("navMtap07").style.color = '#6ab8ee';
+
+        }
+        
+      });
+
+    // deskTop js navTabar
+    function clickOne() {
+      var location = document.querySelector("#onePage").offsetTop;
+      var menuHeight = document.querySelector("#onePage").offsetHeight;
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+      
+      document.getElementById("navTap01").style.color = '#2e2e2e';
+      document.getElementById("navTap02").style.color = '#2e2e2e';
+      document.getElementById("navTap03").style.color = '#2e2e2e';
+      document.getElementById("navTap04").style.color = '#2e2e2e';
+      document.getElementById("navTap05").style.color = '#2e2e2e';
+      document.getElementById("navTap06").style.color = '#2e2e2e';
+      document.getElementById("navTap07").style.color = '#2e2e2e';
+
+      document.getElementById("navTap01").style.color = '#6ab8ee';
+    }
+    
+    function clickSecond() {
+      var location = document.querySelector("#secondPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#secondPage").offsetHeight;
+
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+      
+      document.getElementById("navTap01").style.color = '#2e2e2e';
+      document.getElementById("navTap02").style.color = '#2e2e2e';
+      document.getElementById("navTap03").style.color = '#2e2e2e';
+      document.getElementById("navTap04").style.color = '#2e2e2e';
+      document.getElementById("navTap05").style.color = '#2e2e2e';
+      document.getElementById("navTap06").style.color = '#2e2e2e';
+      document.getElementById("navTap07").style.color = '#2e2e2e';
+      
+      document.getElementById("navTap02").style.color = '#6ab8ee';
+    }
+    function clickThird() {
+      var location = document.querySelector("#thirdPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#thirdPage").offsetHeight;
+
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+
+      document.getElementById("navTap01").style.color = '#2e2e2e';
+      document.getElementById("navTap02").style.color = '#2e2e2e';
+      document.getElementById("navTap03").style.color = '#2e2e2e';
+      document.getElementById("navTap04").style.color = '#2e2e2e';
+      document.getElementById("navTap05").style.color = '#2e2e2e';
+      document.getElementById("navTap06").style.color = '#2e2e2e';
+      document.getElementById("navTap07").style.color = '#2e2e2e';
+      
+      document.getElementById("navTap03").style.color = '#6ab8ee';
+    }
+    function clickFourth() {
+      var location = document.querySelector("#fourthPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#fourthPage").offsetHeight;
+
+   
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+
+      document.getElementById("navTap01").style.color = '#2e2e2e';
+      document.getElementById("navTap02").style.color = '#2e2e2e';
+      document.getElementById("navTap03").style.color = '#2e2e2e';
+      document.getElementById("navTap04").style.color = '#2e2e2e';
+      document.getElementById("navTap05").style.color = '#2e2e2e';
+      document.getElementById("navTap06").style.color = '#2e2e2e';
+      document.getElementById("navTap07").style.color = '#2e2e2e';
+
+      document.getElementById("navTap04").style.color = '#6ab8ee';
+    }
+    function clickFifth() {
+      var location = document.querySelector("#fifthPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#fifthPage").offsetHeight;
+
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+
+      document.getElementById("navTap01").style.color = '#2e2e2e';
+      document.getElementById("navTap02").style.color = '#2e2e2e';
+      document.getElementById("navTap03").style.color = '#2e2e2e';
+      document.getElementById("navTap04").style.color = '#2e2e2e';
+      document.getElementById("navTap05").style.color = '#2e2e2e';
+      document.getElementById("navTap06").style.color = '#2e2e2e';
+      document.getElementById("navTap07").style.color = '#2e2e2e';
+
+      document.getElementById("navTap05").style.color = '#6ab8ee';
+    }
+    function clickSixth() {
+      var location = document.querySelector("#sixPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#sixPage").offsetHeight;
+    
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+
+      document.getElementById("navTap01").style.color = '#2e2e2e';
+      document.getElementById("navTap02").style.color = '#2e2e2e';
+      document.getElementById("navTap03").style.color = '#2e2e2e';
+      document.getElementById("navTap04").style.color = '#2e2e2e';
+      document.getElementById("navTap05").style.color = '#2e2e2e';
+      document.getElementById("navTap06").style.color = '#2e2e2e';
+      document.getElementById("navTap07").style.color = '#2e2e2e';
+
+      document.getElementById("navTap06").style.color = '#6ab8ee';
+    }
+    function clickSeven() {
+      var location = document.querySelector("#sevenPage").offsetTop + 100;
+      var menuHeight = document.querySelector("#sevenPage").offsetHeight;
+    
+      window.scrollTo({ top: location - menuHeight, behavior: 'smooth' });
+      document.querySelector(".mbNavbar").classList.remove(`change`);
+
+      document.getElementById("navTap01").style.color = '#2e2e2e';
+      document.getElementById("navTap02").style.color = '#2e2e2e';
+      document.getElementById("navTap03").style.color = '#2e2e2e';
+      document.getElementById("navTap04").style.color = '#2e2e2e';
+      document.getElementById("navTap05").style.color = '#2e2e2e';
+      document.getElementById("navTap06").style.color = '#2e2e2e';
+      document.getElementById("navTap07").style.color = '#2e2e2e';
+
+      document.getElementById("navTap07").style.color = '#6ab8ee';
+    }
+
+    // 領域別スクロール時色付け　//
+
+    document.addEventListener('scroll', function() {
+      console.log(`10`)
+        var currentScrollValue = document.documentElement.scrollTop;
+        if (currentScrollValue >= document.querySelector("#onePage").offsetTop - 100) {
+          var location = document.querySelector("#onePage").offsetTop
+          
+
+          document.getElementById("navTap01").style.color = '#2e2e2e';
+          document.getElementById("navTap02").style.color = '#2e2e2e';
+          document.getElementById("navTap03").style.color = '#2e2e2e';
+          document.getElementById("navTap04").style.color = '#2e2e2e';
+          document.getElementById("navTap05").style.color = '#2e2e2e';
+          document.getElementById("navTap06").style.color = '#2e2e2e';
+          document.getElementById("navTap07").style.color = '#2e2e2e';
+
+          document.getElementById("navTap01").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#secondPage").offsetTop - 100) {
+          var location = document.querySelector("#secondPage").offsetTop
+      
+
+          document.getElementById("navTap01").style.color = '#2e2e2e';
+          document.getElementById("navTap02").style.color = '#2e2e2e';
+          document.getElementById("navTap03").style.color = '#2e2e2e';
+          document.getElementById("navTap04").style.color = '#2e2e2e';
+          document.getElementById("navTap05").style.color = '#2e2e2e';
+          document.getElementById("navTap06").style.color = '#2e2e2e';
+          document.getElementById("navTap07").style.color = '#2e2e2e';
+
+          document.getElementById("navTap02").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#thirdPage").offsetTop - 100) {
+          var location = document.querySelector("#thirdPage").offsetTop
+         
+
+          document.getElementById("navTap01").style.color = '#2e2e2e';
+          document.getElementById("navTap02").style.color = '#2e2e2e';
+          document.getElementById("navTap03").style.color = '#2e2e2e';
+          document.getElementById("navTap04").style.color = '#2e2e2e';
+          document.getElementById("navTap05").style.color = '#2e2e2e';
+          document.getElementById("navTap06").style.color = '#2e2e2e';
+          document.getElementById("navTap07").style.color = '#2e2e2e';
+
+          document.getElementById("navTap03").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#fourthPage").offsetTop - 100) {
+          var location = document.querySelector("#fourthPage").offsetTop
+        
+
+          document.getElementById("navTap01").style.color = '#2e2e2e';
+          document.getElementById("navTap02").style.color = '#2e2e2e';
+          document.getElementById("navTap03").style.color = '#2e2e2e';
+          document.getElementById("navTap04").style.color = '#2e2e2e';
+          document.getElementById("navTap05").style.color = '#2e2e2e';
+          document.getElementById("navTap06").style.color = '#2e2e2e';
+          document.getElementById("navTap07").style.color = '#2e2e2e';
+
+          document.getElementById("navTap04").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#fifthPage").offsetTop - 100) {
+          var location = document.querySelector("#fifthPage").offsetTop
+
+
+          document.getElementById("navTap01").style.color = '#2e2e2e';
+          document.getElementById("navTap02").style.color = '#2e2e2e';
+          document.getElementById("navTap03").style.color = '#2e2e2e';
+          document.getElementById("navTap04").style.color = '#2e2e2e';
+          document.getElementById("navTap05").style.color = '#2e2e2e';
+          document.getElementById("navTap06").style.color = '#2e2e2e';
+          document.getElementById("navTap07").style.color = '#2e2e2e';
+
+          document.getElementById("navTap05").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#sixPage").offsetTop - 100) {
+          var location = document.querySelector("#sixPage").offsetTop
+ 
+          document.getElementById("navTap01").style.color = '#2e2e2e';
+          document.getElementById("navTap02").style.color = '#2e2e2e';
+          document.getElementById("navTap03").style.color = '#2e2e2e';
+          document.getElementById("navTap04").style.color = '#2e2e2e';
+          document.getElementById("navTap05").style.color = '#2e2e2e';
+          document.getElementById("navTap06").style.color = '#2e2e2e';
+          document.getElementById("navTap07").style.color = '#2e2e2e';
+
+          document.getElementById("navTap06").style.color = '#6ab8ee';
+
+        }
+        if (currentScrollValue >= document.querySelector("#sevenPage").offsetTop - 100) {
+          var location = document.querySelector("#sevenPage").offsetTop
+        
+          document.getElementById("navTap01").style.color = '#2e2e2e';
+          document.getElementById("navTap02").style.color = '#2e2e2e';
+          document.getElementById("navTap03").style.color = '#2e2e2e';
+          document.getElementById("navTap04").style.color = '#2e2e2e';
+          document.getElementById("navTap05").style.color = '#2e2e2e';
+          document.getElementById("navTap06").style.color = '#2e2e2e';
+          document.getElementById("navTap07").style.color = '#2e2e2e';
+
+          document.getElementById("navTap07").style.color = '#6ab8ee';
+
+        }
+        
+      });
+
+
+  </script>
+
+  <script defer src="./js/main.js"></script>
+  
+</head>
+<!--head-->
+
+<body>
+  <header>
+    <div class="con01">
+      <div class="row topNav">
+        <div class="col-lg-4 nav1">
+          <!-- <div> -->
+          <div class="row navLeft">
+            <div class="col-lg-6 nav2">
+              <a href=""><img src="mtoneLogo.jpg" alt="" class="img-responsive center-block leftPa mtoneLogoImg"></a>
+            </div>
+
+            <div class="col-lg-6 infoText">
+              <ul>
+                <li>電話：042-319-9892</li>
+                <li>東京都府中市府中町1-7-2</li>
+                <li>さくら食品館5F</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- mobile button -->
+        <nav class="mbNavbar">
+          <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="http://sakura-com.com/" class="nav-link"><h7 id="navTap00">さくらコマース</h7></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="clickOne()" onscroll="scrollOnepage()" style="cursor: pointer;">
+                <h7 id="navMtap01">トップページ</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="clickSecond()" onscroll="scrollTwopage()" style="cursor: pointer;">
+                <h7 id="navMtap02">ご挨拶</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="clickThird()" onscroll="scrollThirdpage()" style="cursor: pointer;">
+                <h7 id="navMtap03">会社概要</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="clickFourth()" onscroll="scrollFourthpage()" style="cursor: pointer;">
+                <h7 id="navMtap04">グループ企業</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="clickFifth()" onscroll="scrollFifthpage()" style="cursor: pointer;">
+                <h7 id="navMtap05">掲示板</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="clickSixth()" onscroll="scrollSixthpage()" style="cursor: pointer;">
+                <h7 id="navMtap06">採用情報</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="clickSeven()" onscroll="scrollSevenpage()" style="cursor: pointer;">
+                <h7 id="navMtap07">パートナー募集</h7>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- DesktopNav -->
+        <div class="navbar col-lg-8 nav3" id="" data-mobile-scroll-hide="true">
+
+          <ul class="nav justify-content-center navHeight nav3_1">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="http://sakura-com.com/">
+                <h7 id="navTap00">さくらコマース</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" onclick="clickOne()" onscroll="scrollOnepage()" style="cursor: pointer;">
+                <h7 id="navTap01">トップページ</h7>
+              </a>
+  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" onclick="clickSecond()" onscroll="scrollTwopage()" style="cursor: pointer;">
+                <h7 id="navTap02">ご挨拶</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" onclick="clickThird()" onscroll="scrollThirdpage()" style="cursor: pointer;">
+                <h7 id="navTap03">会社概要</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" onclick="clickFourth()" onscroll="scrollFourthpage()" style="cursor: pointer;">
+                <h7 id="navTap04">グループ企業</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" onclick="clickFifth()" onscroll="scrollFifthpage()" style="cursor: pointer;">
+                <h7 id="navTap05">掲示板</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" onclick="clickSixth()" onscroll="scrollSixthpage()" style="cursor: pointer;">
+                <h7 id="navTap06">採用情報</h7>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" onclick="clickSeven()" onscroll="scrollSevenpage()" style="cursor: pointer;">
+                <h7 id="navTap07">パートナー募集</h7>
+              </a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link text-dark" onclick="clickSeven()">
+                  <h6 id="navTap07">パートナー募集</h6>
+                </a>
+              </li> -->
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </header>
+  <!--End Header-->
+  <!-- <section class="innerBody"> -->
+  <div class="emptyBox00"></div>
+  <div class="titleBox">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner onePage" id="onePage">
+        <div class="row blackBlock01">
+          <div class="col-lg-2 titleTop01">
+          </div>
+          
+          <div class="col-lg-5 titleTop02">
+            <h1>人材派遣サービスなら</h1>
+            <h1>Mtone</h1>
+          </div>
+
+          <div class="col-lg-5 titleTop03">
+          </div>
+
+          <!-- middle  -->
+          <div class="col-lg-2 titleMiddle01">
+          </div>
+
+          <div class="col-lg-3 titleMiddle02">
+            <h3> <i class="bi bi-briefcase"></i> : Mission</h3>
+            <h5>Consultation on agenda</h5>
+          </div>
+
+          <div class="col-lg-7 titleMiddle03">
+            <h3><i class="bi bi-bullseye"></i> : Goal</h3>
+            <h5>Meet customer's needs</h5>
+          </div>
+
+          <!-- last -->
+          <div class="col-lg-2 titleLast01">
+            <!-- empty -->
+          </div>
+
+          <div class="col-lg-3 titleLast02">
+            <h3> <i class="bi bi-box"></i> : Solution</h3>
+            <h5>Solution Suggestion</h5>
+          </div>
+
+          <div class="col-lg-7 titleLast03">
+            <h3> <i class="bi bi-bar-chart"></i> : Achivement</h3>
+            <h5>improve business credit</h5>
+          </div>
+
+        </div>
+
+        <div class="carousel-item active title01">
+          <!-- <img src="MtoneT05.jpg" class="d-block w-100" alt="..."> -->
+        </div>
+
+        <!-- <div class="row blackBlock02">
+                 <div class="titleText02">
+                
+                 </div>
+              </div> -->
+
+        <div class="carousel-item title02">
+          <!-- <img src="MtoneT03.jpg" class="d-block w-100" alt="..."> -->
+        </div>
+
+        <!-- <div class="row blackBlock03">
+                <div class="titleText03">
+                 
+                </div> 
+              </div> -->
+
+        <div class="carousel-item title03">
+          <!-- <img src="MtoneT02.jpg" class="d-block w-100" alt="..."> -->
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">
+          <h5>Previous</h5>
+        </span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">
+          <h5>Next</h5>
+        </span>
+      </button>
+    </div>
+
+    <div class="emptyBox01" id="secondPage"></div>
+    <div class="secondPage">
+      <div class="row blackBlock02">
+        <div class="col-lg-7 titleSecond01">
+        </div>
+        <!-- 紹介内容 -->
+        <div class="col-lg-5 titleSecond02">
+          <div class="syokai00">
+            <h2 class="syokai00First">株式会社さくらコマース</h2>
+            <h2 class="syokai00Second">人材派遣事業 Mtone</h2>
+            <h4 class="syokai00Third">Founder 全彰碩</h4>
+            <p class="syokai01">
+              株式会社さくらコマースは東京都府中市を拠点とし、60年以上に渡り【食】や【サービス】を通じて地域に貢献してまいりました。</p>
+            <p class="syokai01">私たちが企業成長のために取り組んできたことは、働く仲間の成長に欠かせない教育制度の充実と、果敢にチャレンジできる場の提供です。</p>
+            <p class="syokai02">
+              創業以来、正直にまじめに“人”と向き合ってきたからこそ、これからも“人”に携わる新たな領域にチャレンジしたい。</p>
+            <p class="syokai02">グローバルな人材が活躍できる場を提供したい。そんな想いで、人材派遣事業「Mtone」を立ち上げました。</p>
+            <p class="syokai03">Mtoneは働く仲間と共に成長するさくらグループの新規事業です。これからも仲間同士が認め合い、支援しあえる環境づくりや、</p>
+            <p class="syokai03">対話を基本としたコミュニケーションの強化を大切にしていきます。一緒に新しい未来を創造しましょう。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="emptyBox02" id="thirdPage"></div>
+    <div class="thirdPage">
+      <div class="row cardBox03">
+        <div class="col-lg-1 titleThird01">
+          <div class="mudai01"></div>
+        </div>
+        <div class="col-lg-6 titleThird02">
+          <div class="kaisya">
+            <h2 class="kaisyaTitleH2">会社概要</h2>
+          </div>
+          <div class="kaisyaInfo">
+            <dl>
+              <dt class="dtSpace00">会社名</dt>
+              <dd>株式会社さくらコマース</dd>
+              <dt class="dtSpace01">設立</dt>
+              <dd>1960年７月</dd>
+              <dt class="dtSpace02">資本金</dt>
+              <dd>5,000万円</dd>
+              <dt class="dtSpace03">売上高</dt>
+              <dd>164億円(20年3月期実績)</dd>
+              <dt class="dtSpace04">社員数</dt>
+              <dd>206名(21年4月現在)</dd>
+              <dt class="dtSpace05">代表者</dt>
+              <dd>代表取締役社長　全 彰 碩</dd>
+              <dt class="dtSpace06">住所</dt>
+              <dd>東京都府中市府中町1-7-2　さくら食品館 5F</dd>
+              <dt class="dtSpace07">電話番号</dt>
+              <dd>(代表) 042-333-0003</dd>
+              <dt class="dtSpace08">事業内容</dt>
+              <dd>人材派遣事業Mtone(エム・ティ・ワン)</dd>
+              <dd>パチンコ店経営</dd>
+              <dd>小売業経営</dd>
+              <dd>販促ツール企画・制作</dd>
+              <dd>競走馬事業</dd>
+              <dd>就労移行支援事業</dd>
+            </dl>
+          </div>
+        </div>
+        <div class="col-lg-5 titleThird03"></div>
+      </div>
+    </div>
+
+    <div class="emptyBox03" id="fourthPage"></div>
+    <h2 class="kaisyaTitleH3">グループ企業</h2>
+    <div class="fourthPage">
+
+       <!-- Mobile Fourthpage -->
+       <div id="carouselExampleCaptions" class="carousel slide semiFourthPage" data-bs-ride="carousel">
+        <div class="carousel-indicators" id="">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-block w-100 semititle01" alt="..."></div>
+            <div class="carousel-caption d-none d-md-block semititleText01">
+              <a href="https://www.moranbong.co.jp/"><h5>モランボン株式会社</h5></a>
+              <p>調味料・中華皮を中心とした食品の製造・販売</p>
+              <p>ダイニング事業(レストラン）</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100 semititle02" alt="..."></div>
+            <div class="carousel-caption d-none d-md-block semititleText02">
+              <a href="http://www.sts-j.co.jp/"><h5>さくらトータル株式会社</h5></a>
+              <p>ソフトハウスビジネス(システム保守、システム受託開発)</p>
+              <p>クリーンビジネス(日勤清掃、床ワックス清掃)</p>
+              <p>警備・パーキングビジネス</p>
+              <p>ビルケアビジネス(ビル設備保守)</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100 semititle03" alt="..."></div>
+            <div class="carousel-caption d-none d-md-block semititleText03">
+              <a href="http://www.sakuho.co.jp/"><h5>さくら保険株式会社</h5></a>
+              <p>ソフトハウスビジネス(システム保守、システム受託開発)</p>
+              <p>クリーンビジネス(日勤清掃、床ワックス清掃)</p>
+              <p>警備・パーキングビジネス</p>
+              <p>ビルケアビジネス(ビル設備保守)</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- DeskTop Fourthpage -->
+      <div class="cardBox04">
+        <div class="row contentCard04">
+          <div class="col-lg-4 titlefourth01">
+            <a href="https://www.moranbong.co.jp/">
+              <div class="imgGroup01"></div>
+            </a>
+
+            <div class="groupSub01">
+              <a href="https://www.moranbong.co.jp/" class="groupLink01">
+                <h5 class="subHead1">モランボン株式会社</h5>
+              </a>
+              <p>調味料・中華皮を中心とした食品の製造・販売</p>
+              <p>ダイニング事業(レストラン）</p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 titlefourth02">
+            <a href="http://www.sts-j.co.jp/">
+              <div class="imgGroup02"></div>
+            </a>
+            <div class="groupSub02">
+              <a href="http://www.sts-j.co.jp/" class="groupLink02">
+                <h5 class="subHead2">株式会社さくらトータルサービス</h5>
+              </a>
+              <p>ソフトハウスビジネス(システム保守、システム受託開発)</p>
+              <p>クリーンビジネス(日勤清掃、床ワックス清掃)</p>
+              <p>警備・パーキングビジネス</p>
+              <p>ビルケアビジネス(ビル設備保守)</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 titlefourth03">
+            <a href="http://www.sakuho.co.jp/" class="link-dark">
+              <div class="imgGroup03"></div>
+            </a>
+            <div class="groupSub03">
+              <a href="http://www.sakuho.co.jp/" class="groupLink03">
+                <h5 class="subHead3">さくら保険サービス株式会社</h5>
+              </a>
+              <p>生命保険販売</p>
+              <p>各種損害保険販売</p>
+              <p>アフターサポート</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="emptyBox04" id="fifthPage"> <p>Mtoneの新しいニュースをご覧ください！</p>
+    </div>
+    <h2 class="kaisyaTitleH4">Mtone掲示板</h2>
+    <div class="row fifthPage">
+
+      <!-- Mobile Fifthpage -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide semiFifthPage" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active mbBoardTitle01" data-bs-interval="10000">
+            <img src="..." class="d-block w-100" alt="...">
+            <a href="">
+            <div class="carousel-caption d-none d-md-block mbBoardText01">
+              <div>Card title</div>
+              <div>date</div>
+            </div>
+            </a>
+          </div>
+          <div class="carousel-item mbBoardTitle02" data-bs-interval="2000">
+            <img src="..." class="d-block w-100" alt="...">
+            <a href="">
+            <div class="carousel-caption d-none d-md-block mbBoardText02">
+              <div>Card title</div>
+              <div>date</div>
+            </div>
+            </a>
+          </div>
+          <div class="carousel-item mbBoardTitle03">
+            <img src="..." class="d-block w-100" alt="...">
+            <a href="">
+            <div class="carousel-caption d-none d-md-block mbBoardText03">
+              <div>Card title</div>
+              <div>date</div>
+            </div>
+            </a>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+
+      <div class="mbFifthButton">
+        <a href=""><button type="button" class="btn btn-outline-secondary">View All works</button></a>
+      </div>
+
+      <!-- Desktop Fourthpage -->
+      <div class="col-lg-4 titlefifth01">
+        <div class="fifthSub01">
+        </div>
+        <div class="fifthSub02">
+          <div class="card">
+            <img src="MtoneT03.jpg" class="card-img-top boardImg01" alt="...">
+            <div class="row card-body">
+              <div class="col-lg-8 card-title">Card title</div>
+              <div class="col-lg-4">date</div>
+            </div>
+          </div>
+        </div>
+        <div class="fifthSub03">
+          <div class="card">
+            <img src="mtoneBoard01.jpg" class="card-img-top boardImg01" alt="...">
+            <div class="row card-body">
+              <div class="col-lg-8 card-title">Card title</div>
+              <div class="col-lg-4">date</div>
+            </div>
+          </div>
+        </div>
+        <div class="fifthSub04">
+
+        </div>
+      </div>
+       
+      <div class="col-lg-4 titlefifth02">
+        <div class="fifthSub05"></div>
+        <div class="fifthSub06">
+          <div class="card">
+            <img src="mtoneBoard01.jpg" class="card-img-top boardImg01" alt="...">
+            <div class="row card-body">
+              <div class="col-lg-8 card-title">Card title</div>
+              <div class="col-lg-4">date</div>
+            </div>
+          </div>
+        </div>
+        <div class="fifthSub07">
+          <div class="card">
+            <img src="mtoneBoard01.jpg" class="card-img-top boardImg01" alt="...">
+            <div class="row card-body">
+              <div class="col-lg-8 card-title">Card title</div>
+              <div class="col-lg-4">date</div>
+            </div>
+          </div>
+        </div>
+        <div class="fifthSub08">
+          <a href=""><button type="button" class="btn btn-outline-secondary">View All works</button></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 titlefifth03">
+        <div class="fifthSub09">
+
+        </div>
+        <div class="fifthSub10">
+          <div class="card">
+            <img src="mtoneBoard01.jpg" class="card-img-top boardImg01" alt="...">
+            <div class="row card-body">
+              <div class="col-lg-8 card-title">Card title</div>
+              <div class="col-lg-4">date</div>
+            </div>
+          </div>
+        </div>
+        <div class="fifthSub11">
+          <div class="card">
+            <img src="mtoneBoard01.jpg" class="card-img-top boardImg01" alt="...">
+            <div class="row card-body">
+              <div class="col-lg-8 card-title">Card title</div>
+              <div class="col-lg-4">date</div>
+            </div>
+          </div>
+        </div>
+        <div class="fifthSub12">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="emptyBox05" id="sixPage"></div>
+    <h2 class="kaisyaTitleH5">採用情報</h2>
+    <div class="sixPage">
+      <div class="row cardBox06">
+        <div class="col-lg-4 titlesixth01">
+
+        </div>
+        <div class="col-lg-8 titlesixth02">
+          <table class="sixTable">
+            <thead>
+              <tr>
+                <th width="2%">名称</th>
+                <th width="49%"> 新規採用 </th>
+                <th width="49%"> 中途採用 </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="letter4moji">
+                  雇用形態
+                </th>
+                <td>
+                  未経験者(新卒・既卒)
+                </td>
+                <td>
+                  経験者(中途・開発経験3年以上)
+                </td>
+              </tr>
+
+              <tr>
+                <th class="letter2moji">
+                  給与
+                </th>
+                <td>
+                  20万円~
+                </td>
+                <td>
+                  25万円~(※スキルに応じて優遇)
+                </td>
+              </tr>
+
+              <tr>
+                <th class="letter2moji">
+                  選考
+                </th>
+                <td colspan=2>
+                  エントリー(企業説明会)　→　１次選考　→　最終選考(+適性検査)　→　内定
+                </td>
+              </tr>
+
+              <tr>
+                <th>
+                  給与改定 / 賞与
+                </th>
+                <td colspan=2>
+                  あり(４月) / 決算賞与有り
+                </td>
+              </tr>
+
+              <tr>
+                <th class="letter3moji">
+                  勤務地
+                </th>
+                <td colspan=2>
+                  府中(本社)、東京都、神奈川、埼玉、千葉
+                </td>
+              </tr>
+
+              <tr>
+                <th class="letter4moji">
+                  勤務時間
+                </th>
+                <td colspan=2>
+                  9：00　~　18：00(休憩1時間、実働8時間)<br>
+                  ※プロジェクトにより異なる場合有り
+                </td>
+              </tr>
+
+              <tr>
+                <th class="letter3moji">
+                  諸手当
+                </th>
+                <td colspan=2>
+                  交通費支給(規定あり、社外プロジェクト参加の場合は全額支給)<br>
+                  時間外手当、家族手当など
+                </td>
+              </tr>
+
+              <tr>
+                <th class="letter2moji">
+                  休日
+                </th>
+                <td colspan=2>
+                  週休２日制、連続休暇、年次有給休暇、慶弔休暇、産休・育休・介護休暇<br>
+                  ※プロジェクトにより異なる場合有り
+                </td>
+              </tr>
+
+              <tr>
+                <th class="letter4moji">
+                  福利厚生
+                </th>
+                <td colspan=2>
+                  各種保険完備(健康保険、厚生年金保険、雇用保険、労働災害保険)<br>
+                  退職金制度(3年以上在籍者)、健康診断、健康相談、社外教育制度<br>
+                  結婚祝金、出産祝金、傷病見舞金、災害見舞金など
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+          <div class="sixButton">
+            <a href="https://jiniiy.github.io/MtoneTest/saiyouEntry"><button type="button" class="btn btn-outline-secondary">エントリー</button></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--ここからは７ページの画面です　高さは７００PXです。-->
+    <div class="emptyBox06" id="sevenPage"></div>
+    <!-- Mobile Fourthpage -->
+    <h2 class="kaisyaTitleH6">パートナー募集</h2>
+
+    <!-- Desktop Fourthpage -->
+    <div class="sevenPage">
+      <div class="cardBox07">
+        <div class="partnerImg07">
+        </div>
+        <div class="partnerGaiyo">
+          <div>
+            <h5 class="sevenTitle01">SES事業で協業いただける企業様</h5>
+            <p class="partnerSetumei01">
+              弊社では、お客様の様々なニーズにお応えするために、ITエンジニアや技術者といった人材のSES事業を展開しております。
+            </p>
+            <p class="partnerSetumei01">また、顧客満足度を高めていくとともに、相互のビジネスチャンスを広めるために多くの企業様とアライアンスによる協業体制をとっております。</p>
+            <p class="partnerSetumei01">SES事業の拡大を画策されている企業様は、ぜひ弊社のビジネスパートナーとして協業していただければと存じます。</p>
+            <p class="partnerSetumei01">お力添え頂ける企業様からのご連絡を、心よりお待ち申し上げております。</p>
+          </div>
+          <div>
+            <h5 class="sevenTitle02">ITエンジニア、技術者の方</h5>
+            <p class="partnerSetumei02">
+              弊社ではシステムエンジニアやソフトウェアエンジニア、その他ITエンジニア様向けの案件を多く抱えております。
+              ぜひ一度ご連絡いただければと存じます。
+            </p>
+          </div>
+          <div class="partnerButtonDiv">
+            <a href="https://jiniiy.github.io/MtoneTest/questionForm.html"><button type="button" class="btn btn-outline-secondary btn-round buttonColor01">
+              <h5 class="partnerButtonH5">お問い合わせ</h5></button></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--本文ページ終わり-->
+  </div>
+  <!-- </section> -->
+  <footer>
+    <div class="footerPage">
+      <div class="footerBox">
+
+        <div class="row upperLine" id="">
+          <div class="col-xs-4 col-md-4 col-lg-4 footerSub01">
+            <dl>
+              <dt>
+                <span class="footerTitle01">さくらコマース事業</span>
+                <!-- <button>Open</button> -->
+              </dt>
+              <dd>
+                <ul>
+                  <li>
+                    <a href="http://sakura-com.com/sakura-corporate/business/pacinko/" class="footerLink00">
+                      <h5 class="footerSubHead1">パチンコ</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.sakura-com.com/wp/e-factory/" class="footerLink01">
+                      <h5 class="footerSubHead2">印刷デジタルプリント</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://dd-career.com/office_data/fuchu/" class="footerLink02">
+                      <h5 class="footerSubHead3">就労移行支援</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://sakura-com.com/e-kitchen/" class="footerLink03">
+                      <h5 class="footerSubHead4">デリカテッセン</h5>
+                    </a>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+
+          <div class="col-xs-4 col-md-4 col-lg-4 footerSub02">
+            <dl>
+              <dt>
+                <span class="footerTitle02">グループ企業</span>
+                <!-- <button>Open</button> -->
+              </dt>
+              <dd>
+                <ul>
+                  <li>
+                    <a href="https://www.moranbong.co.jp/" class="footerLink04">
+                      <h5 class="footerSubHead5">モランボン株式会社</h5>
+                    </a>
+
+                  </li>
+                  <li>
+                    <a href="http://www.sts-j.co.jp/" class="footerLink05">
+                      <h5 class="footerSubHead6">株式会社さくらトータルサービス</h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://www.sakuho.co.jp/" class="footerLink06">
+                      <h5 class="footerSubHead7">さくら保険サービス株式会社</h5>
+                    </a>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
+
+          <div class="col-lg-4 footerSub03">
+            <dl>
+              <dt>
+                <span class="footerTitle03">採用情報 公式SNS</span>
+                <!-- <button>Open</button> -->
+              </dt>
+              <dd class="snsLogos">
+                <ul>
+                  <li>
+                    <a href="https://www.wantedly.com/companies/company_6018006" class="footerLink07">
+                      <h5 class="footerSubHead8">Wantedly</h5>
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="" class="footerLink08">
+                      <h5 class="footerSubHead9">Facebook</h5>
+                    </a>
+                  </li>
+          
+                  <li>
+                    <a href="" class="footerLink09">
+                      <h5 class="footerSubHead10">Instagram</h5>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="" class="footerLink10">
+                      <h5 class="footerSubHead11">Twitter</h5>
+                    </a>
+                  </li>
+               
+                </ul>
+              </dd>
+            </dl>
+          </div>
+        </div>
+
+        <div class="lowerLine">
+          <div class="row lowerInput">
+
+            <div class="col-lg-4 sakuraLogo">
+              <a href="http://sakura-com.com/"><img src="sakuraLogoNew.jpg" alt=""
+                  class="img-responsive center-block leftPa sakuraLogoImg">
+              </a>
+            </div>
+
+            <div class="col-lg-2 sakuraText">
+              <ul>
+                <li>電話：042-333-0003</li>
+                <li>東京都府中市府中町1-7-2</li>
+                <li>さくら食品館5F</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-6 rightLogos">
+
+              <div class="desktopFooterImg01">
+                <a class="atag01" href="https://www.wantedly.com/companies/company_6018006">
+                  <img src="wantedly-logo.jpg" alt="..." id="dfi01">111  
+                </a>
+              </div>
+              
+              
+              <div class="desktopFooterImg02">
+                <a class="atag02" href="https://www.wantedly.com/companies/company_6018006">
+                  <img src="Facebook-icon.jpg" alt="..." id="dfi02">
+                </a>
+              </div>
+              
+              <div class="desktopFooterImg03">
+                <a class="atag03" href="https://www.wantedly.com/companies/company_6018006">
+                  <img src="Instagram-logo.jpg" alt="..." id="dfi03">
+                </a>
+              </div>
+              
+              <div class="desktopFooterImg04">
+                <a class="atag04" href="https://www.wantedly.com/companies/company_6018006">
+                  <img src="Twitter-Icon-Circle.jpg" alt="..." id="dfi04">
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="rightComment">
+          <p>Copyright(c) 2021 株式会社さくらコマース 人材派遣事業「Mtone」All Rights Reserved.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/01440577b6.js" crossorigin="anonymous"></script>
+
+  <!-- <script src="main.js"></script> -->
+
+</body>
+
+</html>
