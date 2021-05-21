@@ -488,7 +488,7 @@ html{
         
     .secondPage{
         width: 100%;
-        height: 700px;
+        height: 800px;
         font-size: 0;
 
         display: flex;
@@ -510,20 +510,20 @@ html{
     
     .titleSecond02{
     width: 100%;
-    height: 350px;      
+    height: 450px;      
 
     display: flex;
     align-items: center;
 
     font-size: 0;
 
-    padding-top: 20px;
+    padding-top: 10px;
     
     }
     
     .syokai00{
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
     
     }
     
@@ -582,7 +582,7 @@ html{
   
     .thirdPage{
     width: 100%;
-    height: 800px;
+    height: 850px;
     font-size: 0;
 
     display: flex;
@@ -592,7 +592,7 @@ html{
     
     .cardBox03{
     width: 100%;
-    height: 750px;
+    height: 850px;
     font-size: 0;
 
     margin-left: 0px!important;
@@ -607,10 +607,12 @@ html{
     
     .titleThird02{
     width: 100%;
-    height: 400px;
+    height: 450px;
     font-size: 0;
     order: 2;
     
+    margin-bottom: 15px;
+
     }
 
     .titleThird03{
@@ -713,18 +715,18 @@ html{
 
     .fourthPage{
     width: 100%;
-    height: 700px;
+    height: 350px;
     font-size: 0;
     
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 0px;
     
     }
 
     .semiFourthPage{
         width: 100%;
-        height: 650px;
+        height: 350px;
         background-color: #12222d;
     
         font-size: 0;
@@ -738,7 +740,7 @@ html{
     
     .semititle01, .semititle02, .semititle03{
         width: 100%;
-        height: 600px;
+        height: 300px;
     
     }
     
@@ -761,9 +763,13 @@ html{
         /* opacity: 0.85; */
     }
 
-    .semititleText01 > h5{
+    .semititleText01 > a > h5{
         margin-bottom: 15px;
-      
+        /* background-color:orangered; */
+
+
+        font-size: 1rem;
+       
 
     }
 
@@ -772,6 +778,7 @@ html{
         background-color: #12222d;
         opacity: 0.8;
 
+        text-decoration: none;
     }
 
     .semititleText02 > h5{
@@ -792,12 +799,16 @@ html{
         margin-bottom: 15px;
         background-color:orangered;
 
+        text-decoration: none!important;
+
     }
 
     .semititleText03{
         font-size: 1rem;
         background-color: #12222d;
         opacity: 0.8;
+
+        text-decoration: none!important;
 
     }
 
@@ -997,29 +1008,27 @@ html{
 
     .fifthPage{
         width: 100%;
-        height: 650px;
+        height: 400px;
         font-size: 0;
         
         margin-left:0!important;
         margin-right:0!important;
         
-        padding-left: 50px;
-        padding-right: 50px;
-        
-        padding-bottom: 50px;
-        
-        }
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
 
+        display: none;
         
+    }
+
     /* MobileScreen */
     .semiFifthPage{
         display: inline-block;
         width: 100%;
-        height: 550px;
+        height: 350px;
         background-color:  #fff;;
         font-size: 0;
-
-        margin: 0 auto;
 
     }   
     
@@ -1029,7 +1038,7 @@ html{
     
     .mbBoardTitle01, .mbBoardTitle02, .mbBoardTitle03{
         width: 100%;
-        height: 500px;
+        height: 300px;
     
     }
     
@@ -1037,7 +1046,7 @@ html{
         background: url(mtoneBoard01.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        opacity: 0.85;
+        /* opacity: 0.85; */
 
     }
     
@@ -1045,14 +1054,14 @@ html{
         background: url(mtoneBoard01.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        opacity: 0.85;
+        /* opacity: 0.85; */
     }
     
     .mbBoardTitle03 {
         background: url(mtoneBoard01.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        opacity: 0.85;
+        /* opacity: 0.85; */
     }
 
     .mbBoardText01{
@@ -1318,9 +1327,8 @@ html{
     display: none;
     
     }
-
     /* Desktop Fifthpage End */
-    
+
     .emptyBox05{ 
     width: 100%;
     height: 100px;  
@@ -1333,6 +1341,9 @@ html{
     width: 100%;
     height: 850px;
     font-size: 0;
+
+    padding-left: 12px;
+    padding-right: 12px;
     
     }
     
@@ -1347,42 +1358,106 @@ html{
     }
     
     .titlesixth02{
-    width: auto;
-    height: 800px;      
-    font-size: 1rem;
+    width: 100%;
+    height: auto;      
+    font-size: 0.5rem;
     
     }
     
     .sixTable{
-    width: 90%;
+    width: 100%;
     margin: auto;
-    line-height: 0.5rem;
+
+    /* line-height: 0.3rem; */
     /* margin-top: 3%; */
-    
-    margin-bottom: 2.3%;
+
+    padding: 10px;
     
     }
     
     .sixTable > thead > tr >th:nth-child(1){
-        letter-spacing: 78px;
+            letter-spacing: 0;
         
         }
+
+        /* .sixTable > tbody > tr > th:nth-child(2){
+
+            padding: 15px 15px;
+
+            padding-left: 10px;
+          
+            
+        }
+
+        .sixTable > tbody > tr > th:nth-child(3){
+
+            padding: 15px 15px;
+          
+            
+        }
+
+        .sixTable > tbody > tr > th:nth-child(8){
+
+            padding: 15px 15px;
+          
+            
+        }
+
+                
+
+        .sixTable > thead > tr >th:nth-child(1){
+
+            padding: 15px 15px;
+          
+            
+        }
+
+        .sixTable > thead > tr >th:nth-child(1){
+
+            padding: 15px 15px;
+              
+                
+        } */
+
         
         .letter2moji{
-        letter-spacing: 78px;
+        letter-spacing: 19.5px;
+
+        padding-left: 14px;
         
         }
         
         .letter3moji{
-        letter-spacing: 30px;
+        letter-spacing: 7.5px;
+
+        padding-left: 4px;
         
         }
         
         .letter4moji{
-        letter-spacing: 15px;
+        letter-spacing: 7.5px;
+
+        padding-left: 4px;
         
         }
     
+    .sixTable tr{
+      width: 33%;
+
+      text-align: center;
+            
+    }
+
+    .sixTable th{
+        width: 33%;
+              
+    }
+
+    .sixTable td{
+        width: 33%;
+              
+    }
+
     .sixTable tr, th, td{
     border-collapse: collapse;
     border: 1px solid #e4e4e4;
@@ -1391,10 +1466,10 @@ html{
     
     .sixTable th{
     display: table-cell;
-    padding: 15px 15px;
+  
     border: solid 1px #e4e4e4;
     color: #12222d;
-    white-space: nowrap;
+
     
     }
     
@@ -1426,7 +1501,7 @@ html{
     .sixButton{
     text-align: center;
     font-size: 1rem;
-    padding-top: 1px;
+    padding-top: 12px;
     
     }
     
@@ -1437,18 +1512,20 @@ html{
     
     padding-bottom: 0;
     margin-bottom: 0;
+/* 
+    background-color: red; */
     
     }
 
     .sevenPage{
     width: 100%;
-    height: 900px;
+    height: 815px;
     
     }
     
     .cardBox07{
     width: 100%;
-    height: 830px;
+    height: 730px;
     font-size: 0;
     }
     
@@ -1457,7 +1534,7 @@ html{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 530px;
+    height: 330px;
     background: url(7page_partnerImg07.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1469,9 +1546,15 @@ html{
     }
     
     .partnerGaiyo {
+    height: 470px;
+
     font-size: 0;
-    padding-left: 3.5%;
-    padding-right: 3.5%;
+  
+    padding-left: 6px;
+
+    margin-left: 12px;
+    margin-right: 12px;
+
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     height: 370px;
@@ -1482,41 +1565,45 @@ html{
     .partnerGaiyo .partnerSetumei01{
         margin: 0!important;
 
-        line-height: 1.2rem;
+        line-height: 1.1rem;
 
     }
 
     .partnerGaiyo .partnerSetumei02{
         margin: 0!important;
-        line-height: 1.2rem;
+        line-height: 1.1rem;
 
     }
     
     .sevenTitle01{
-    padding-top: 2%;
+    padding-top: 5%;
     font-weight: 600;
 
-    font-size: 1.1rem;
+    font-size: 1rem;
     
     }
     
     .partnerSetumei01{
     font-size: 0.9rem;
-    line-height: 1.2rem;
+    line-height: 1.1rem;
     
+    letter-spacing: 0.15rem;
+
     }
     
     .sevenTitle02{
-    padding-top: 2.5%;
+    padding-top: 7%;
     font-weight: 600;
 
-    font-size: 1.1rem;
+    font-size: 1rem;
     
     }
     
     .partnerSetumei02{
     font-size: 0.9rem;
-    line-height: 1.2rem;
+    line-height: 1.1rem;
+
+    letter-spacing: 0.15rem;
     
     }
     
@@ -1526,6 +1613,8 @@ html{
     line-height: 100px;
     text-align: center;
     
+    padding-right: 6px;
+
     }
     
     /* .partnerButtonDiv .buttonColor01 > h5:hover{
@@ -1536,8 +1625,9 @@ html{
     .partnerButtonDiv .buttonColor01{
     height: 35px;
     line-height: 35px;
-    padding-bottom: 1.5%;
-    margin-bottom: 0.5%;
+
+    /* padding-bottom: 1.5%;
+    margin-bottom: 0.5%; */
     
     }
     
@@ -1553,68 +1643,59 @@ html{
     } */
     
     .upperLine{
-    margin-right: 0!important;
-    margin-left: 47.5px!important;
-    height: 250px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+   
     }
     
     .footerSub01{
-    
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+    width: 100%;
     height: 250px;
-    padding-top: 5x;
-    padding-bottom: 5px;
-    margin-left: 42.5px;
 
     border-top: 1px solid lightgray;
     
+    }
+
+    .footerTitle01{        
+        font-size: 1.1rem;
+        letter-spacing: 0.5rem;
+        color: #12222d;
+
     }
 
     .footerSub02{
-    
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+    width: 100%;
     height: 250px;
-    padding-top: 5x;
-    padding-bottom: 5px;
-    margin-left: 95px;
     
     border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
         
     }
 
-    /* .footerSub03{
-    display: flex;
-    align-items: center;
-    height: 100px;
-    font-size: 0;
+    .footerSub03{
 
-    margin-left: 250px;
-
-
-    } */
-
-    .footerTitle01{
-    font-size: 1.1rem;
-    letter-spacing: 0.3rem;
-    color: #12222d;
-    
-    display: flex;
-    justify-content: center;
+    display: none;
     
     }
     
     .footerTitle02{
     font-size: 1.1rem;
-    letter-spacing: 0.8rem;
+    letter-spacing: 0.6rem;
     color: #12222d;
-    
-    display: flex;
-    justify-content: center;
     
     }
     
     .footerTitle03{
     font-size: 0;
-    /* display: none; */
+    display: none;
 
     }
     
@@ -1684,11 +1765,10 @@ html{
     }
     
     .upperLine dl > dt{
-    padding-top: 15px;
-    /* border-top: 1px solid lightgray; */
-    font-size: 0.5rem;
-    font-weight: bold;
-    letter-spacing: 0.7rem;
+    padding-top: 25px;
+    padding-bottom: 5px;
+
+    padding-left: 45px;
     
     }
     
@@ -1718,28 +1798,30 @@ html{
     } */
     
     .footerSub01 dl > dd > ul > li > a > h5{
-    padding-top: 16px;
+    padding-top: 10px;
     color:  #a0a8ae;
-    font-size: 1rem;
+    font-size: 0.9rem;
     letter-spacing: 0.2rem;
 
-    padding-left: 10px;
+    padding-left: 45px;
+  
 
-    /* letter-spacing: 0.05rem;  */
-    
     }
     
     .footerSub02 dl > dd > ul > li > a > h5{
-    padding-top: 16px;
+    padding-top: 10px;
     color:  #a0a8ae;
-    font-size: 1rem;
+    font-size: 0.9rem;
     letter-spacing: 0.2rem;
-
-    padding-left: 17px;
+    
+    padding-left: 45px;
+    /* background-color: blue; */
 
     }
     
     .footerSub03 dl > dd > ul > li > a {
+    display: none;
+
     margin-top: 10px;
     padding-top: 15px;
     color:  #aaa7a3;
@@ -1780,7 +1862,6 @@ html{
     .desktopFooterImg01{
     width: 50px;
     height: 50px;
- 
   
     }
     
@@ -1860,7 +1941,12 @@ html{
     
     .lowerLine {
     width: 100%;
-    height:100px;
+    height: 200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
 
     }
     
@@ -1872,71 +1958,76 @@ html{
 
     .sakuraLogo{
     display: flex;
+    height: 100px;
+    flex-direction: row;
     flex: 3;
+
+    padding-top: 12px;
 
     }
 
     .sakuraLogo .sakuraLogoImg {
-    height: 100px;
-    line-height: 100px;
+    height: 75px;
+    line-height: 75px;
     object-fit: scale-down;
-
-    margin-left: 16%;
+    margin-left: 15%;
     
     } 
     
     .sakuraText{
     display: flex;
+    flex-direction: row;
     flex: 2;
 
-    align-items: center;
+
     position: absolute;
-    z-index: 3;
     height: 100px;
+
+
+    
     color: #12222d;
     font-size: 0.68rem;
     
-    margin-left: 33%;
+    padding-top: 24px;
+    margin-left: 54%;
     
     }
     
     .sakuraText > ul{
-     padding-top: 2%;
      list-style: none;
      padding-left: 0% ;
+    
+     margin-bottom: -16px;
      
     }
 
     .rightLogos{
     display: flex;
-    flex: 3;
     flex-direction: row;
+    width: 100%;
+    height: 100px;
 
     justify-content: space-around;
     align-items: center;
 
-    margin-left: 50px;
+    margin-left: 12px!important;
+
     /* background-color: red; */
 
     }
 
-    #dfi01{
-    width: 50px;
-    height: 50px;
-
-    }
-
-    #dfi02, #dfi03, #dfi04{
-        width: 85%;
-        height: auto;
+    #dfi01, #dfi02, #dfi03, #dfi04{
+    width: 85%;
+    height: auto;
     
-        }
+    padding-left: 3.75px;
+
+    } 
 
     .rightComment{
     height: 50px;
-    line-height: 50px;
-   
-    font-size: 0.68rem;
+    font-size: 0.000005px;
+
     text-align: center;
     
     }
@@ -1944,11 +2035,13 @@ html{
     .atag01 {
         position: relative;
         z-index: 50;
+
     }
 
     .atag02 {
         position: relative;
         z-index: 50;
+
     }
 
     .atag03 {
@@ -1959,6 +2052,7 @@ html{
     .atag04 {
         position: relative;
         z-index: 50;
+
     }
     
 }
@@ -2696,36 +2790,44 @@ html{
         /* opacity: 0.85; */
     }
 
-    .semititleText01 > h5{
+    .semititleText01 > a{
         margin-bottom: 15px;
         background-color:orangered;
 
+        text-decoration: none;
+
     }
 
-    .semititleText01{
+    .semititleText01 {
         font-size: 1rem;
         background-color: #12222d;
         opacity: 0.8;
 
+        text-decoration: none;
     }
 
-    .semititleText02 > h5{
+    .semititleText02 > a{
         margin-bottom: 15px;
         background-color:orangered;
-        
+
+        text-decoration: none;
+   
     }
 
     .semititleText02{
         font-size: 1rem;
-
         background-color: #12222d;
         opacity: 0.8;
 
+        text-decoration: none;
+
     }
 
-    .semititleText03 > h5{
+    .semititleText03 > a{
         margin-bottom: 15px;
         background-color:orangered;
+
+        text-decoration: none;
 
     }
 
@@ -2733,6 +2835,8 @@ html{
         font-size: 1rem;
         background-color: #12222d;
         opacity: 0.8;
+
+        text-decoration: none;
 
     }
 
@@ -3796,7 +3900,7 @@ html{
     .lowerLine {
     width: 100%;
     height:100px;
-
+    
     }
     
     .lowerInput{
@@ -3808,7 +3912,7 @@ html{
     .sakuraLogo{
     display: flex;
     flex: 3;
-
+    
     }
 
     .sakuraLogo .sakuraLogoImg {
@@ -3816,7 +3920,7 @@ html{
     line-height: 100px;
     object-fit: scale-down;
 
-    margin-left: 16%;
+    margin-left: 20%;
     
     } 
     
@@ -3831,7 +3935,7 @@ html{
     color: #12222d;
     font-size: 0.68rem;
     
-    margin-left: 33%;
+    margin-left: 34%;
     
     }
     
@@ -3851,22 +3955,21 @@ html{
     align-items: center;
 
     margin-left: 50px;
-    /* background-color: red; */
 
     }
 
     #dfi01{
-    width: 100%;
-    height: auto;
-  
 
+    height: 42.5px;
+    padding-left: 3.75px;
+  
     }
 
-    #dfi02, #dfi03, #dfi04{
+    #dfi01, #dfi02, #dfi03, #dfi04{
         width: 85%;
-        height: auto;
+     
     
-        }
+    }
 
     .rightComment{
     height: 50px;
