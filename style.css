@@ -139,7 +139,7 @@ html{
         align-content:flex-start;
         align-items: center;
         color: #2e2e2e;
-        font-size: 0.1rem;
+        font-size: 1rem;
     
         /* border: 1px solid black; */
         
@@ -1987,21 +1987,16 @@ html{
     } 
     
     .sakuraText{
-    display: flex;
-    flex-direction: row;
     flex: 2;
-
-
-    position: absolute;
-    height: 100px;
-
-
-    
     color: #12222d;
-    font-size: 0.68rem;
+    font-size: 0.55rem;
     
     padding-top: 24px;
-    margin-left: 54%;
+    
+
+    /* margin-left: 54%; */
+    /* position: absolute; */
+    
     
     }
     
@@ -2038,7 +2033,7 @@ html{
 
     .rightComment{
     height: 50px;
-    font-size: 0.000005px;
+    font-size: 0.05px;
 
     text-align: center;
     
