@@ -9673,3 +9673,8 @@ line-height: 1.2rem;
 /* Mobile:~768px   */
 
 
+
+
+.submain {
+    display: none;
+}
