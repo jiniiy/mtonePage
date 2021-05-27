@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+     <!-- 반응형 웹을 휘한 라이브러리 링크 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <title>Mtone_SaiyouPage</title>
+      
+    <!--Font Noto Sans JP-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+  
+    <!-- Custom styles for this template -->
+    <link href="styleSaiyou.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  
+    <!-- JAVASCRIPT DIV -->
+    <script type="text/javascript">
+      // Nav-BarボタンEvent
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+  
+  </head>
+   <!--head-->
+  
+  <!-- -bodystart- -->
+  <body>
+    <header>
+      <div class="inner">
+        <a href=""><img src="mtoneLogo.jpg" alt="" id="headerLogo"></a>
+        <div class="sub-menu">
+          <ul>
+            <li>電話 : 042-319-9892</li>
+            <li>東京都府中市府中町1-7-2</li>
+            <li>さくら食品館5F</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  
+    <section class="full-width-div01">
+      <div class="inner">
+        <h2>採用エントリーフォーム</h2>
+      </div>
+    </section>
+  
+    <section class="main-form">
+      <div class="inner">
+        <form action="" method="post" id="mail_form">
+          <dl>
+            <dt id="namae">
+              <span class="namae01">お名前</span>
+              <span class="namae02">必須</span>
+            </dt>
+            <dd class="">
+              <input type="text" id="name_1" name="name_1" value="性" onclick="this.value='';">
+              <input type="text" id="name_2" name="name_2" value="名前" onclick="this.value='';">
+            
+              <!-- <span class="error_blank">お名前が入力されていません</span> -->
+            </dd>
+
+            <dt id="hurigana">
+              <span class="hurigana01">フリガナ</span>
+              <span class="hurigana02">必須</span>
+            </dt>
+            <dd class="">
+              <input type="text" id="read_1" name="read_1" value="性" onclick="this.value='';">
+              <input type="text" id="read_2" name="read_2" value="名前" onclick="this.value='';">
+              <!-- <span class="error_blank">ふりがなが入力されていません</span> -->
+            </dd>
+
+            <dt id="seinen">
+              <span class="seinen01">生年月日(西暦)</span>
+
+              <span class="seinen02">必須</span>
+
+              <span class="seinen03">年</span>
+
+              <span class="seinen04">月</span>
+
+              <span class="seinen05">日</span>
+
+            </dt>
+
+              <select id="yearSelect" name="year">
+              
+                <option value>------</option>
+                <option value>1950</option>
+                <option value>1951</option>
+                <option value>1952</option>
+                <option value>1953</option>
+                <option value>------</option>
+                <option value>------</option>
+                <option value>------</option>
+                <option value>------</option>
+                <option value>------</option>
+                <option value>------</option>
+                <option value>------</option>
+                <option value>------</option>
+                <option value>------</option>
+                <option value>------</option>
+                <option value>------</option>
+                <option value>------</option>
+                <option value>------</option>
+
+            
+              </select>
+              <!-- <span class="error_blank">西暦が選択されていません</span>　 -->
+           
+              <select id="monthSelect" name="month">
+                <option value>------</option>
+                <option value>01</option>
+                <option value>02</option>
+                <option value>03</option>
+                <option value>04</option>
+                <option value>05</option>
+                <option value>06</option>
+                <option value>07</option>
+                <option value>08</option>
+                <option value>09</option>
+                <option value>10</option>
+                <option value>11</option>
+                <option value>12</option>
+              
+              </select>
+              <!-- <span class="error_blank">月が選択されていません</span>　 -->
+          
+              <select id="daySelect" name="day">
+                <option value>------</option>
+                <option value>01</option>
+                <option value>02</option>
+                <option value>03</option>
+                <option value>04</option>
+                <option value>05</option>
+                <option value>06</option>
+                <option value>07</option>
+                <option value>08</option>
+                <option value>09</option>
+                <option value>10</option>
+                <option value>11</option>
+                <option value>12</option>
+                <option value>13</option>
+                <option value>15</option>
+                <option value>16</option>
+                <option value>17</option>
+                <option value>18</option>
+                <option value>19</option>
+                <option value>20</option>
+                <option value>21</option>
+                <option value>22</option>
+                <option value>23</option>
+                <option value>24</option>
+                <option value>25</option>
+                <option value>26</option>
+                <option value>27</option>
+                <option value>28</option>
+                <option value>29</option>
+                <option value>30</option>
+                <option value>31</option>
+
+              </select>
+              <!-- <span class="error_blank">日が選択されていません</span>　 -->
+          
+            <dt id="mail">
+              <span class="mail01">メールアドレス</span>
+              <span class="mail02">必須</span>
+            </dt>
+            <dd class="">
+              <input type="email" id="mail_address" name="mail_address" value>
+              <span class="error_blank"></span>
+              <!-- <span class="error_format">正しいメールアドレスの書式ではありません。</span> -->
+            </dd>
+
+            <dt id="telephone">
+              <span class="telephone01">電話番号</span>
+              <span class="telephone02">必須</span>
+            </dt>
+            <dd class="">
+              <input type="tel" id="phone" name="phone" value>
+              <!-- <span class="error_blank">電話番号が入力されていません</span> -->
+            </dd>
+
+            <dt id="postNumber">
+              <span class="postNumber01">郵便番号</span>
+
+              <span class="postNumber02">必須</span>
+            </dt>
+            <dd class="postLinkArea">
+              <input type="text" id="postal" name="postal" value onkeyup="">
+              <a href="https://www.post.japanpost.jp/zipcode/" target="_blank" id="searchPost">郵便番号検索</a>
+              <!-- <span class="error_blank">郵便番号が入力されていません</span> -->
+            </dd>
+
+            <dt id="writingAddress">
+              <span class="writingAddress01">住所</span>
+
+              <span class="writingAddress02">必須</span>
+            </dt>
+            <dd class="">
+              <input type="text" id="address" name="address" value>
+              <!-- <span class="error_blank">住所が入力されていません</span> -->
+            </dd>
+
+            <dt id="keiken">
+              <span class="keiken01">経験職種</span>
+
+              <span class="keiken02">任意</span>
+            </dt>
+
+            <dd>
+              <select id="product">
+              <option value>選択してください</option>
+              <option value>システムエンジニア</option>
+              <option value>プログラマ</option>
+              <option value>ネットワークエンジニア</option>
+              <option value>データベースエンジニア</option>
+              <option value>サーバーエンジニア</option>
+              <option value>WEBエンジニア</option>
+              <option value>マークアップ/プロントエンドエンジニア</option>
+              <option value>制御/組み込みエンジニア</option>
+              <option value>サービスエンジニア</option>
+              <option value>プロジェクトマネージャ</option>
+              <option value>その他</option>
+
+              </select>
+              <span class="error_blank"></span>　
+            </dd>
+
+            <dt id="question">
+              <span class="question01">ご質問やPRなど</span>
+
+              <span class="question02">任意</span>
+            </dt>
+
+            <dd class= mailBox>
+              <textarea id="mail_contents" name="mail_contents" col="40" rows="5"></textarea>
+              <span class="error_blank"></span>
+            </dd>
+            
+          </dl>
+          <p id="jyouhou">
+            "確認へ進む前に当社の"
+            <a href="C:\workspace\mtoneSakura\saiyouFolder\saiyouEntry.html"　target="_blank">個人情報保護方針(プライバシーポリシー)</a> 
+            "をご確認ください。"
+            <br>
+            "個人情報の取扱いに同意して送信する"
+            <input id="johou" type="checkbox">
+          </p>
+          <p id="form_submit">
+            <input type="button" id="form_submit_button" value="送信する">
+          </p>
+        </form>
+
+      </div>
+    </section>
+    <footer class="full-width-div02">
+      <div class="inner">
+       
+      </div>
+    </footer>
+  </body>
+  </html>

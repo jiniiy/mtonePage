@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mtone_questionnairePage</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/pricing/">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"></script> -->
+
+    <!-- 반응형 웹을 휘한 라이브러리 링크 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Font Noto Sans JP-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="styleQuestion.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!-- JAVASCRIPT DIV -->
+    <script type="text/javascript">
+      // Nav-BarボタンEvent
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+</head>
+<!--head-->
+
+<!-- -bodystart- -->
+
+<body>
+    <header>
+        <div class="inner">
+            <a href="javascript:void(0)"><img src="mtoneLogo.jpg" alt=""></a>
+            <div class="sub-menu">
+                <ul>
+                    <li>電話 : 042-319-9892</li>
+                    <li>東京都府中市府中町1-7-2</li>
+                    <li>さくら食品館5F</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="full-width-div01">
+        <div class="inner">
+            <h2>お問い合わせ</h2>
+        </div>
+    </section>
+
+    <section class="main-form">
+        <div class="inner">
+            <form action="" method="post" id="mail_form">
+                <dl>
+                    <dt id="namae">
+                        <span class="namae01">お名前</span>
+                        <span class="namae02">必須</span>
+                    </dt>
+                    <dd class="">
+                        <input type="text" id="name_1" name="name_1" value="性" onclick="this.value='';">
+                        <input type="text" id="name_2" name="name_2" value="名前" onclick="this.value='';">
+                        <span class="error_blank"></span>
+                    </dd>
+
+                    <dt id="hurigana">
+                        <span class="hurigana01">フリガナ</span>
+                        <span class="hurigana02">必須</span>
+                    </dt>
+                    <dd class="">
+                        <input type="text" id="read_1" name="read_1" value="性" onclick="this.value='';">
+                        <input type="text" id="read_2" name="read_2" value="名前" onclick="this.value='';">
+                        <span class="error_blank"></span>
+                    </dd>
+
+                    <dt id="kaisya">
+                        <span class="kaisya01">会社名</span>
+                        <span class="kaisya02">任意</span>
+                    </dt>
+                    <dd class="">
+                        <input type="text" id="company" name="company" value>
+                        <span class="error_blank"></span>
+                    </dd>
+
+                    <dt id="mail">
+                        <span class="mail01">メールアドレス</span>
+                        <span class="mail02">必須</span>
+                    </dt>
+                    <dd class="">
+                        <input type="email" id="mail_address" name="mail_address" value>
+                        <span class="error_blank"></span>
+                        <span class="error_format"></span>
+                    </dd>
+
+                    <dt id="telephone">
+                        <span class="telephone01">電話番号</span>
+                        <span class="telephone02">必須</span>
+                    </dt>
+                    <dd class="">
+                        <input type="tel" id="phone" name="phone" value>
+                        <span class="error_blank"></span>
+                    </dd>
+
+                    <dt id="postNumber">
+                        <span class="postNumber01">郵便番号</span>
+
+                        <span class="postNumber02">必須</span>
+                    </dt>
+                    <dd class="">
+                        <input type="text" id="postal" name="postal" value onkeyup="">
+                        <a href="https://www.post.japanpost.jp/zipcode/" target="_blank" id="searchPost">郵便番号検索</a>
+                        <span class="error_blank"></span>
+                    </dd>
+
+                    <dt id="writingAddress">
+                        <span class="writingAddress01">住所</span>
+
+                        <span class="writingAddress02">必須</span>
+                    </dt>
+                    <dd class="">
+                        <input type="text" id="address" name="address" value>
+                        <span class="error_blank"></span>
+                    </dd>
+
+                    <dt id="question">
+                        <span class="question01">お問い合わせの内容</span>
+                        <span class="question02">任意</span>
+                    </dt>
+                    
+                    <dd class="mailBox">
+                        <textarea id="mail_contents" name="mail_contents" cols="40" rows="5"></textarea>
+                        <span class="error_blank"></span>
+                    </dd>
+
+                </dl>
+                <p id="jyouhou">
+                    "確認へ進む前に当社の"
+                    <a href="C:\workspace\mtoneSakura\saiyouFolder\saiyouEntry.html"
+                        　target="_blank">個人情報保護方針(プライバシーポリシー)</a>
+                    "をご確認ください。"
+                    <br>
+                    "個人情報の取扱いに同意して送信する"
+                    <input id="johou" type="checkbox">
+                </p>
+                <p id="form_submit">
+                    <input type="button" id="form_submit_button" value="送信する">
+                </p>
+            </form>
+
+        </div>
+    </section>
+    <footer class="full-width-div02">
+        <div class="inner">
+
+        </div>
+    </footer>
+</body>
+
+</html>

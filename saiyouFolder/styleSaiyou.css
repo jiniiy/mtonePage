@@ -1,0 +1,2776 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif; 
+  box-sizing: border-box;
+}
+
+*:before, *:after { 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;    
+
+}
+
+/* Tablet and Mobile :320px~413px*/
+@media  (min-width:320px) and (max-width:413px) { 
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 1276px;
+  }
+
+  .inner {
+    /* width: 70%; */
+    margin: 0 auto;
+  }
+  
+  /* 헤더 세팅 */
+  header {
+    width: 100%;
+    background-color: #fff;
+  }
+  header > .inner {
+    height: 80px;
+    position: relative;
+  }
+  header a {
+    height: 45px;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; */
+    
+  }
+
+  #headerLogo{
+    height: 50px;
+
+  }
+
+  header .sub-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: none;
+
+  }
+
+  header .sub-menu ul {
+    list-style: none;
+   
+  }
+
+  /* 첫번째 섹션 */
+  .full-width-div01 {
+    width: 100%;
+    background-color: rgb(0,0,0,6);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    border-radius: 15px 15px 0px 0px;
+
+  }
+  .full-width-div01 .inner {
+    padding: 15px 0px;
+    text-align: center;
+
+    font-size: 0.8rem;
+
+    /* background-color: yellow; */
+  }
+  
+  /* 두번째 섹션 */
+  .main-form {
+    max-width: 100%;
+    background-image: url(saiyou.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  .main-form .inner {
+    width: 840px;
+    height: 980px;
+    background-color: rgb(0,0,0,0.4);
+    margin: auto;
+
+  }
+
+  #mail_form > dl{
+    /* background-color:red; */
+    
+  }
+
+  .postLinkArea{
+
+    height: 44px;
+
+  }
+
+  /* 세번째 본문섹션 */
+
+  form{    
+    padding-top: 44px;
+    /* padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px; */
+    
+  } 
+
+  #namae{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+  }
+  
+  .namae01{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+    color:#cc1100;
+
+    /* background-color:yellow; */
+
+  }
+
+  .namae02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color:#cc1100;
+
+    /* background-color: green; */
+
+  }
+  
+  #name_1{
+    position: relative;
+    left: 115px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+    
+    width: 80px;
+    font-size: 0.9rem;
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #name_2{
+    position: relative;
+    left: 130px;
+    top: -42px;
+    line-height: 40px;
+    border-radius: 6px;
+
+    width: 80px;
+    font-size: 0.9rem;
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #hurigana{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+  }
+
+  .hurigana01{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+    color:#cc1100;
+
+  }
+
+  .hurigana02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+  }
+
+  #read_1{
+    position: relative;
+    left: 115px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+  
+    width: 80px;
+    font-size: 0.9rem;
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #read_2{
+    position: relative;
+    left: 130px;
+    top: -42px;
+    line-height: 40px;
+    border-radius: 6px;
+
+    width: 80px;
+    font-size: 0.9rem;
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+  
+  #seinen{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+  
+  }
+
+  .seinen01{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.8rem;
+
+    color:#cc1100;
+    
+  }
+
+  .seinen02{
+
+    display: none;
+
+    margin-left: 5px;
+    /* margin-bottom: 10x; */
+    color:#cc1100;
+
+  } 
+
+  .seinen03{
+
+    display: none;
+
+    margin-left: 82.5px;
+    margin-bottom: 10x;
+    color: #555;
+
+    /* background-color: green; */
+  }
+
+  .seinen04{
+
+    display: none;
+
+    margin-left: 72.5px;
+    margin-bottom: 10x;
+    color: #555;
+
+    /* background-color: green; */
+  }
+
+  .seinen05{
+
+    display: none;
+
+    margin-left: 72.5px;
+    margin-bottom: 10x;
+    color: #555;
+
+    /* background-color: green; */
+  }
+
+  #yearSelect{
+    position: relative;
+    left: 115px;
+    top:-40px;
+    
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+
+    /* font-size: 16px; */
+    color: #555;
+    border: 2px solid #89949b;
+    
+  }
+  
+  #monthSelect{
+    position: relative;
+    left: 110px;
+    top:-40px;
+    
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+
+    /* font-size: 16px; */
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+  
+  #daySelect{
+    position: relative;
+    left: 105px;
+    top:-40px;
+
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+
+    /* font-size: 16px; */
+    color: #555;
+    border: 2px solid #89949b;
+    
+  }
+
+  #mail{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+    
+  }
+
+  .mail01{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.8rem;
+
+    color:#cc1100;
+
+  }
+
+  .mail02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+  }
+
+  #mail_address{
+    position: relative;
+    left: 115px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+    
+    width: 195px;
+    font-size: 0.9rem;
+
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #telephone{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+    
+    /* background-color: greenyellow; */
+    
+  }
+
+  .telephone01{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.8rem;
+
+    color:#cc1100;
+
+  }
+
+  .telephone02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+  }
+
+  #phone{
+    position: relative;
+    left: 115px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+   
+    width: 195px;
+    font-size: 16px;
+
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #postNumber{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow;  */
+    
+  }
+
+  .postNumber01{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.8rem;
+
+    color:#cc1100;
+
+  }
+
+  .postNumber02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+    /* background-color: green; */
+
+  }
+
+  #postal{
+    position: relative;
+    left: 115px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+    
+    width: 195px;
+    font-size: 0.9rem;
+    
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #searchPost{
+ 
+    font-size: 0.9rem;
+
+    /* text-decoration: none; */
+    color:#f5f5eb;
+    padding-left: 20px;
+
+  }
+
+  #writingAddress{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+    
+  }
+
+  .writingAddress01{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.8rem;
+
+    color:#cc1100;
+    
+  }
+
+  .writingAddress02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+    /* background-color: green; */
+
+  }
+
+  #address{
+    position: relative;
+    left: 115px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+    
+    width: 195px;
+    font-size: 0.9rem;
+
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #keiken{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+    
+  }
+
+  .keiken01{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.8rem;
+
+    color:#0d2f73;
+
+  }
+
+  .keiken02{
+    
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#0d2f73;
+
+    /* background-color: green; */
+
+  }
+
+  #product{
+    position: relative;
+    left: 115px;
+    top: -42px;
+
+    width: 512px;
+    height: 42px;
+    
+    border-radius: 6px;
+    width: 195px;
+    font-size: 0.9rem;
+    
+    color: #555;
+    border: 2px solid #89949b;
+    
+  }
+
+  #question{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+    
+  }
+
+  .question01{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 115px;
+    font-size: 0.8rem;
+    
+    color:#0d2f73;
+
+  }
+
+  .question02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#0d2f73;
+    
+    /* background-color: green; */
+
+  }
+
+  #mail_contents{
+    position: relative;
+    left: 115px;
+    top:-42px;
+    /* line-height: 35px; */
+    border-radius: 6px;
+    
+    width: 195px;
+    height: 200px;
+    font-size: 0.9rem;
+
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+  
+  .mailBox{
+    height: 160px;
+  
+  }
+  
+  #jyouhou{
+    width: 320px;
+    /* text-align: center; */
+    color:#f5f5eb;
+    font-size: 0.5rem;
+
+    padding-top: 15px;
+    padding-left: 1px;
+  
+    /* background-color: red; */
+    
+  }
+  
+  #johou{
+
+    padding: 0 20px;
+
+  }
+
+  #form_submit{
+    text-align: center;
+    margin-top: 22px;
+    display: block;
+
+    padding-right: 495px;
+    
+  }
+
+  #form_submit_button{
+    background-color: ghostwhite;
+    border-radius: 12px;
+    border: 1.5px solid #89949b;
+    padding: 12px 36px;
+    outline: none;
+    color: #555;
+    cursor: pointer;
+    /* transition: 0.25px; */
+
+    color: #555;
+    border: 2px solid #89949b;
+
+    font-size: 18px;
+
+  }
+
+  #form_submit_button:hover{
+    /* background-color: #6ab8ee;  */
+    padding: 14px 40px;
+    border-radius: 12px;
+    font-weight: 600;
+
+    transition: 0.5px;
+    transition: width 0.5s;
+
+  }
+
+
+  /* footer섹션 마지막 꾸미기 */
+   
+  .full-width-div02 {
+    width: 100%;
+    background-color: rgb(0,0,0,6);
+    margin: auto;
+    /* color: #FFFFFF; */
+    padding: 10px 0px 10px 0px;
+    border-radius: 0px 0px 20px 20px;
+    
+  }
+  .full-width-div02 .inner {
+    padding: 30px 0px;
+    text-align: center;
+
+    /* background-color: yellow; */
+  }
+
+}
+
+/* Tablet and Mobile :414px~767px*/
+@media  (min-width:414px) and (max-width:767px) { 
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 1276px;
+  }
+
+  .inner {
+    /* width: 70%; */
+    margin: 0 auto;
+  }
+  
+  /* 헤더 세팅 */
+  header {
+    width: 100%;
+    background-color: #fff;
+  }
+  header > .inner {
+    height: 80px;
+    position: relative;
+  }
+  header a {
+    height: 45px;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; */
+    
+  }
+
+  #headerLogo{
+    height: 50px;
+
+  }
+
+  header .sub-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: none;
+
+  }
+
+  header .sub-menu ul {
+    list-style: none;
+   
+  }
+
+  /* 첫번째 섹션 */
+  .full-width-div01 {
+    width: 100%;
+    background-color: rgb(0,0,0,6);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    border-radius: 15px 15px 0px 0px;
+
+  }
+  .full-width-div01 .inner {
+    padding: 15px 0px;
+    text-align: center;
+
+    /* background-color: yellow; */
+  }
+  
+  /* 두번째 섹션 */
+  .main-form {
+    max-width: 100%;
+    background-image: url(saiyou.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  .main-form .inner {
+    width: 840px;
+    height: 980px;
+    background-color: rgb(0,0,0,0.4);
+    margin: auto;
+
+  }
+
+  #mail_form > dl > dd {
+    /* background-color: green; */
+    
+  }
+
+  .postLinkArea{
+
+    height: 44px;
+
+  }
+
+
+  /* 세번째 본문섹션 */
+
+  form{    
+    padding-top: 44px;
+    /* padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px; */
+    
+  } 
+
+  #namae{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+
+  }
+
+  .namae01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    color:#cc1100;
+
+    /* background-color:yellow; */
+
+  }
+
+  .namae02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color:#cc1100;
+
+    /* background-color: green; */
+
+  }
+  
+  #name_1{
+    position: relative;
+    left: 135px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+
+    width: 100px;
+    font-size: 0.9rem;
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #name_2{
+    position: relative;
+    left: 150px;
+    top: -42px;
+    line-height: 40px;
+    border-radius: 6px;
+
+    width: 100px;
+    font-size: 0.9rem;
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #hurigana{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+  }
+
+  .hurigana01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    color:#cc1100;
+
+  }
+
+  .hurigana02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+  }
+
+  #read_1{
+    position: relative;
+    left: 135px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+  
+    width: 100px;
+    font-size: 0.9rem;
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #read_2{
+    position: relative;
+    left: 150px;
+    top: -42px;
+    line-height: 40px;
+    border-radius: 6px;
+
+    width: 100px;
+    font-size: 0.9rem;
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+  
+  #seinen{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+  
+  }
+
+  .seinen01{
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.9rem;
+
+    color:#cc1100;
+    
+  }
+
+  .seinen02{
+
+    display: none;
+
+    margin-left: 5px;
+    /* margin-bottom: 10x; */
+    color:#cc1100;
+
+  } 
+
+  .seinen03{
+
+    display: none;
+
+    margin-left: 82.5px;
+    margin-bottom: 10x;
+    color: #555;
+
+    /* background-color: green; */
+  }
+
+  .seinen04{
+
+    display: none;
+
+    margin-left: 72.5px;
+    margin-bottom: 10x;
+    color: #555;
+
+    /* background-color: green; */
+  }
+
+  .seinen05{
+
+    display: none;
+
+    margin-left: 72.5px;
+    margin-bottom: 10x;
+    color: #555;
+
+    /* background-color: green; */
+  }
+
+  #yearSelect{
+    position: relative;
+    left: 135px;
+    top:-40px;
+    
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+
+    /* font-size: 16px; */
+    color: #555;
+    border: 2px solid #89949b;
+    
+  }
+  
+  #monthSelect{
+    position: relative;
+    left: 135px;
+    top:-40px;
+    
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+
+    /* font-size: 16px; */
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+  
+  #daySelect{
+    position: relative;
+    left: 135px;
+    top:-40px;
+
+    width: 70px;
+    height: 40px;
+    border-radius: 6px;
+
+    /* font-size: 16px; */
+    color: #555;
+    border: 2px solid #89949b;
+    
+  }
+
+  #mail{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+    
+  }
+
+  .mail01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.9rem;
+
+    color:#cc1100;
+
+  }
+
+  .mail02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+  }
+
+  #mail_address{
+    position: relative;
+    left: 135px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+    
+    width: 215px;
+    font-size: 0.9rem;
+
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #telephone{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+    
+    /* background-color: greenyellow; */
+    
+  }
+
+  .telephone01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.9rem;
+
+    color:#cc1100;
+
+  }
+
+  .telephone02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+  }
+
+  #phone{
+    position: relative;
+    left: 135px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+   
+    width: 215px;
+    font-size: 16px;
+
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #postNumber{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow;  */
+    
+  }
+
+  .postNumber01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.9rem;
+
+    color:#cc1100;
+
+  }
+
+  .postNumber02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+    /* background-color: green; */
+
+  }
+
+  #postal{
+    position: relative;
+    left: 135px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+    
+    width: 215px;
+    font-size: 0.9rem;
+
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #searchPost{
+ 
+    font-size: 0.9rem;
+
+    /* text-decoration: none; */
+    color:#f5f5eb;
+    padding-left: 40px;
+
+  }
+
+  #writingAddress{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+    
+  }
+
+  .writingAddress01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.9rem;
+
+    color:#cc1100;
+    
+  }
+
+  .writingAddress02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+    /* background-color: green; */
+
+  }
+
+  #address{
+    position: relative;
+    left: 135px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+  
+    width: 215px;
+    font-size: 0.9rem;
+
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+
+  #keiken{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+    
+  }
+
+  .keiken01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.9rem;
+
+    color:#0d2f73;
+
+  }
+
+  .keiken02{
+    
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#0d2f73;
+
+    /* background-color: green; */
+
+  }
+
+  #product{
+    position: relative;
+    left: 135px;
+    top: -42px;
+
+    width: 512px;
+    height: 42px;
+    
+    border-radius: 6px;
+    width: 215px;
+    font-size: 0.9rem;
+    
+    color: #555;
+    border: 2px solid #89949b;
+    
+  }
+
+  #question{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+    
+  }
+
+  .question01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 0.9rem;
+
+    color:#0d2f73;
+
+  }
+
+  .question02{
+
+    display: none;
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#0d2f73;
+    
+    /* background-color: green; */
+
+  }
+
+  #mail_contents{
+    position: relative;
+    left: 135px;
+    top:-42px;
+    /* line-height: 35px; */
+    border-radius: 6px;
+
+    width: 215px;
+    height: 200px;
+    font-size: 0.9rem;
+
+    color: #555;
+    border: 2px solid #89949b;
+
+  }
+  
+  .mailBox{
+    height: 160px;
+  
+  }
+  
+  #jyouhou{
+    width: 100%;
+    /* text-align: center; */
+    color:#f5f5eb;
+    font-size: 0.5rem;
+
+    padding-top: 15px;
+    padding-left: 10px;
+    /* background-color: red; */
+    
+  }
+  
+  #johou{
+
+    padding: 0 20px;
+
+  }
+
+  #form_submit{
+    text-align: center;
+    margin-top: 37px;
+    display: block;
+
+    padding-right: 420px;
+
+  }
+
+  #form_submit_button{
+    background-color: ghostwhite;
+    border-radius: 12px;
+    border: 1.5px solid #89949b;
+    padding: 12px 36px;
+    outline: none;
+    color: #555;
+    cursor: pointer;
+    /* transition: 0.25px; */
+
+    color: #555;
+    border: 2px solid #89949b;
+
+    font-size: 18px;
+
+  }
+
+  #form_submit_button:hover{
+    /* background-color: #6ab8ee;  */
+    padding: 14px 40px;
+    border-radius: 12px;
+    font-weight: 600;
+
+    transition: 0.5px;
+    transition: width 0.5s;
+
+  }
+
+
+  /* footer섹션 마지막 꾸미기 */
+   
+  .full-width-div02 {
+    width: 100%;
+    background-color: rgb(0,0,0,6);
+    margin: auto;
+    /* color: #FFFFFF; */
+    padding: 10px 0px 10px 0px;
+    border-radius: 0px 0px 20px 20px;
+    
+  }
+  .full-width-div02 .inner {
+    padding: 30px 0px;
+    text-align: center;
+
+    /* background-color: yellow; */
+  }
+
+}
+
+/* Tablet and Mobile :768px~839px*/
+@media  (min-width:768px) and (max-width:839px) { 
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 1276px;
+  
+  }
+
+  .inner {
+    /* width: 70%; */
+    margin: 0 auto;
+  }
+  
+  /* 헤더 세팅 */
+  header {
+    width: 100%;
+    background-color: #fff;
+  }
+  header > .inner {
+    height: 120px;
+    position: relative;
+  }
+  header a {
+    height: 90px;
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 20%;
+    margin: auto;
+    
+  }
+  header .sub-menu {
+    
+    position: absolute;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    top: 0;
+    bottom: 0;
+    left: 50%;
+
+    margin: auto;
+
+  }
+
+  header .sub-menu ul {
+    list-style: none;
+    /* display: flex; */
+  }
+
+  /* 
+  header .sub-menu ul li {
+    margin-right: 50px;
+  } */
+  
+  /* 첫번째 섹션 */
+  .full-width-div01 {
+    width: 100%;
+    background-color: rgb(0,0,0,6);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    border-radius: 15px 15px 0px 0px;
+
+  }
+  .full-width-div01 .inner {
+    padding: 25px 0px;
+    text-align: center;
+
+    /* background-color: yellow; */
+  }
+  
+  /* 두번째 섹션 */
+  .main-form {
+
+    width: 100%;
+    background-image: url(saiyou.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  .main-form .inner {
+    width: 840px;
+    height: 980px;
+    background-color: rgb(0,0,0,0.4);
+    margin: auto;
+
+  }
+
+  form{
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+
+  }
+
+  #namae{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+
+  }
+
+  .namae01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+    font-weight: 500;
+
+    color:#f5f5eb;
+
+    /* background-color:yellow; */
+
+  }
+
+  .namae02{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color:#cc1100;
+
+    /* background-color: green; */
+
+  }
+  
+  #name_1{
+    position: relative;
+    left: 270px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+
+    width: 200px;
+    font-size: 16px;
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #name_2{
+    position: relative;
+    left: 300px;
+    top: -42px;
+    line-height: 40px;
+    border-radius: 6px;
+
+    width: 200px;
+    font-size: 16px;
+    color: #555;
+    border: 3px solid #89949b;
+    
+    /* background-color: greenyellow; */
+
+  }
+
+  #hurigana{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+
+  }
+
+  .hurigana01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+    font-weight: 500;
+
+    color:#f5f5eb;
+
+    /* background-color:yellow; */
+
+  }
+
+  .hurigana02{
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+  }
+
+  #read_1{
+    position: relative;
+    left: 270px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+  
+    width: 200px;
+    font-size: 16px;
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #read_2{
+    position: relative;
+    left: 300px;
+    top: -42px;
+    line-height: 40px;
+    border-radius: 6px;
+
+    width: 200px;
+    font-size: 16px;
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #seinen{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+
+  }
+
+  .seinen01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+  
+    color:#f5f5eb;
+
+  }
+
+  .seinen02{
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+    /* background-color: green; */
+  }
+
+  .seinen03{
+    padding-left: 187.5px;
+
+    margin-bottom: 10x;
+    color: #555;
+
+  }
+
+  .seinen04{
+    padding-left: 127.5px;
+
+    margin-bottom: 10x;
+    color: #555;
+
+  }
+
+  .seinen05{
+    margin-left: 140px;
+    margin-bottom: 10x;
+    color: #555;
+
+  }
+
+  #yearSelect{
+    position: relative;
+    left: 270px;
+    top:-40px;
+
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+
+    font-size: 16px;
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #monthSelect{
+    position: relative;
+    left: 332.5px;
+    top:-40px;
+
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+
+    font-size: 16px;
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #daySelect{
+    position: relative;
+    left: 400px;
+    top:-40px;
+
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+
+    font-size: 16px;
+    color: #555;
+    border: 3px solid #89949b;
+    
+  }
+
+  #mail{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+    
+  }
+
+  .mail01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    
+    font-size: 18px;
+ 
+
+    color:#f5f5eb;
+
+  }
+
+  .mail02{
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+  }
+
+  #mail_address{
+    position: relative;
+    left: 270px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+    
+    width: 430px;
+    font-size: 16px;
+
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #telephone{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+    
+  }
+
+  .telephone01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+ 
+
+    color:#f5f5eb;
+
+    /* background-color:yellow; */
+    
+  }
+
+  .telephone02{
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+  }
+
+  #phone{
+    position: relative;
+    left: 270px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+   
+    width: 430px;
+    font-size: 16px;
+
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #postNumber{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow;  */
+    
+  }
+
+  .postNumber01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+ 
+  
+    color:#f5f5eb;
+
+    /* background-color:yellow; */
+    
+  }
+
+  .postNumber02{
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+    /* background-color: green; */
+
+  }
+
+  #postal{
+    position: relative;
+    left: 270px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+    
+    width: 215px;
+    font-size: 16px;
+
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #searchPost{
+    position: relative;
+    left: 300px;
+    top: -41px;
+    line-height: 40px;
+    font-size: 16px;
+
+  }
+
+  #writingAddress{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+    
+  }
+
+  .writingAddress01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+
+    color:#f5f5eb;
+
+
+    /* background-color:yellow; */
+    
+  }
+
+  .writingAddress02{
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#cc1100;
+
+    /* background-color: green; */
+
+  }
+
+  #address{
+    position: relative;
+    left: 270px;
+    top:-42px;
+    line-height: 40px;
+    border-radius: 6px;
+  
+    width: 430px;
+    font-size: 16px;
+
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #keiken{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+    
+  }
+
+  .keiken01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+
+    
+    color:#f5f5eb;
+
+    /* background-color:yellow; */
+    
+  }
+
+  .keiken02{
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#0d2f73;
+
+    /* background-color: green; */
+
+  }
+
+  #product{
+    position: relative;
+    left: 270px;
+    top: -42px;
+
+    width: 512px;
+    height: 42px;
+    
+    border-radius: 6px;
+    width: 430px;
+    font-size: 16px;
+    
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  #question{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+
+    /* background-color: greenyellow; */
+    
+  }
+
+  .question01{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 18px;
+
+    color:#f5f5eb;
+
+    /* background-color:yellow; */
+    
+  }
+
+  .question02{
+
+    margin-left: 10px;
+    margin-bottom: 10x;
+    color:#0d2f73;
+
+    /* background-color: green; */
+
+  }
+
+  #mail_contents{
+    position: relative;
+    left: 270px;
+    top:-42px;
+    line-height: 35px;
+    border-radius: 6px;
+
+    width: 430px;
+    font-size: 16px;
+
+    color: #555;
+    border: 3px solid #89949b;
+
+  }
+
+  .mailBox{
+    height: 160px;
+
+  }
+
+  #jyouhou{
+    width: 100%;
+    text-align: center;
+    color:#f5f5eb;
+
+    /* background-color: red; */
+
+  }
+
+  #johou{
+
+    padding: 0 20px;
+
+  }
+
+  #form_submit{
+    text-align: center;
+    margin-top: 32.5px;
+    display: block;
+
+
+
+  }
+
+  #form_submit_button{
+    background-color: ghostwhite;
+    border-radius: 12px;
+    border: 1.5px solid #89949b;
+    padding: 12px 36px;
+    outline: none;
+    color: #555;
+    cursor: pointer;
+    /* transition: 0.25px; */
+
+    font-size: 18px;
+    margin-right: 70px;
+    
+  }
+
+  #form_submit_button:hover{
+    /* background-color: #6ab8ee;  */
+    padding: 14px 40px;
+    border-radius: 12px;
+    font-weight: 600;
+
+    transition: 0.5px;
+    transition: width 0.5s;
+
+  }
+
+
+  /* footer섹션 마지막 꾸미기 */
+   
+  .full-width-div02 {
+    width: 100%;
+    background-color: rgb(0,0,0,6);
+    margin: auto;
+    /* color: #FFFFFF; */
+    padding: 10px 0px 10px 0px;
+    border-radius: 0px 0px 20px 20px;
+    
+  }
+  .full-width-div02 .inner {
+    padding: 35px 0px;
+    text-align: center;
+
+    /* background-color: yellow; */
+  }
+
+}
+
+/* Tablet and Mobile :840px~*/
+@media  (min-width:840px) and (max-width:3000px) { 
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 1276px;
+
+}
+
+.inner {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* 헤더 세팅 */
+header {
+  width: 100%;
+  background-color: #fff;
+}
+header > .inner {
+  height: 120px;
+  position: relative;
+}
+header a {
+  height: 90px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+header .sub-menu {
+  position: absolute;
+  top: 25px;
+  left: 240px;
+}
+header .sub-menu ul {
+  list-style: none;
+  /* display: flex; */
+}
+/* 
+header .sub-menu ul li {
+  margin-right: 50px;
+} */
+
+/* 첫번째 섹션 */
+.full-width-div01 {
+  width: 100%;
+  background-color: rgb(0,0,0,6);
+  margin: auto;
+  color: #FFFFFF;
+  padding: 10px 0px 10px 0px;
+  border-radius: 15px 15px 0px 0px;
+
+}
+.full-width-div01 .inner {
+  padding: 25px 0px;
+  text-align: center;
+
+  /* background-color: yellow; */
+}
+
+/* 두번째 섹션 */
+.main-form {
+
+  width: 100%;
+  background-image: url(saiyou.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.main-form .inner {
+  width: 840px;
+  height: 980px;
+  background-color: rgb(0,0,0,0.4);
+  margin: auto;
+
+}
+
+form{
+  padding-top: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 40px;
+
+}
+
+#namae{
+  width: 100%;
+  height: 40px;
+  line-height: 35px;
+
+  /* background-color: greenyellow; */
+
+}
+
+.namae01{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 125px;
+  font-size: 18px;
+  font-weight: 500;
+
+  color:#f5f5eb;
+
+  /* background-color:yellow; */
+
+}
+
+.namae02{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color:#cc1100;
+
+  /* background-color: green; */
+
+}
+
+#name_1{
+  position: relative;
+  left: 270px;
+  top:-42px;
+  line-height: 40px;
+  border-radius: 6px;
+
+  width: 200px;
+  font-size: 16px;
+  color: #555;
+  border: 3px solid #89949b;
+
+}
+
+#name_2{
+  position: relative;
+  left: 300px;
+  top: -42px;
+  line-height: 40px;
+  border-radius: 6px;
+
+  width: 200px;
+  font-size: 16px;
+  color: #555;
+  border: 3px solid #89949b;
+  
+  /* background-color: greenyellow; */
+
+}
+
+#hurigana{
+  width: 100%;
+  height: 40px;
+  line-height: 35px;
+
+  /* background-color: greenyellow; */
+
+}
+
+.hurigana01{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 125px;
+  font-size: 18px;
+  font-weight: 500;
+
+  color:#f5f5eb;
+
+  /* background-color:yellow; */
+
+}
+
+.hurigana02{
+
+  margin-left: 10px;
+  margin-bottom: 10x;
+  color:#cc1100;
+
+}
+
+#read_1{
+  position: relative;
+  left: 270px;
+  top:-42px;
+  line-height: 40px;
+  border-radius: 6px;
+
+  width: 200px;
+  font-size: 16px;
+  color: #555;
+  border: 3px solid #89949b;
+
+}
+
+#read_2{
+  position: relative;
+  left: 300px;
+  top: -42px;
+  line-height: 40px;
+  border-radius: 6px;
+
+  width: 200px;
+  font-size: 16px;
+  color: #555;
+  border: 3px solid #89949b;
+
+}
+
+#seinen{
+  width: 100%;
+  height: 40px;
+  line-height: 35px;
+
+  /* background-color: greenyellow; */
+
+}
+
+.seinen01{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 125px;
+  font-size: 18px;
+
+  color:#f5f5eb;
+
+}
+
+.seinen02{
+
+  margin-left: 10px;
+  margin-bottom: 10x;
+  color:#cc1100;
+
+  /* background-color: green; */
+}
+
+.seinen03{
+    padding-left: 187.5px;
+
+    margin-bottom: 10x;
+    color: #555;
+
+  }
+
+  .seinen04{
+    padding-left: 127.5px;
+
+    margin-bottom: 10x;
+    color: #555;
+
+  }
+
+  .seinen05{
+    margin-left: 140px;
+    margin-bottom: 10x;
+    color: #555;
+
+  }
+
+#yearSelect{
+  position: relative;
+  left: 270px;
+  top:-40px;
+
+  width: 80px;
+  height: 40px;
+  border-radius: 6px;
+
+  font-size: 16px;
+  color: #555;
+  border: 3px solid #89949b;
+
+}
+
+#monthSelect{
+  position: relative;
+  left: 332.5px;
+  top:-40px;
+
+  width: 80px;
+  height: 40px;
+  border-radius: 6px;
+
+  font-size: 16px;
+  color: #555;
+  border: 3px solid #89949b;
+
+}
+
+#daySelect{
+  position: relative;
+  left: 400px;
+  top:-40px;
+
+  width: 80px;
+  height: 40px;
+  border-radius: 6px;
+
+  font-size: 16px;
+  color: #555;
+  border: 3px solid #89949b;
+  
+}
+
+#mail{
+  width: 100%;
+  height: 40px;
+  line-height: 35px;
+
+  /* background-color: greenyellow; */
+  
+}
+
+.mail01{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 125px;
+  
+  font-size: 18px;
+
+
+  color:#f5f5eb;
+
+}
+
+.mail02{
+
+  margin-left: 10px;
+  margin-bottom: 10x;
+  color:#cc1100;
+
+}
+
+#mail_address{
+  position: relative;
+  left: 270px;
+  top:-42px;
+  line-height: 40px;
+  border-radius: 6px;
+  
+  width: 430px;
+  font-size: 16px;
+
+  color: #555;
+  border: 3px solid #89949b;
+
+}
+
+#telephone{
+  width: 100%;
+  height: 40px;
+  line-height: 35px;
+
+  /* background-color: greenyellow; */
+  
+}
+
+.telephone01{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 125px;
+  font-size: 18px;
+
+
+  color:#f5f5eb;
+
+  /* background-color:yellow; */
+  
+}
+
+.telephone02{
+
+  margin-left: 10px;
+  margin-bottom: 10x;
+  color:#cc1100;
+
+}
+
+#phone{
+  position: relative;
+  left: 270px;
+  top:-42px;
+  line-height: 40px;
+  border-radius: 6px;
+ 
+  width: 430px;
+  font-size: 16px;
+
+  color: #555;
+  border: 3px solid #89949b;
+
+}
+
+#postNumber{
+  width: 100%;
+  height: 40px;
+  line-height: 35px;
+
+  /* background-color: greenyellow;  */
+  
+}
+
+.postNumber01{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 125px;
+  font-size: 18px;
+
+
+  color:#f5f5eb;
+
+  /* background-color:yellow; */
+  
+}
+
+.postNumber02{
+
+  margin-left: 10px;
+  margin-bottom: 10x;
+  color:#cc1100;
+
+  /* background-color: green; */
+
+}
+
+#postal{
+  position: relative;
+  left: 270px;
+  top:-42px;
+  line-height: 40px;
+  border-radius: 6px;
+  
+  width: 215px;
+  font-size: 16px;
+
+  color: #555;
+  border: 3px solid #89949b;
+
+}
+
+#searchPost{
+  position: relative;
+  left: 300px;
+  top: -41px;
+  line-height: 40px;
+  font-size: 16px;
+
+}
+
+#writingAddress{
+  width: 100%;
+  height: 40px;
+  line-height: 35px;
+
+  /* background-color: greenyellow; */
+  
+}
+
+.writingAddress01{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 125px;
+  font-size: 18px;
+
+  color:#f5f5eb;
+
+
+  /* background-color:yellow; */
+  
+}
+
+.writingAddress02{
+  margin-left: 10px;
+  margin-bottom: 10x;
+  color:#cc1100;
+
+  /* background-color: green; */
+
+}
+
+#address{
+  position: relative;
+  left: 270px;
+  top:-42px;
+  line-height: 40px;
+  border-radius: 6px;
+
+  width: 430px;
+  font-size: 16px;
+
+  color: #555;
+  border: 3px solid #89949b;
+
+}
+
+#keiken{
+  width: 100%;
+  height: 40px;
+  line-height: 35px;
+
+  /* background-color: greenyellow; */
+  
+}
+
+.keiken01{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 125px;
+  font-size: 18px;
+
+  
+  color:#f5f5eb;
+
+  /* background-color:yellow; */
+  
+}
+
+.keiken02{
+
+  margin-left: 10px;
+  margin-bottom: 10x;
+  color:#0d2f73;
+
+  /* background-color: green; */
+
+}
+
+#product{
+  position: relative;
+  left: 270px;
+  top: -42px;
+
+  width: 512px;
+  height: 42px;
+  
+  border-radius: 6px;
+  width: 430px;
+  font-size: 16px;
+  
+  color: #555;
+  border: 3px solid #89949b;
+
+}
+
+#question{
+  width: 100%;
+  height: 40px;
+  line-height: 35px;
+
+  /* background-color: greenyellow; */
+  
+}
+
+.question01{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 125px;
+  font-size: 18px;
+
+  color:#f5f5eb;
+
+  /* background-color:yellow; */
+  
+}
+
+.question02{
+
+  margin-left: 10px;
+  margin-bottom: 10x;
+  color:#0d2f73;
+
+  /* background-color: green; */
+
+}
+
+#mail_contents{
+  position: relative;
+  left: 270px;
+  top:-42px;
+  line-height: 35px;
+  border-radius: 6px;
+
+  width: 430px;
+  font-size: 16px;
+
+  color: #555;
+  border: 3px solid #89949b;
+
+}
+
+.mailBox{
+  height: 160px;
+
+}
+
+#jyouhou{
+  width: 100%;
+  text-align: center;
+  color:#f5f5eb;
+
+  /* background-color: red; */
+
+}
+
+#johou{
+
+  padding: 0 20px;
+
+}
+
+#form_submit{
+  text-align: center;
+  margin-top: 32.5px;
+  display: block;
+
+}
+
+#form_submit_button{
+  background-color: ghostwhite;
+  border-radius: 12px;
+  border: 1.5px solid #89949b;
+  padding: 12px 36px;
+  outline: none;
+  color: #555;
+  cursor: pointer;
+  /* transition: 0.25px; */
+
+  font-size: 18px;
+
+}
+
+#form_submit_button:hover{
+  /* background-color: #6ab8ee;  */
+  padding: 14px 40px;
+  border-radius: 12px;
+  font-weight: 600;
+
+  transition: 0.5px;
+  transition: width 0.5s;
+
+}
+
+
+/* footer섹션 마지막 꾸미기 */
+ 
+.full-width-div02 {
+  width: 100%;
+  background-color: rgb(0,0,0,6);
+  margin: auto;
+  /* color: #FFFFFF; */
+  padding: 10px 0px 10px 0px;
+  border-radius: 0px 0px 20px 20px;
+  
+}
+.full-width-div02 .inner {
+  padding: 35px 0px;
+  text-align: center;
+
+  /* background-color: yellow; */
+}
+
+}
+
+  
+
+
