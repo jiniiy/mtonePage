@@ -39,7 +39,7 @@
   <body>
     <header>
       <div class="inner">
-        <a href=""><img src="mtoneLogo.jpg" alt=""></a>
+        <a href=""><img src="mtoneLogo.jpg" alt="" id="headerLogo"></a>
         <div class="sub-menu">
           <ul>
             <li>電話 : 042-319-9892</li>
@@ -68,7 +68,7 @@
               <input type="text" id="name_1" name="name_1" value="性" onclick="this.value='';">
               <input type="text" id="name_2" name="name_2" value="名前" onclick="this.value='';">
             
-              <span class="error_blank"></span>
+              <!-- <span class="error_blank">お名前が入力されていません</span> -->
             </dd>
 
             <dt id="hurigana">
@@ -78,7 +78,7 @@
             <dd class="">
               <input type="text" id="read_1" name="read_1" value="性" onclick="this.value='';">
               <input type="text" id="read_2" name="read_2" value="名前" onclick="this.value='';">
-              <span class="error_blank"></span>
+              <!-- <span class="error_blank">ふりがなが入力されていません</span> -->
             </dd>
 
             <dt id="seinen">
@@ -115,11 +115,9 @@
                 <option value>------</option>
                 <option value>------</option>
 
-                
+            
               </select>
-              <span class="error_blank"></span>　
-           
-
+              <!-- <span class="error_blank">西暦が選択されていません</span>　 -->
            
               <select id="monthSelect" name="month">
                 <option value>------</option>
@@ -137,10 +135,8 @@
                 <option value>12</option>
               
               </select>
-              <span class="error_blank"></span>　
-           
-
-         
+              <!-- <span class="error_blank">月が選択されていません</span>　 -->
+          
               <select id="daySelect" name="day">
                 <option value>------</option>
                 <option value>01</option>
@@ -175,7 +171,7 @@
                 <option value>31</option>
 
               </select>
-              <span class="error_blank"></span>　
+              <!-- <span class="error_blank">日が選択されていません</span>　 -->
           
             <dt id="mail">
               <span class="mail01">メールアドレス</span>
@@ -184,7 +180,7 @@
             <dd class="">
               <input type="email" id="mail_address" name="mail_address" value>
               <span class="error_blank"></span>
-              <span class="error_format"></span>
+              <!-- <span class="error_format">正しいメールアドレスの書式ではありません。</span> -->
             </dd>
 
             <dt id="telephone">
@@ -193,7 +189,7 @@
             </dt>
             <dd class="">
               <input type="tel" id="phone" name="phone" value>
-              <span class="error_blank"></span>
+              <!-- <span class="error_blank">電話番号が入力されていません</span> -->
             </dd>
 
             <dt id="postNumber">
@@ -201,10 +197,10 @@
 
               <span class="postNumber02">必須</span>
             </dt>
-            <dd class="">
+            <dd class="postLinkArea">
               <input type="text" id="postal" name="postal" value onkeyup="">
               <a href="https://www.post.japanpost.jp/zipcode/" target="_blank" id="searchPost">郵便番号検索</a>
-              <span class="error_blank"></span>
+              <!-- <span class="error_blank">郵便番号が入力されていません</span> -->
             </dd>
 
             <dt id="writingAddress">
@@ -214,7 +210,7 @@
             </dt>
             <dd class="">
               <input type="text" id="address" name="address" value>
-              <span class="error_blank"></span>
+              <!-- <span class="error_blank">住所が入力されていません</span> -->
             </dd>
 
             <dt id="keiken">

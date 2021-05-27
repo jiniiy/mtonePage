@@ -21,16 +21,15 @@ html{
 
 }
 
-/* Tablet and Mobile :1px~413px*/
+/* Tablet and Mobile :320px~413px*/
 @media  (min-width:1px) and (max-width:413px) { 
 
   body {
       margin: 0;
       padding: 0;
       height: 1276px;
-    
     }
-  
+
     .inner {
       /* width: 70%; */
       margin: 0 auto;
@@ -42,11 +41,11 @@ html{
       background-color: #fff;
     }
     header > .inner {
-      height: 120px;
+      height: 80px;
       position: relative;
     }
     header a {
-      height: 90px;
+      height: 45px;
       position: absolute;
 
       top: 50%;
@@ -59,6 +58,12 @@ html{
       margin: auto; */
       
     }
+
+    #headerLogo{
+      height: 50px;
+
+    }
+
     header .sub-menu {
       position: absolute;
       top: 50%;
@@ -71,13 +76,9 @@ html{
 
     header .sub-menu ul {
       list-style: none;
-      /* display: flex; */
+     
     }
-    /* 
-    header .sub-menu ul li {
-      margin-right: 50px;
-    } */
-    
+
     /* 첫번째 섹션 */
     .full-width-div01 {
       width: 100%;
@@ -89,15 +90,16 @@ html{
   
     }
     .full-width-div01 .inner {
-      padding: 25px 0px;
+      padding: 15px 0px;
       text-align: center;
+
+      font-size: 0.8rem;
   
       /* background-color: yellow; */
     }
     
     /* 두번째 섹션 */
     .main-form {
-  
       max-width: 100%;
       background-image: url(saiyou.jpg);
       background-position: center;
@@ -105,6 +107,7 @@ html{
       background-repeat: no-repeat;
       
     }
+
     .main-form .inner {
       width: 840px;
       height: 980px;
@@ -112,38 +115,52 @@ html{
       margin: auto;
   
     }
-  
-    form{
-      padding-top: 40px;
-      padding-left: 70px;
-      padding-right: 70px;
-      padding-bottom: 40px;
-  
+
+    #mail_form > dl{
+      /* background-color:red; */
+      
     }
-  
+
+    .postLinkArea{
+
+      height: 44px;
+
+    }
+
+    /* 세번째 본문섹션 */
+
+    form{    
+      padding-top: 44px;
+      /* padding-left: 70px;
+      padding-right: 70px;
+      padding-bottom: 40px; */
+      
+    } 
+
     #namae{
       width: 100%;
       height: 40px;
       line-height: 35px;
   
-      /* background-color: greenyellow; */
-  
     }
-  
+    
     .namae01{
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
+      font-size: 0.8rem;
       font-weight: 500;
   
-      color:#f5f5eb;
+      color:#cc1100;
   
       /* background-color:yellow; */
   
     }
   
     .namae02{
+
+      display: none;
+
       margin-left: 10px;
       margin-bottom: 10px;
       color:#cc1100;
@@ -154,31 +171,29 @@ html{
     
     #name_1{
       position: relative;
-      left: 270px;
+      left: 115px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
-  
-      width: 200px;
-      font-size: 16px;
+      
+      width: 80px;
+      font-size: 0.9rem;
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
   
     #name_2{
       position: relative;
-      left: 300px;
+      left: 130px;
       top: -42px;
       line-height: 40px;
       border-radius: 6px;
   
-      width: 200px;
-      font-size: 16px;
+      width: 80px;
+      font-size: 0.9rem;
       color: #555;
-      border: 3px solid #89949b;
-      
-      /* background-color: greenyellow; */
+      border: 2px solid #89949b;
   
     }
   
@@ -187,24 +202,22 @@ html{
       height: 40px;
       line-height: 35px;
   
-      /* background-color: greenyellow; */
-  
     }
   
     .hurigana01{
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
+      font-size: 0.8rem;
       font-weight: 500;
   
-      color:#f5f5eb;
-  
-      /* background-color:yellow; */
+      color:#cc1100;
   
     }
   
     .hurigana02{
+
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
@@ -214,62 +227,66 @@ html{
   
     #read_1{
       position: relative;
-      left: 270px;
+      left: 115px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
     
-      width: 200px;
-      font-size: 16px;
+      width: 80px;
+      font-size: 0.9rem;
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
   
     #read_2{
       position: relative;
-      left: 300px;
+      left: 130px;
       top: -42px;
       line-height: 40px;
       border-radius: 6px;
   
-      width: 200px;
-      font-size: 16px;
+      width: 80px;
+      font-size: 0.9rem;
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
-  
+    
     #seinen{
       width: 100%;
       height: 40px;
       line-height: 35px;
   
       /* background-color: greenyellow; */
-  
+    
     }
   
     .seinen01{
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
-    
-      color:#f5f5eb;
-  
+      font-size: 0.8rem;
+
+      color:#cc1100;
+      
     }
   
     .seinen02{
+
+      display: none;
   
-      margin-left: 10px;
-      margin-bottom: 10x;
+      margin-left: 5px;
+      /* margin-bottom: 10x; */
       color:#cc1100;
-  
-      /* background-color: green; */
-    }
+
+    } 
   
     .seinen03{
-      margin-left: 165px;
+
+      display: none;
+
+      margin-left: 82.5px;
       margin-bottom: 10x;
       color: #555;
   
@@ -277,7 +294,10 @@ html{
     }
   
     .seinen04{
-      margin-left: 145px;
+
+      display: none;
+
+      margin-left: 72.5px;
       margin-bottom: 10x;
       color: #555;
   
@@ -285,7 +305,10 @@ html{
     }
   
     .seinen05{
-      margin-left: 145px;
+
+      display: none;
+
+      margin-left: 72.5px;
       margin-bottom: 10x;
       color: #555;
   
@@ -294,46 +317,46 @@ html{
   
     #yearSelect{
       position: relative;
-      left: 270px;
+      left: 115px;
       top:-40px;
-  
-      width: 80px;
+      
+      width: 70px;
       height: 40px;
       border-radius: 6px;
   
-      font-size: 16px;
+      /* font-size: 16px; */
       color: #555;
-      border: 3px solid #89949b;
-  
+      border: 2px solid #89949b;
+      
     }
-  
+    
     #monthSelect{
       position: relative;
-      left: 332.5px;
+      left: 110px;
       top:-40px;
-  
-      width: 80px;
+      
+      width: 70px;
       height: 40px;
       border-radius: 6px;
   
-      font-size: 16px;
+      /* font-size: 16px; */
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
-  
+    
     #daySelect{
       position: relative;
-      left: 395px;
+      left: 105px;
       top:-40px;
   
-      width: 80px;
+      width: 70px;
       height: 40px;
       border-radius: 6px;
   
-      font-size: 16px;
+      /* font-size: 16px; */
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
       
     }
   
@@ -341,24 +364,22 @@ html{
       width: 100%;
       height: 40px;
       line-height: 35px;
-  
-      /* background-color: greenyellow; */
       
     }
   
     .mail01{
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 30px;
       width: 125px;
-      
-      font-size: 18px;
-   
-  
-      color:#f5f5eb;
-  
+      font-size: 0.8rem;
+
+      color:#cc1100;
+
     }
   
     .mail02{
+
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
@@ -368,16 +389,16 @@ html{
   
     #mail_address{
       position: relative;
-      left: 270px;
+      left: 115px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
       
-      width: 430px;
-      font-size: 16px;
+      width: 195px;
+      font-size: 0.9rem;
   
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
   
@@ -385,25 +406,24 @@ html{
       width: 100%;
       height: 40px;
       line-height: 35px;
-  
+      
       /* background-color: greenyellow; */
       
     }
   
     .telephone01{
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
-   
-  
-      color:#f5f5eb;
-  
-      /* background-color:yellow; */
-      
+      font-size: 0.8rem;
+
+      color:#cc1100;
+
     }
   
     .telephone02{
+
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
@@ -413,16 +433,16 @@ html{
   
     #phone{
       position: relative;
-      left: 270px;
+      left: 115px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
      
-      width: 430px;
+      width: 195px;
       font-size: 16px;
   
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
   
@@ -436,19 +456,18 @@ html{
     }
   
     .postNumber01{
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
-   
-    
-      color:#f5f5eb;
-  
-      /* background-color:yellow; */
-      
+      font-size: 0.8rem;
+
+      color:#cc1100;
+
     }
   
     .postNumber02{
+
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
@@ -460,26 +479,27 @@ html{
   
     #postal{
       position: relative;
-      left: 270px;
+      left: 115px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
       
-      width: 215px;
-      font-size: 16px;
-  
+      width: 195px;
+      font-size: 0.9rem;
+      
       color: #555;
       border: 3px solid #89949b;
   
     }
   
     #searchPost{
-      position: relative;
-      left: 300px;
-      top: -41px;
-      line-height: 40px;
-      font-size: 16px;
-  
+   
+      font-size: 0.9rem;
+
+      /* text-decoration: none; */
+      color:#f5f5eb;
+      padding-left: 20px;
+
     }
   
     #writingAddress{
@@ -492,19 +512,19 @@ html{
     }
   
     .writingAddress01{
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
-  
-      color:#f5f5eb;
-  
-  
-      /* background-color:yellow; */
+      font-size: 0.8rem;
+
+      color:#cc1100;
       
     }
   
     .writingAddress02{
+
+      display: none;
+
       margin-left: 10px;
       margin-bottom: 10x;
       color:#cc1100;
@@ -515,16 +535,16 @@ html{
   
     #address{
       position: relative;
-      left: 270px;
+      left: 115px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
-    
-      width: 430px;
-      font-size: 16px;
+      
+      width: 195px;
+      font-size: 0.9rem;
   
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
   
@@ -538,19 +558,18 @@ html{
     }
   
     .keiken01{
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
-  
-      
-      color:#f5f5eb;
-  
-      /* background-color:yellow; */
-      
+      font-size: 0.8rem;
+
+      color:#0d2f73;
+
     }
   
     .keiken02{
+      
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
@@ -562,19 +581,19 @@ html{
   
     #product{
       position: relative;
-      left: 270px;
+      left: 115px;
       top: -42px;
   
       width: 512px;
       height: 42px;
       
       border-radius: 6px;
-      width: 430px;
-      font-size: 16px;
+      width: 195px;
+      font-size: 0.9rem;
       
       color: #555;
-      border: 3px solid #89949b;
-  
+      border: 2px solid #89949b;
+      
     }
   
     #question{
@@ -587,56 +606,61 @@ html{
     }
   
     .question01{
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 30px;
-      width: 125px;
-      font-size: 18px;
-  
-      color:#f5f5eb;
-  
-      /* background-color:yellow; */
+      width: 115px;
+      font-size: 0.8rem;
       
+      color:#0d2f73;
+
     }
   
     .question02{
+
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
       color:#0d2f73;
-  
+      
       /* background-color: green; */
   
     }
   
     #mail_contents{
       position: relative;
-      left: 270px;
+      left: 115px;
       top:-42px;
-      line-height: 35px;
+      /* line-height: 35px; */
       border-radius: 6px;
-  
-      width: 430px;
-      font-size: 16px;
+      
+      width: 195px;
+      height: 200px;
+      font-size: 0.9rem;
   
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
-  
+    
     .mailBox{
       height: 160px;
-  
+    
     }
-  
+    
     #jyouhou{
-      width: 100%;
-      text-align: center;
+      width: 320px;
+      /* text-align: center; */
       color:#f5f5eb;
-  
+      font-size: 0.5rem;
+
+      padding-top: 15px;
+      padding-left: 1px;
+    
       /* background-color: red; */
-  
+      
     }
-  
+    
     #johou{
   
       padding: 0 20px;
@@ -645,9 +669,11 @@ html{
   
     #form_submit{
       text-align: center;
-      margin-top: 32.5px;
+      margin-top: 22px;
       display: block;
-  
+
+      padding-right: 495px;
+      
     }
   
     #form_submit_button{
@@ -659,6 +685,9 @@ html{
       color: #555;
       cursor: pointer;
       /* transition: 0.25px; */
+
+      color: #555;
+      border: 2px solid #89949b;
   
       font-size: 18px;
   
@@ -688,7 +717,7 @@ html{
       
     }
     .full-width-div02 .inner {
-      padding: 35px 0px;
+      padding: 30px 0px;
       text-align: center;
   
       /* background-color: yellow; */
@@ -703,9 +732,8 @@ html{
       margin: 0;
       padding: 0;
       height: 1276px;
-    
     }
-  
+
     .inner {
       /* width: 70%; */
       margin: 0 auto;
@@ -717,11 +745,11 @@ html{
       background-color: #fff;
     }
     header > .inner {
-      height: 120px;
+      height: 80px;
       position: relative;
     }
     header a {
-      height: 90px;
+      height: 45px;
       position: absolute;
 
       top: 50%;
@@ -734,6 +762,12 @@ html{
       margin: auto; */
       
     }
+
+    #headerLogo{
+      height: 50px;
+
+    }
+
     header .sub-menu {
       position: absolute;
       top: 50%;
@@ -746,13 +780,9 @@ html{
 
     header .sub-menu ul {
       list-style: none;
-      /* display: flex; */
+     
     }
-    /* 
-    header .sub-menu ul li {
-      margin-right: 50px;
-    } */
-    
+
     /* 첫번째 섹션 */
     .full-width-div01 {
       width: 100%;
@@ -764,7 +794,7 @@ html{
   
     }
     .full-width-div01 .inner {
-      padding: 25px 0px;
+      padding: 15px 0px;
       text-align: center;
   
       /* background-color: yellow; */
@@ -772,7 +802,6 @@ html{
     
     /* 두번째 섹션 */
     .main-form {
-  
       max-width: 100%;
       background-image: url(saiyou.jpg);
       background-position: center;
@@ -780,6 +809,7 @@ html{
       background-repeat: no-repeat;
       
     }
+
     .main-form .inner {
       width: 840px;
       height: 980px;
@@ -787,15 +817,29 @@ html{
       margin: auto;
   
     }
-  
-    form{
-      padding-top: 40px;
-      padding-left: 70px;
-      padding-right: 70px;
-      padding-bottom: 40px;
-  
+
+    #mail_form > dl > dd {
+      /* background-color: green; */
+      
     }
-  
+
+    .postLinkArea{
+
+      height: 44px;
+
+    }
+
+
+    /* 세번째 본문섹션 */
+
+    form{    
+      padding-top: 44px;
+      /* padding-left: 70px;
+      padding-right: 70px;
+      padding-bottom: 40px; */
+      
+    } 
+
     #namae{
       width: 100%;
       height: 40px;
@@ -809,16 +853,19 @@ html{
       margin-left: 20px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
+      font-size: 0.9rem;
       font-weight: 500;
   
-      color:#f5f5eb;
+      color:#cc1100;
   
       /* background-color:yellow; */
   
     }
   
     .namae02{
+
+      display: none;
+
       margin-left: 10px;
       margin-bottom: 10px;
       color:#cc1100;
@@ -829,31 +876,29 @@ html{
     
     #name_1{
       position: relative;
-      left: 270px;
+      left: 135px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
   
-      width: 200px;
-      font-size: 16px;
+      width: 100px;
+      font-size: 0.9rem;
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
   
     #name_2{
       position: relative;
-      left: 300px;
+      left: 150px;
       top: -42px;
       line-height: 40px;
       border-radius: 6px;
   
-      width: 200px;
-      font-size: 16px;
+      width: 100px;
+      font-size: 0.9rem;
       color: #555;
-      border: 3px solid #89949b;
-      
-      /* background-color: greenyellow; */
+      border: 2px solid #89949b;
   
     }
   
@@ -862,24 +907,22 @@ html{
       height: 40px;
       line-height: 35px;
   
-      /* background-color: greenyellow; */
-  
     }
   
     .hurigana01{
       margin-left: 20px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
+      font-size: 0.9rem;
       font-weight: 500;
   
-      color:#f5f5eb;
-  
-      /* background-color:yellow; */
+      color:#cc1100;
   
     }
   
     .hurigana02{
+
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
@@ -889,62 +932,66 @@ html{
   
     #read_1{
       position: relative;
-      left: 270px;
+      left: 135px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
     
-      width: 200px;
-      font-size: 16px;
+      width: 100px;
+      font-size: 0.9rem;
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
   
     #read_2{
       position: relative;
-      left: 300px;
+      left: 150px;
       top: -42px;
       line-height: 40px;
       border-radius: 6px;
   
-      width: 200px;
-      font-size: 16px;
+      width: 100px;
+      font-size: 0.9rem;
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
-  
+    
     #seinen{
       width: 100%;
       height: 40px;
       line-height: 35px;
   
       /* background-color: greenyellow; */
-  
+    
     }
   
     .seinen01{
-      margin-left: 20px;
+      margin-left: 10px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
-    
-      color:#f5f5eb;
-  
+      font-size: 0.9rem;
+
+      color:#cc1100;
+      
     }
   
     .seinen02{
+
+      display: none;
   
-      margin-left: 10px;
-      margin-bottom: 10x;
+      margin-left: 5px;
+      /* margin-bottom: 10x; */
       color:#cc1100;
-  
-      /* background-color: green; */
-    }
+
+    } 
   
     .seinen03{
-      margin-left: 165px;
+
+      display: none;
+
+      margin-left: 82.5px;
       margin-bottom: 10x;
       color: #555;
   
@@ -952,7 +999,10 @@ html{
     }
   
     .seinen04{
-      margin-left: 145px;
+
+      display: none;
+
+      margin-left: 72.5px;
       margin-bottom: 10x;
       color: #555;
   
@@ -960,7 +1010,10 @@ html{
     }
   
     .seinen05{
-      margin-left: 145px;
+
+      display: none;
+
+      margin-left: 72.5px;
       margin-bottom: 10x;
       color: #555;
   
@@ -969,46 +1022,46 @@ html{
   
     #yearSelect{
       position: relative;
-      left: 270px;
+      left: 135px;
       top:-40px;
-  
-      width: 80px;
+      
+      width: 70px;
       height: 40px;
       border-radius: 6px;
   
-      font-size: 16px;
+      /* font-size: 16px; */
       color: #555;
-      border: 3px solid #89949b;
-  
+      border: 2px solid #89949b;
+      
     }
-  
+    
     #monthSelect{
       position: relative;
-      left: 332.5px;
+      left: 135px;
       top:-40px;
-  
-      width: 80px;
+      
+      width: 70px;
       height: 40px;
       border-radius: 6px;
   
-      font-size: 16px;
+      /* font-size: 16px; */
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
-  
+    
     #daySelect{
       position: relative;
-      left: 395px;
+      left: 135px;
       top:-40px;
   
-      width: 80px;
+      width: 70px;
       height: 40px;
       border-radius: 6px;
   
-      font-size: 16px;
+      /* font-size: 16px; */
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
       
     }
   
@@ -1016,8 +1069,6 @@ html{
       width: 100%;
       height: 40px;
       line-height: 35px;
-  
-      /* background-color: greenyellow; */
       
     }
   
@@ -1025,15 +1076,15 @@ html{
       margin-left: 20px;
       margin-top: 30px;
       width: 125px;
-      
-      font-size: 18px;
-   
-  
-      color:#f5f5eb;
-  
+      font-size: 0.9rem;
+
+      color:#cc1100;
+
     }
   
     .mail02{
+
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
@@ -1043,16 +1094,16 @@ html{
   
     #mail_address{
       position: relative;
-      left: 270px;
+      left: 135px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
       
-      width: 430px;
-      font-size: 16px;
+      width: 215px;
+      font-size: 0.9rem;
   
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
   
@@ -1060,7 +1111,7 @@ html{
       width: 100%;
       height: 40px;
       line-height: 35px;
-  
+      
       /* background-color: greenyellow; */
       
     }
@@ -1069,16 +1120,15 @@ html{
       margin-left: 20px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
-   
-  
-      color:#f5f5eb;
-  
-      /* background-color:yellow; */
-      
+      font-size: 0.9rem;
+
+      color:#cc1100;
+
     }
   
     .telephone02{
+
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
@@ -1088,16 +1138,16 @@ html{
   
     #phone{
       position: relative;
-      left: 270px;
+      left: 135px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
      
-      width: 430px;
+      width: 215px;
       font-size: 16px;
   
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
   
@@ -1114,16 +1164,15 @@ html{
       margin-left: 20px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
-   
-    
-      color:#f5f5eb;
-  
-      /* background-color:yellow; */
-      
+      font-size: 0.9rem;
+
+      color:#cc1100;
+
     }
   
     .postNumber02{
+
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
@@ -1135,13 +1184,13 @@ html{
   
     #postal{
       position: relative;
-      left: 270px;
+      left: 135px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
       
       width: 215px;
-      font-size: 16px;
+      font-size: 0.9rem;
   
       color: #555;
       border: 3px solid #89949b;
@@ -1149,12 +1198,13 @@ html{
     }
   
     #searchPost{
-      position: relative;
-      left: 300px;
-      top: -41px;
-      line-height: 40px;
-      font-size: 16px;
-  
+   
+      font-size: 0.9rem;
+
+      /* text-decoration: none; */
+      color:#f5f5eb;
+      padding-left: 40px;
+
     }
   
     #writingAddress{
@@ -1170,16 +1220,16 @@ html{
       margin-left: 20px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
-  
-      color:#f5f5eb;
-  
-  
-      /* background-color:yellow; */
+      font-size: 0.9rem;
+
+      color:#cc1100;
       
     }
   
     .writingAddress02{
+
+      display: none;
+
       margin-left: 10px;
       margin-bottom: 10x;
       color:#cc1100;
@@ -1190,16 +1240,16 @@ html{
   
     #address{
       position: relative;
-      left: 270px;
+      left: 135px;
       top:-42px;
       line-height: 40px;
       border-radius: 6px;
     
-      width: 430px;
-      font-size: 16px;
+      width: 215px;
+      font-size: 0.9rem;
   
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
   
@@ -1216,16 +1266,15 @@ html{
       margin-left: 20px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
-  
-      
-      color:#f5f5eb;
-  
-      /* background-color:yellow; */
-      
+      font-size: 0.9rem;
+
+      color:#0d2f73;
+
     }
   
     .keiken02{
+      
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
@@ -1237,19 +1286,19 @@ html{
   
     #product{
       position: relative;
-      left: 270px;
+      left: 135px;
       top: -42px;
   
       width: 512px;
       height: 42px;
       
       border-radius: 6px;
-      width: 430px;
-      font-size: 16px;
+      width: 215px;
+      font-size: 0.9rem;
       
       color: #555;
-      border: 3px solid #89949b;
-  
+      border: 2px solid #89949b;
+      
     }
   
     #question{
@@ -1265,53 +1314,57 @@ html{
       margin-left: 20px;
       margin-top: 30px;
       width: 125px;
-      font-size: 18px;
+      font-size: 0.9rem;
   
-      color:#f5f5eb;
-  
-      /* background-color:yellow; */
-      
+      color:#0d2f73;
+
     }
   
     .question02{
+
+      display: none;
   
       margin-left: 10px;
       margin-bottom: 10x;
       color:#0d2f73;
-  
+      
       /* background-color: green; */
   
     }
   
     #mail_contents{
       position: relative;
-      left: 270px;
+      left: 135px;
       top:-42px;
-      line-height: 35px;
+      /* line-height: 35px; */
       border-radius: 6px;
   
-      width: 430px;
-      font-size: 16px;
+      width: 215px;
+      height: 200px;
+      font-size: 0.9rem;
   
       color: #555;
-      border: 3px solid #89949b;
+      border: 2px solid #89949b;
   
     }
-  
+    
     .mailBox{
       height: 160px;
-  
+    
     }
-  
+    
     #jyouhou{
       width: 100%;
-      text-align: center;
+      /* text-align: center; */
       color:#f5f5eb;
-  
+      font-size: 0.5rem;
+
+      padding-top: 15px;
+      padding-left: 10px;
       /* background-color: red; */
-  
+      
     }
-  
+    
     #johou{
   
       padding: 0 20px;
@@ -1320,8 +1373,10 @@ html{
   
     #form_submit{
       text-align: center;
-      margin-top: 32.5px;
+      margin-top: 37px;
       display: block;
+
+      padding-right: 420px;
   
     }
   
@@ -1334,6 +1389,9 @@ html{
       color: #555;
       cursor: pointer;
       /* transition: 0.25px; */
+
+      color: #555;
+      border: 2px solid #89949b;
   
       font-size: 18px;
   
@@ -1363,7 +1421,7 @@ html{
       
     }
     .full-width-div02 .inner {
-      padding: 35px 0px;
+      padding: 30px 0px;
       text-align: center;
   
       /* background-color: yellow; */
@@ -1399,21 +1457,24 @@ html{
       height: 90px;
       position: absolute;
 
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-
-      /* top: 0;
+      top: 0;
       bottom: 0;
-      left: 0;
-      margin: auto; */
+      left: 20%;
+      margin: auto;
       
     }
     header .sub-menu {
+      
       position: absolute;
-      top: 50%;
+
+      padding-top: 25px;
+      padding-bottom: 25px;
+
+      top: 0;
+      bottom: 0;
       left: 50%;
-      transform: translate(-50%, -50%);
+
+      margin: auto;
 
     }
 
@@ -1421,7 +1482,7 @@ html{
       list-style: none;
       /* display: flex; */
     }
-    
+
     /* 
     header .sub-menu ul li {
       margin-right: 50px;
@@ -1447,7 +1508,7 @@ html{
     /* 두번째 섹션 */
     .main-form {
   
-      max-width: 100%;
+      width: 100%;
       background-image: url(saiyou.jpg);
       background-position: center;
       background-size: cover;
@@ -1464,8 +1525,8 @@ html{
   
     form{
       padding-top: 40px;
-      padding-left: 70px;
-      padding-right: 70px;
+      padding-left: 10px;
+      padding-right: 20px;
       padding-bottom: 40px;
   
     }
@@ -1618,27 +1679,26 @@ html{
     }
   
     .seinen03{
-      margin-left: 165px;
+      padding-left: 187.5px;
+
       margin-bottom: 10x;
       color: #555;
-  
-      /* background-color: green; */
+
     }
   
     .seinen04{
-      margin-left: 145px;
+      padding-left: 127.5px;
+
       margin-bottom: 10x;
       color: #555;
-  
-      /* background-color: green; */
+
     }
   
     .seinen05{
-      margin-left: 145px;
+      margin-left: 140px;
       margin-bottom: 10x;
       color: #555;
-  
-      /* background-color: green; */
+
     }
   
     #yearSelect{
@@ -1673,7 +1733,7 @@ html{
   
     #daySelect{
       position: relative;
-      left: 395px;
+      left: 400px;
       top:-40px;
   
       width: 80px;
@@ -1996,6 +2056,8 @@ html{
       text-align: center;
       margin-top: 32.5px;
       display: block;
+
+
   
     }
   
@@ -2010,7 +2072,8 @@ html{
       /* transition: 0.25px; */
   
       font-size: 18px;
-  
+      margin-right: 70px;
+      
     }
   
     #form_submit_button:hover{
@@ -2045,7 +2108,7 @@ html{
   
   }
 
-/* Tablet and Mobile :840px~767px*/
+/* Tablet and Mobile :840px~*/
 @media  (min-width:840px) and (max-width:3000px) { 
 
 body {
@@ -2282,28 +2345,27 @@ body {
   }
 
   .seinen03{
-    margin-left: 165px;
-    margin-bottom: 10x;
-    color: #555;
+      padding-left: 187.5px;
 
-    /* background-color: green; */
-  }
+      margin-bottom: 10x;
+      color: #555;
 
-  .seinen04{
-    margin-left: 145px;
-    margin-bottom: 10x;
-    color: #555;
+    }
+  
+    .seinen04{
+      padding-left: 127.5px;
 
-    /* background-color: green; */
-  }
+      margin-bottom: 10x;
+      color: #555;
 
-  .seinen05{
-    margin-left: 145px;
-    margin-bottom: 10x;
-    color: #555;
+    }
+  
+    .seinen05{
+      margin-left: 140px;
+      margin-bottom: 10x;
+      color: #555;
 
-    /* background-color: green; */
-  }
+    }
 
   #yearSelect{
     position: relative;
@@ -2337,7 +2399,7 @@ body {
 
   #daySelect{
     position: relative;
-    left: 395px;
+    left: 400px;
     top:-40px;
 
     width: 80px;
