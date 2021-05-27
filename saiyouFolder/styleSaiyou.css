@@ -22,7 +22,7 @@ html{
 }
 
 /* Tablet and Mobile :320px~413px*/
-@media  (min-width:320px) and (max-width:413px) { 
+@media (min-width:320px) and (max-width:413px) { 
 
 body {
     margin: 0;
