@@ -652,8 +652,8 @@ body {
     font-size: 0.5rem;
 
     padding-top: 15px;
-    padding-left: 1px;
-  
+    padding-left: 10px;
+ 
     /* background-color: red; */
     
   }
@@ -728,7 +728,8 @@ body {
 body {
     margin: 0;
     padding: 0;
-    height: 1276px;
+    height: 1175px;
+    
   }
 
   .inner {
@@ -819,7 +820,7 @@ body {
     /* background-color: green; */
     
   }
-
+  
   .postLinkArea{
 
     height: 44px;
