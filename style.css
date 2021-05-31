@@ -35,7 +35,7 @@ html{
     .rightLogos{
         display: flex;
         flex-wrap: wrap;
-       
+        
     }
 
     .kaisyaTitleH3{
@@ -138,7 +138,7 @@ html{
         
         align-content:flex-start;
         align-items: center;
-        color: #2e2e2e;
+        color: black;
         font-size: 0.5rem;
     
         /* border: 1px solid black; */
@@ -538,7 +538,7 @@ html{
         
     .secondPage{
         width: 100%;
-        height: 800px;
+        height: 950px;
         font-size: 0;
 
         display: flex;
@@ -632,7 +632,7 @@ html{
   
     .thirdPage{
     width: 100%;
-    height: 850px;
+    height: 900px;
     font-size: 0;
 
     display: flex;
@@ -737,6 +737,29 @@ html{
     .kaisyaInfo dd{
     margin-left: 100px;
     
+    }
+
+    .jyohoDownload{
+        /* width: 100%;
+        height: auto; */
+        margin: 0 auto; 
+        display: flex;
+        /* text-align: center; */
+
+        justify-content: center;
+        margin-top: 85px!important;
+
+        font-size: 0.8rem!important;
+        /* letter-spacing: 0.1rem!important; */
+        font-weight: 600!important;
+        color: #12222d!important;
+
+        border: 0.5px solid #e4e4e4;
+        border-radius: 3px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+
     }
 
     .emptyBox03{
@@ -1855,7 +1878,8 @@ html{
 
     .upperLine ul{
     list-style-type: none;
-    color:  #89949b;
+    color: #12222d;
+    /* color:  #89949b; */
     margin: 0px;
     padding: 0px;
     
@@ -1896,7 +1920,9 @@ html{
     
     .footerSub01 dl > dd > ul > li > a > h5{
     padding-top: 10px;
-    color:  #a0a8ae;
+    /* color:  #89949b;
+    color:  #a0a8ae; */
+    color: #12222d;
     font-size: 0.9rem;
     letter-spacing: 0.2rem;
 
@@ -1907,7 +1933,8 @@ html{
     
     .footerSub02 dl > dd > ul > li > a > h5{
     padding-top: 10px;
-    color:  #a0a8ae;
+    color: #12222d;
+    /* color:  #a0a8ae; */
     font-size: 0.9rem;
     letter-spacing: 0.2rem;
     
@@ -1921,7 +1948,8 @@ html{
 
     margin-top: 10px;
     padding-top: 15px;
-    color:  #aaa7a3;
+    /* color:  #a0a8ae; */
+    color: #12222d;
     font-size: 0.9rem;
     letter-spacing: 0.05rem;
 
@@ -2149,8 +2177,6 @@ html{
     }
     
 }
-
-
 
 
 /* Tablet and Mobile :768px~991px*/
@@ -2601,7 +2627,7 @@ html{
         
     .secondPage{
         width: 100%;
-        height: 700px;
+        height: 900px;
         font-size: 0;
 
         display: flex;
@@ -2695,7 +2721,7 @@ html{
   
     .thirdPage{
     width: 100%;
-    height: 800px;
+    height: 900px;
     font-size: 0;
 
     display: flex;
@@ -2746,8 +2772,8 @@ html{
     line-height: 50px;
     align-items: center;
     
-    padding-left: 40px;
-
+    padding-left: 20%;
+ 
     }
     
     .kaisyaTitleH2{
@@ -2798,6 +2824,29 @@ html{
     .kaisyaInfo dd{
     margin-left: 100px;
     
+    }
+    
+    .jyohoDownload{
+        /* width: 100%;
+        height: auto; */
+        margin: 0 auto; 
+        display: flex;
+        text-align: center;
+
+
+        margin-top: 75px!important;
+
+        font-size: 0.9rem!important;
+        /* letter-spacing: 0.1rem!important; */
+        font-weight: 600!important;
+        color: #12222d!important;
+
+        border: 0.5px solid #e4e4e4;
+        border-radius: 3px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+
     }
 
     .emptyBox03{
@@ -4611,7 +4660,7 @@ html{
     }
     
     .kaisyaInfo{
-    height: 600px;
+    height: 450px;
     font-size: 1rem;
     
     }
@@ -4640,6 +4689,28 @@ html{
     .kaisyaInfo dd{
     margin-left: 100px;
     
+    }
+
+    .jyohoDownload{
+        /* width: 100%;
+        height: auto; */
+        margin: 0 auto; 
+
+        margin-top: 35px!important;
+
+        font-size: 1rem!important;
+        /* letter-spacing: 0.1rem!important; */
+        font-weight: 600!important;
+        color: #12222d!important;
+
+        border: 0.5px solid #e4e4e4;
+        border-radius: 3px;
+
+        margin-bottom: 50px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+
     }
     
     .titleThird03{
@@ -5903,7 +5974,6 @@ text-align: center;
     height: 700px;
     font-size: 0;
     
-
 }
 
 .titleSecond01{
@@ -6004,7 +6074,7 @@ height: 700px;
 .titleThird02{
 height: 700px;
 font-size: 0;
-padding-top: 55px;
+padding-top: 35px;
 
 }
 
@@ -6022,8 +6092,28 @@ font-weight: 600;
 }
 
 .kaisyaInfo{
-height: 600px;
+/* height: 600px; */
 font-size: 1.1rem;
+
+}
+
+.jyohoDownload{
+    /* width: 100%;
+    height: auto; */
+    margin: 0 auto; 
+
+    margin-top: 17px!important;
+
+    font-size: 1rem!important;
+    /* letter-spacing: 0.1rem!important; */
+    font-weight: 600!important;
+    color: #12222d!important;
+
+    border: 0.5px solid #e4e4e4;
+    border-radius: 3px;
+
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
@@ -7423,7 +7513,7 @@ height: 700px;
 .titleThird02{
 height: 700px;
 font-size: 0;
-padding-top: 55px;
+padding-top: 35px;
 
 }
 
@@ -7441,8 +7531,28 @@ font-weight: 600;
 }
 
 .kaisyaInfo{
-height: 600px;
+height: 450px;
 font-size: 1.1rem;
+
+}
+
+.jyohoDownload{
+    /* width: 100%;
+    height: auto; */
+    margin: 0 auto; 
+
+    margin-top: 50px!important;
+
+    font-size: 1rem!important;
+    /* letter-spacing: 0.1rem!important; */
+    font-weight: 600!important;
+    color: #12222d!important;
+
+    border: 0.5px solid #e4e4e4;
+    border-radius: 3px;
+
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
@@ -8832,7 +8942,7 @@ text-align: center;
 .titleThird02{
     height: 700px;
     font-size: 0;
-    padding-top: 55px;
+    padding-top: 35px;
 
 }
 
@@ -8850,8 +8960,27 @@ text-align: center;
 }
 
 .kaisyaInfo{
-    height: 600px;
+    height: 450px;
     font-size: 1.1rem;
+
+}
+
+.jyohoDownload{
+    /* width: 100%;
+    height: auto; */
+    margin: 0 auto; 
+    margin-top: 50px!important;
+
+    font-size: 1rem!important;
+    /* letter-spacing: 0.1rem!important; */
+    font-weight: 600!important;
+    color: #12222d!important;
+
+    border: 0.5px solid #e4e4e4;
+    border-radius: 3px;
+
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
@@ -9744,8 +9873,6 @@ line-height: 1.2rem;
 
 
 /* Mobile:~768px   */
-
-
 
 
 .submain {
