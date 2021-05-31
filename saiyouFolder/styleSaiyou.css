@@ -652,8 +652,8 @@ body {
     font-size: 0.5rem;
 
     padding-top: 15px;
-    padding-left: 10px;
- 
+    padding-left: 1px;
+  
     /* background-color: red; */
     
   }
@@ -819,8 +819,7 @@ body {
   #mail_form > dl > dd {
     /* background-color: green; */
     
-  }
-  
+  }+
   .postLinkArea{
 
     height: 44px;

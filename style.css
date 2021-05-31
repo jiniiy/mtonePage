@@ -2102,9 +2102,9 @@ html{
     .sakuraText{
     flex: 2;
     color: #12222d;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     
-    padding-top: 25px;
+    padding-top: 30px;
     padding-right: 4%!important;
     padding-left: 0px!important;
     
@@ -2127,7 +2127,7 @@ html{
     flex-direction: row;
     width: 100%;
     height: 100px;
-
+    
     justify-content: space-around;
     align-items: center;
 
@@ -2147,7 +2147,7 @@ html{
 
     .rightComment{
     height: 50px;
-    font-size: 5px;
+    font-size: 0.7rem;
 
     text-align: center;
     
