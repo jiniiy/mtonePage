@@ -21,8 +21,8 @@ html{
     
 }
 
-/* Tablet and Mobile :1px~767px*/
-@media  (min-width:1px) and (max-width:767px) { 
+/* Tablet and Mobile :1px~360px*/
+@media  (min-width:1px) and (max-width:360px) { 
     
     body{
         margin: 0;
@@ -492,7 +492,7 @@ html{
         width: 100%;
         height: 670px;
 
-        background: url(MtoneT03.jpg);
+        background: url(./MtoneT03.jpg);
         background-size: cover;
         opacity: 0.85;
 
@@ -505,7 +505,7 @@ html{
         width: 100%!important;
         height: 670px;
 
-        background: url(MtoneT05.jpg);
+        background: url(./MtoneT05.jpg);
         background-size: cover;
         opacity: 0.85;
 
@@ -517,7 +517,7 @@ html{
         width: 100%!important;
         height: 670px;
 
-        background: url(MtoneT02.jpg);
+        background: url(./MtoneT02.jpg);
         background-size: cover;
         opacity: 0.85;
 
@@ -549,7 +549,7 @@ html{
     .titleSecond01{
         width: 100%;
         height: 300px;
-        background: url(sachoAisatsu02.jpg);
+        background: url(./sachoAisatsu02.jpg);
        
         background-size: cover;
         background-repeat: no-repeat;
@@ -669,7 +669,7 @@ html{
     width: 100%;
     height: 350px;
     
-    background-image: url(codingImage01.jpg);
+    background-image: url(./codingImage01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -739,14 +739,12 @@ html{
     
     }
 
-    .jyohoDownload{
-        /* width: 100%;
-        height: auto; */
-        margin: 0 auto; 
-        display: flex;
-        /* text-align: center; */
+    .boxJyohoDown{
+        text-align: center;
 
-        justify-content: center;
+    }
+
+    .jyohoDownload{
         margin-top: 85px!important;
 
         font-size: 0.8rem!important;
@@ -757,8 +755,8 @@ html{
         border: 0.5px solid #e4e4e4;
         border-radius: 3px;
 
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: -20px!important;
+        padding-right: -20px!important;
 
     }
 
@@ -818,20 +816,20 @@ html{
     }
     
     .semititle01 {
-        background: url(moranbong.jpg);
+        background: url(./moranbong.jpg);
         background-size: cover;
         /* opacity: 0.85; */
 
     }
     
     .semititle02 {
-        background: url(sakuratotal.jpg);
+        background: url(./sakuratotal.jpg);
         background-size: cover;
         /* opacity: 0.85; */
     }
     
     .semititle03 {
-        background: url(sakurahoken.jpg);
+        background: url(./sakurahoken.jpg);
         background-size: cover;
         /* opacity: 0.85; */
     }
@@ -963,7 +961,7 @@ html{
     height: 250px;
     margin: 0 auto;
     margin-bottom: 10px;
-    background-image: url("moranbong.jpg");
+    background-image: url("./moranbong.jpg");
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -978,7 +976,7 @@ html{
     height: 250px;
     margin: 0 auto;
     margin-bottom: 10px;
-    background-image: url("sakuratotal.jpg");
+    background-image: url("./sakuratotal.jpg");
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -994,7 +992,7 @@ html{
     margin: 0 auto;
     margin-bottom: 10px;
     
-    background-image: url("sakurahoken.jpg");
+    background-image: url("./sakurahoken.jpg");
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -1163,7 +1161,7 @@ html{
     }
     
     .mbBoardTitle01 {
-        background: url(mtoneBoard01.jpg);
+        background: url(./mtoneBoard01.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         /* opacity: 0.85; */
@@ -1171,14 +1169,14 @@ html{
     }
     
     .mbBoardTitle02 {
-        background: url(mtoneBoard01.jpg);
+        background: url(./mtoneBoard01.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         /* opacity: 0.85; */
     }
     
     .mbBoardTitle03 {
-        background: url(mtoneBoard01.jpg);
+        background: url(./mtoneBoard01.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         /* opacity: 0.85; */
@@ -1469,7 +1467,7 @@ html{
     
     .titlesixth01{
     height: 750px;
-    background: url(hiringJob01.jpg);
+    background: url(./hiringJob01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -1655,7 +1653,7 @@ html{
     align-items: center;
     width: 100%;
     height: 330px;
-    background: url(7page_partnerImg07.jpg);
+    background: url(./7page_partnerImg07.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2015,7 +2013,7 @@ html{
     margin:0;
     padding: 0px 0px 0px 36px;
     
-    background-image: url("Instagram-logo.jpg");
+    background-image: url("./Instagram-logo.jpg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 40px;
@@ -2036,7 +2034,2163 @@ html{
     margin:0;
     padding: 0px 0px 0px 36px;
     list-style: none;
-    background-image: url("Twitter-Icon-Circle.jpg");
+    background-image: url("./Twitter-Icon-Circle.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+
+    display: none;
+    
+    }
+
+    .desktopFooterImg04{
+        width: 50px;
+        height: 50px;
+      
+    }
+
+    /* .footerSubHead1, .footerSubHead2, .footerSubHead3, .footerSubHead4, .footerSubHead5, .footerSubHead6,
+    .footerSubHead7, .footerSubHead8, .footerSubHead9, .footerSubHead10, .footerSubHead11{
+    
+    font-weight: 600;
+    
+    } */
+    
+    /* .footerSubHead8, .footerSubHead9, .footerSubHead10, .footerSubHead11{   
+    width: 40%;
+    margin-right: 180px;
+    
+    } */
+    
+    .lowerLine {
+    width: 100%;
+    height: 200px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+
+    }
+    
+    .lowerInput{
+    width: 100%;
+    height:60px;
+    
+    }
+
+    .sakuraLogo{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    flex: 3;
+
+    padding-top: 12px;
+
+    }
+
+    .sakuraLogo .sakuraLogoImg {
+    height: 75px;
+    line-height: 75px;
+    object-fit: scale-down;
+    margin-left: 18%;
+    
+    } 
+    
+    .sakuraText{
+    flex: 2;
+    color: #12222d;
+    font-size: 0.5rem;
+    
+    padding-top: 32px;
+    padding-right: 4%!important;
+    padding-left: 0px!important;
+    
+    /* margin-left: 54%; */
+    /* position: absolute; */
+    
+    
+    }
+    
+    .sakuraText > ul{
+     list-style: none;
+     padding-left: 0% ;
+    
+     margin-bottom: -16px;
+     
+    }
+
+    .rightLogos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    
+    justify-content: space-around;
+    align-items: center;
+
+    margin-left: 12px!important;
+
+    /* background-color: red; */
+
+    }
+
+    #dfi01, #dfi02, #dfi03, #dfi04{
+    width: 85%;
+    height: auto;
+    
+    padding-left: 3.75px;
+
+    } 
+
+    .rightComment{
+    height: 50px;
+    font-size: 0.7rem;
+
+    text-align: center;
+    
+    }
+
+    .atag01 {
+        position: relative;
+        z-index: 50;
+
+    }
+
+    .atag02 {
+        position: relative;
+        z-index: 50;
+
+    }
+
+    .atag03 {
+        position: relative;
+        z-index: 50;
+    }
+
+    .atag04 {
+        position: relative;
+        z-index: 50;
+
+    }
+    
+}
+
+
+/* Tablet and Mobile :361px~767px*/
+@media  (min-width:361px) and (max-width:767px) { 
+    
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        font-size: 0; 
+    } 
+
+    .rightLogos{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .kaisyaTitleH3{
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.3rem;
+
+    }
+
+    .kaisyaTitleH4{
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.3rem;
+
+    }
+
+    .kaisyaTitleH5{
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.3rem;
+        
+    }
+
+    .kaisyaTitleH6{
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.3rem;
+        
+    }
+
+    .emptyBox00{
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+    }
+    
+    .con01{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        font-size: 0;
+        background-color:#fff;
+        z-index: 2;
+        opacity: 0.9;
+    
+    }
+    
+    .topNav{
+        width: 100%;
+        height: 100px;
+    }
+
+    .navLeft{
+        height: 100px;
+    
+    }
+    
+    .nav2{
+        width: 125px!important;
+        height: 100px;
+        line-height: 100px;
+
+        /* border: 1px solid black; */
+    }
+
+    .nav2 > a > img{
+        width: 120px;
+        height: 75px;
+        line-height: 75px;
+        
+        object-fit: scale-down;
+        padding-left: 15%;
+        
+    }
+    
+    .infoText{
+        display: flex;
+        width: 175px!important;
+        height: 100px;
+        
+        align-content:flex-start;
+        align-items: center;
+        color: black;
+        font-size: 0.5rem;
+    
+        /* border: 1px solid black; */
+        
+    }
+    
+    .infoText > ul{
+          list-style: none;
+          margin: 0;
+          padding: 0;
+
+    }
+
+    /* mobile nav start */
+    .mbNavbar{        
+        width: 100%!important;
+        height: 300px!important;
+        background-color:#fff;
+
+        position: fixed;
+        right: 0;
+    
+    /* 해당영역 숨길때 */
+    top:-1000px;
+    
+    display: flex;
+    flex-direction: row;
+    
+    /* 위쪽 바깥으로 숨겨진 영역이 나올때 자연스럽게 시간차 적용 */
+    transition: top .3s cubic-bezier(1, 0, 0, 1);
+    
+    }
+
+    .change{
+        top: 0;
+    }
+    
+    .hamburger-menu{
+        width: 35px;
+        height: 30px;
+    
+        position: fixed;
+        top: 35px;
+        right: 20px;
+        cursor: pointer;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    
+    .line{
+        width: 100%;
+        height: 2px;
+        background-color: #2e2e2e;
+    
+        transition: all 0.1s;
+    
+    }
+    
+    .change .line-1{
+        transform: rotateZ(-45deg) translate(-8px, 6px);
+    
+    }
+    
+    .change .line-2{
+        opacity: 0;
+        
+    }
+    
+    .change .line-3{
+        transform: rotateZ(45deg) translate(-8px, -6px);
+        
+    }
+    
+/* Mobile menu div area */
+.nav-list{
+    text-align: left;
+    /* border: 1px solid black; */
+
+    margin-bottom: 0!important;
+    padding-left: 0!important;
+
+    padding-top: 1.5px;
+
+}
+
+.nav-item{
+    list-style: none;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color:#2e2e2e;
+    font-weight: 300;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+
+    position: relative;
+
+}
+
+.nav-link::before,
+.nav-link::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: lightgray;
+
+    position: absolute;
+    left: 0;
+
+    transform: scaleX(0);
+    transition: transform 0.5s;
+
+}
+
+.nav-link::after{
+    bottom: 0;
+    transform-origin:right;
+
+}
+
+
+.nav-link::before{
+    top: 0;
+    transform-origin: left;
+    
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after{
+    transform: scaleX(1);
+
+
+
+}
+    .nav3{
+        width: 100%;
+        height: 100px;
+        font-size: 0;
+
+        display: none!important;
+
+    }
+    
+    .nav3_1{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.8rem;
+
+        display: none!important;
+    }
+
+    /* .nav3 .nav3_1 > li{
+        letter-spacing: 0.2rem;
+        
+    } */
+/* 
+    #navTap00{
+        
+        color: #2e2e2e;
+    
+    }
+    
+    #navTap00{
+    
+        color: #6ab8ee; 
+        
+    }  */
+    
+    .onePage{
+        
+        position: relative;
+        
+        width: 100%;
+        height: 670px;
+        background-color: #12222d;
+        
+        font-size: 0;
+        
+    }   
+    
+    .onePage::before{
+        content: "";
+        
+    }
+
+    .blackBlock01{
+        display: block;
+        position: absolute;
+
+        width: 100%;
+        /* height: 670px; */
+        
+        z-index: 1;
+        
+        align-items: center;
+        width: 100%;
+
+        padding-top: 155px;
+        line-height: 1.8rem;
+        
+        color: #fff;
+
+        padding-left: 20%;
+     
+        
+    }
+
+    .titleTop02{
+        display: inline-block;
+        position: relative;
+    
+        text-align: left;
+        color: #fff;
+    
+        padding-bottom: 10px;
+    
+    }
+
+    .titleTop02 > h1{
+        font-size: 1.2rem;
+
+    }
+
+    .titleMiddle02, .titleMiddle03, .titleLast02, .titleLast03{
+        
+        padding: 10px;
+
+    }
+
+    .titleMiddle02 >h3{
+        font-size: 1rem;
+
+    }
+
+    .titleMiddle03 >h3{
+        font-size: 1rem;
+
+    }
+
+    .titleLast02 >h3{
+        font-size: 1rem;
+
+    }
+
+    .titleLast03 >h3{
+        font-size: 1rem;
+
+    }
+
+    .titleMiddle02 >h5{
+        font-size: 0.8rem;
+
+    }
+
+    .titleMiddle03 >h5{
+        font-size: 0.8rem;
+
+    }
+
+    .titleLast02 >h5{
+        font-size: 0.8rem;
+
+    }
+
+    .titleLast03 >h5{
+        font-size: 0.8rem;
+
+    }
+
+    .titleMiddle02 > h3:hover{
+        color: #6ab8ee;
+    
+    }
+    
+    .titleMiddle02 > h5:hover{
+        color: #6ab8ee;
+    
+    }
+    
+    .titleMiddle03 > h3:hover{
+        color: #6ab8ee;
+    
+    }
+    
+    .titleMiddle03 > h5:hover{
+        color: #6ab8ee;
+    
+    }
+    
+    .titleLast02, .titleLast03{
+        display: inline-block;
+        /* position: absolute; */
+    
+        text-align: left;
+    
+        color: #fff;
+        font-size: 3rem;
+    
+        /* margin-bottom: 80px; */
+        
+    }
+    
+    .titleLast02 > h3:hover{
+        color: #6ab8ee;
+    
+    }
+    
+    .titleLast02 > h5:hover{
+        color: #6ab8ee;
+    
+    }
+    
+    .titleLast03 > h3:hover{
+        color: #6ab8ee;
+    
+    }
+    
+    .titleLast03 > h5:hover{
+        color: #6ab8ee;
+    
+    }
+    
+    .icon01, .icon02{
+    
+        vertical-align: auto;
+        align-items: center;
+    
+        font-size: 1.2em;
+    
+        width: 20%;
+        height: 20%;
+        padding-left: 40px;
+    
+        background-size: 1rem 1rem;
+        
+    }
+    
+    .title01, .title02, .title03{
+        width: 100%;
+        height: 770px;
+    
+    }
+    
+    .title01 {
+        width: 100%;
+        height: 670px;
+
+        background: url(./MtoneT03.jpg);
+        background-size: cover;
+        opacity: 0.85;
+
+        background-repeat: no-repeat; 
+        background-position: center;
+
+    }
+    
+    .title02 {
+        width: 100%!important;
+        height: 670px;
+
+        background: url(./MtoneT05.jpg);
+        background-size: cover;
+        opacity: 0.85;
+
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .title03 {
+        width: 100%!important;
+        height: 670px;
+
+        background: url(./MtoneT02.jpg);
+        background-size: cover;
+        opacity: 0.85;
+
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+    
+    
+    .emptyBox01, .emptyBox02{
+        color: #12222d;
+        width: 100%;
+        height: 100px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        
+    }
+        
+    .secondPage{
+        width: 100%;
+        height: 950px;
+        font-size: 0;
+
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    .titleSecond01{
+        width: 100%;
+        height: 300px;
+        background: url(./sachoAisatsu02.jpg);
+       
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        background-position: left;
+        
+    }
+    
+    .titleSecond02{
+    width: 100%;
+    height: 450px;      
+
+    display: flex;
+    align-items: center;
+
+    font-size: 0;
+
+    padding-top: 10px;
+    
+    }
+    
+    .syokai00{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    }
+    
+    /* .syokai00 h2{
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    font-size: 2.5rem;
+    
+    } */
+    
+    .syokai00First{
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+    
+    }
+    
+    .syokai00Second{
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    font-size: 0.8rem;
+    
+    }
+    
+    .syokai00Third{
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    font-size: 0.68rem;
+    
+    }
+    
+    .syokai00 h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    }
+    
+    .syokai01, .syokai02, .syokai03{
+    color: #12222d;
+    font-size: 0.68rem;
+    line-height: 1rem;
+    letter-spacing: 0.2rem;
+    
+    }
+    
+    .titleBar03{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    
+    }
+  
+    .thirdPage{
+    width: 100%;
+    height: 900px;
+    font-size: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+    
+    .cardBox03{
+    width: 100%;
+    height: 850px;
+    font-size: 0;
+
+    margin-left: 0px!important;
+    
+    }
+    
+    .titleThird01{
+
+        display: none;
+    
+    }
+    
+    .titleThird02{
+    width: 100%;
+    height: 450px;
+    font-size: 0;
+    order: 2;
+    
+    margin-bottom: 15px;
+
+    }
+
+    .titleThird03{
+    width: 100%;
+    height: 350px;
+    
+    background-image: url(./codingImage01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    order: 1;
+        
+    /* margin-left: -12px; */
+        
+    }
+
+    .kaisya{
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    align-items: center;
+    
+    padding-left: 40px;
+
+    }
+    
+    .kaisyaTitleH2{
+   
+    height: auto;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    
+    }
+    
+    .kaisyaInfo{
+    height: 350px;
+
+    display: flex;
+    justify-content: center; 
+    font-size: 0.8rem;
+    
+
+    }
+    
+    .kaisyaInfo dl{
+    width: 650px;
+    
+    }
+    
+    .kaisyaInfo dt{
+    display: block;
+    width: 100px;
+    float: left;
+    /* margin-right: 15px; */
+    
+    }
+    
+    .kaisyaInfo .dtSpace00, .dtSpace02, .dtSpace03, .dtSpace04, .dtSpace05{
+    letter-spacing: 10px;
+    }
+    
+    .kaisyaInfo .dtSpace01, .dtSpace06{
+    letter-spacing: 32px;
+    }
+
+    .kaisyaInfo  .dtSpace07, .dtSpace08{
+    letter-spacing: 2px;
+
+    }
+    
+    .kaisyaInfo dd{
+    margin-left: 100px;
+    
+    }
+
+    .boxJyohoDown{
+        text-align: center;
+
+    }
+
+    .jyohoDownload{
+        margin-top: 85px!important;
+
+        font-size: 0.8rem!important;
+        /* letter-spacing: 0.1rem!important; */
+        font-weight: 600!important;
+        color: #12222d!important;
+
+        border: 0.5px solid #e4e4e4;
+        border-radius: 3px;
+
+        padding-left: -20px!important;
+        padding-right: -20px!important;
+
+    }
+
+    .emptyBox03{
+        color: #12222d;
+        width: 100%;
+        height: 100px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-align: center;
+        
+        }
+
+    .kaisyaTitleH3{
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.3rem;
+
+    }
+
+    .fourthPage{
+    width: 100%;
+    height: 350px;
+    font-size: 0;
+    
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    
+    }
+
+    .semiFourthPage{
+        width: 100%;
+        height: 350px;
+        background-color: #12222d;
+    
+        font-size: 0;
+
+    }   
+    
+    .semiFourthPage::before{
+        content: "";
+        
+    }
+    
+    .semititle01, .semititle02, .semititle03{
+        width: 100%;
+        height: 300px;
+    
+    }
+    
+    .semititle01 {
+        background: url(./moranbong.jpg);
+        background-size: cover;
+        /* opacity: 0.85; */
+
+    }
+    
+    .semititle02 {
+        background: url(./sakuratotal.jpg);
+        background-size: cover;
+        /* opacity: 0.85; */
+    }
+    
+    .semititle03 {
+        background: url(./sakurahoken.jpg);
+        background-size: cover;
+        /* opacity: 0.85; */
+    }
+
+    .semititleText01 > a > h5{
+        
+        font-size: 0.8rem;
+        text-decoration-line: none;
+
+        text-align: center;
+        
+    }
+
+    .semititleText01{
+        font-size: 0.5rem;
+        background-color: #12222d;
+        opacity: 0.7;
+
+        text-decoration: none;
+
+        padding: 0!important;
+        margin: 0!important;
+
+        right: 0%!important;
+        left: 0%!important;
+     
+    }
+
+    .semititleText01 > p{
+
+        text-align: left;
+        padding-left: 10%;
+        padding-right: 8%;
+
+        margin: 0!important;
+
+    }
+
+    .semititleText02 > a > h5{
+        font-size: 0.8rem;
+        text-decoration-line: none;
+ 
+    }
+
+    .semititleText02{
+        font-size: 0.5rem;
+        background-color: #12222d;
+        opacity: 0.7;
+
+        text-decoration: none;
+        
+        padding: 0!important;
+        margin: 0!important;
+
+        right: 0%!important;
+        left: 0%!important;
+
+    }
+
+    .semititleText02 > p{
+
+        text-align: left;
+        padding-left: 10%;
+        padding-right: 8%;
+
+        margin: 0!important;
+
+    }
+
+    .semititleText03 > a > h5{
+        font-size: 0.8rem;
+        text-decoration-line: none;
+
+    }
+
+    .semititleText03{
+        font-size: 0.5rem;
+        background-color: #12222d;
+        opacity: 0.7;
+
+        text-decoration: none;
+
+        padding: 0!important;
+        margin: 0!important;
+
+        right: 0%!important;
+        left: 0%!important;
+
+    }
+
+    .semititleText03 > p{
+
+        text-align: left;
+        padding-left: 10%;
+        padding-right: 8%;
+      
+        margin: 0!important;
+
+    }
+
+    /* DeskTop Fourthpage */
+    
+    .contentCard04{
+
+    display: none;
+    
+    }
+    
+    .titlefourth01{
+
+    display: none;
+    
+    }
+    
+    .titlefourth02{
+
+    display: none;
+    
+    }
+    
+    .titlefourth03{
+
+    display: none;
+    
+    }
+    
+    .imgGroup01{
+    max-width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("./moranbong.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: none;
+    
+    
+    }
+    
+    .imgGroup02{
+    max-width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-image: url("./sakuratotal.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: none;
+    
+    
+    }
+    
+    .imgGroup03{
+    max-width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+    background-image: url("./sakurahoken.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: none;
+    
+    
+    }
+    
+    .groupSub01, .groupSub02, .groupSub03{
+    height: 200px;
+    padding: 10px;
+    color: #12222d;
+
+    display: none;
+    
+    }
+    
+    .groupSub01 > a > h5{
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    color: #12222d;
+
+    display: none;
+    
+    
+    }
+    
+    .groupSub01 > a:hover > h5{
+    
+    color:#007bff;
+    }
+    
+    .groupSub02 > a > h5{
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #12222d;
+
+    display: none;
+    
+    
+    }
+    
+    .groupSub02 > a:hover > h5{
+    
+    color:#007bff;
+    }
+    
+    .groupSub03 > a > h5{
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: #12222d;
+
+    display: none;
+    
+    
+    }
+    
+    .groupSub03 > a:hover > h5{
+    
+    color:#007bff;
+    }
+    
+    .groupLink01, .groupLink02, .groupLink03{
+    
+    text-decoration: none;
+    
+    }
+    
+    .subHead1, .subHead2, .subHead3{
+    margin-bottom: 15px;
+    color: #12222d; 
+
+    display: none;
+    
+    
+    }
+    
+    .groupSub01 > p {
+    margin-top: 10px;
+    font-size: 0.68rem;
+    letter-spacing: 0.1rem;    
+    line-height: 0.9rem;
+    
+    display: none;
+    
+    
+    }
+    
+    .groupSub02 > p {
+    margin-top: 8px;
+    font-size: 0.68rem;
+    letter-spacing: 0.1rem;    
+    line-height: 1.2rem;
+
+    display: none;
+    
+    
+    }
+    
+    .groupSub03 > p {
+    margin-top: 9px;
+    font-size: 0.68rem;
+    letter-spacing: 0.1rem;    
+    line-height: 0.9rem;
+
+    display: none;
+    
+    
+    }
+
+    .emptyBox04{
+        width: 100%;
+        height: 100px;
+    
+        /* padding-top: 45px; */
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+        text-align: center;
+
+        visibility: hidden;
+    
+    }
+
+    .fifthPage{
+        width: 100%;
+        height: 400px;
+        font-size: 0;
+        
+        margin-left:0!important;
+        margin-right:0!important;
+        
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+
+        display: none;
+        
+    }
+
+    /* MobileScreen */
+    .semiFifthPage{
+        display: inline-block;
+        width: 100%;
+        height: 350px;
+        background-color:  #fff;;
+        font-size: 0;
+
+    }   
+    
+    .semiFifthPage::before{
+        content: "";
+    }
+    
+    .mbBoardTitle01, .mbBoardTitle02, .mbBoardTitle03{
+        width: 100%;
+        height: 300px;
+    
+    }
+    
+    .mbBoardTitle01 {
+        background: url(./mtoneBoard01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* opacity: 0.85; */
+
+    }
+    
+    .mbBoardTitle02 {
+        background: url(./mtoneBoard01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* opacity: 0.85; */
+    }
+    
+    .mbBoardTitle03 {
+        background: url(./mtoneBoard01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* opacity: 0.85; */
+    }
+
+    .mbBoardText01{
+
+        background-color: #12222d;
+        opacity: 0.8;
+
+    }
+
+    .mbBoardText01 div{
+        font-size: 1rem;
+
+    }
+
+    .mbBoardText01 > div:nth-child(1){
+       float: left;
+       color:#f5f5eb;
+       
+    }
+
+    .mbBoardText01 > div:nth-child(2){
+        float: right;
+        color:#f5f5eb;
+     }
+
+     .mbBoardText02{
+        display: inline-block;
+        background-color: #12222d;
+        opacity: 0.8;
+
+    }
+
+    .mbBoardText02 div{
+        font-size: 1rem;
+
+    }
+
+    .mbBoardText02 > div:nth-child(1){
+       float: left;
+       color:#f5f5eb;
+    }
+
+    .mbBoardText02 > div:nth-child(2){
+        float: right;
+        color:#f5f5eb;
+ 
+     }
+
+     .mbBoardText03{
+        display: inline-block;
+        background-color: #12222d;
+        opacity: 0.8;
+
+    }
+
+    .mbBoardText03 div{
+        font-size: 1rem;
+
+    }
+
+    .mbBoardText03 > div:nth-child(1){
+       float: left;
+       color:#f5f5eb;
+    }
+
+    .mbBoardText03 > div:nth-child(2){
+        float: right;
+        color:#f5f5eb;
+ 
+     }
+
+    .mbFifthButton{
+
+        /* height: 51px;
+        line-height: 51px; */
+        text-align: center;
+
+        /* margin-bottom: 45px; */
+       
+    }
+
+    /* Desktop */
+    
+    .titlefifth01{
+    height: 750px;
+
+    display: none;
+    }
+    
+    .titlefifth02{
+    height: 750px;
+
+    display: none;
+    
+    }
+    
+    .titlefifth03{
+    height: 850px;
+
+    display: none;
+    
+    }
+    
+    .fifthSub02{
+    height: 250px;
+    font-size: 1rem;
+    margin-bottom: 50px;
+        
+    display: none;
+    
+    }
+    
+    .fifthSub02 .card > img {
+    max-width: 100%;
+    height: 200px;
+
+    display: none;
+    
+    }
+    
+    .fifthSub02 .card-body{
+    height: 50px;
+    display: none;
+    
+    }
+    
+    .fifthSub03{
+    height: 250px;
+    font-size: 1rem;
+    display: none;
+    
+    }
+    
+    .fifthSub03 .card > img {
+    max-width: 100%;
+    height: 200px;
+    display: none;
+    
+    }
+    
+    .fifthSub03 .card-body{
+    height: 50px;
+    display: none;
+    }
+    
+    .fifthSub04{
+    height: 50px;
+    display: none;
+    
+    }
+    
+    .fifthSub06{
+    height: 250px;
+    font-size: 1rem;
+    margin-bottom: 50px;
+    display: none;
+    
+    }
+    
+    .fifthSub06 .card > img {
+    max-width: 100%;
+    height: 200px;
+    display: none;
+    
+    }
+    
+    .fifthSub06 .card-body{
+    height: 50px;
+    display: none;
+    
+    }
+    
+    .fifthSub07{
+    height: 250px;
+    font-size: 1rem;
+    display: none;
+    
+    }
+    
+    .fifthSub07 .card > img {
+    height: 200px;
+    display: none;
+    
+    }
+    
+    .fifthSub07 .card-body{
+    height: 50px;
+    display: none;
+    
+    }
+    
+    .fifthSub08{
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    
+    padding-top: 25px;
+    display: none;
+    
+    }
+    
+    .fifthSub08 > h5{
+    display: inline;
+    vertical-align: middle;
+    display: none;
+    
+    }
+    
+    .fifthSub10{
+    height: 250px;
+    font-size: 1rem;
+    margin-bottom: 50px;
+    display: none;
+    
+    }
+    
+    .fifthSub10 .card > img {
+    height: 200px;
+    display: none;
+    
+    }
+    
+    .fifthSub10 .card-body{
+    height: 50px;
+    display: none;
+    
+    }
+    
+    .fifthSub11{
+    height: 250px;
+    font-size: 1rem;
+    display: none;
+    
+    }
+    
+    .fifthSub11 .card > img {
+    height: 200px;
+    display: none;
+    
+    }
+    
+    .fifthSub11 .card-body{
+    height: 50px;
+    display: none;
+    
+    }
+    
+    .fifthSub12{
+    height: 350px;
+    font-size: 1rem;
+    display: none;
+    
+    }
+    
+    .fifthSub12 .card > img {
+    height: 300px;
+    display: none;
+    
+    }
+    
+    .fifthSub12{
+    height: 50px;
+    display: none;
+    
+    }
+    /* Desktop Fifthpage End */
+
+    .emptyBox05{ 
+    width: 100%;
+    height: 100px;  
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+    }
+    
+    .sixPage{
+    width: 100%;
+    height: 850px;
+    font-size: 0;
+
+    padding-left: 12px;
+    padding-right: 12px;
+    
+    }
+    
+    .titlesixth01{
+    height: 750px;
+    background: url(./hiringJob01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: none;
+    
+    }
+    
+    .titlesixth02{
+    width: 100%;
+    height: auto;      
+    font-size: 0.5rem;
+    
+    }
+    
+    .sixTable{
+    width: 100%;
+    margin: auto;
+
+    /* line-height: 0.3rem; */
+    /* margin-top: 3%; */
+
+    padding: 10px;
+    
+    }
+    
+    .sixTable > thead > tr >th:nth-child(1){
+            letter-spacing: 0;
+        
+        }
+
+        /* .sixTable > tbody > tr > th:nth-child(2){
+
+            padding: 15px 15px;
+
+            padding-left: 10px;
+          
+            
+        }
+
+        .sixTable > tbody > tr > th:nth-child(3){
+
+            padding: 15px 15px;
+          
+            
+        }
+
+        .sixTable > tbody > tr > th:nth-child(8){
+
+            padding: 15px 15px;
+          
+            
+        }
+
+                
+
+        .sixTable > thead > tr >th:nth-child(1){
+
+            padding: 15px 15px;
+          
+            
+        }
+
+        .sixTable > thead > tr >th:nth-child(1){
+
+            padding: 15px 15px;
+              
+                
+        } */
+
+        
+        .letter2moji{
+        letter-spacing: 19.5px;
+
+        padding-left: 14px;
+        
+        }
+        
+        .letter3moji{
+        letter-spacing: 7.5px;
+
+        padding-left: 4px;
+        
+        }
+        
+        .letter4moji{
+        letter-spacing: 7.5px;
+
+        padding-left: 4px;
+        
+        }
+    
+    .sixTable tr{
+      width: 33%;
+
+      text-align: center;
+            
+    }
+
+    .sixTable th{
+        width: 33%;
+              
+    }
+
+    .sixTable td{
+        width: 33%;
+              
+    }
+
+    .sixTable tr, th, td{
+    border-collapse: collapse;
+    border: 1px solid #e4e4e4;
+    
+    }
+    
+    .sixTable th{
+    display: table-cell;
+  
+    border: solid 1px #e4e4e4;
+    color: #12222d;
+
+    
+    }
+    
+    .sixTable td{
+    display: table-cell;
+    vertical-align: inherit;
+    
+    padding: 18px 10px;
+    border: solid 1px #e4e4e4;
+    
+    line-height: 1.2rem;
+    
+    }
+    
+    .sixTable .center thead{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    
+    }
+    
+    .sixTable .center tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    
+    }
+    
+    .sixButton{
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 12px;
+    
+    }
+    
+    .emptyBox06{
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    
+    padding-bottom: 0;
+    margin-bottom: 0;
+/* 
+    background-color: red; */
+    
+    }
+
+    .sevenPage{
+    width: 100%;
+    height: 860px;
+    
+    }
+    
+    .cardBox07{
+    width: 100%;
+    height: 730px;
+    font-size: 0;
+    }
+    
+    .partnerImg07{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 330px;
+    background: url(./7page_partnerImg07.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    opacity: 0.8;
+    background-color: #12222d;
+    
+    }
+    
+    .partnerGaiyo {
+    height: 470px;
+
+    font-size: 0;
+  
+    padding-left: 6px;
+
+    margin-left: 12px;
+    margin-right: 12px;
+
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    height: 370px;
+    line-height: 370px;
+    
+    }
+
+    .partnerGaiyo .partnerSetumei01{
+        margin: 0!important;
+
+        line-height: 1.1rem;
+
+    }
+
+    .partnerGaiyo .partnerSetumei02{
+        margin: 0!important;
+        line-height: 1.1rem;
+
+    }
+    
+    .sevenTitle01{
+    padding-top: 5%;
+    font-weight: 600;
+
+    font-size: 1rem;
+    
+    }
+    
+    .partnerSetumei01{
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    
+    letter-spacing: 0.15rem;
+
+    }
+    
+    .sevenTitle02{
+    padding-top: 7%;
+    font-weight: 600;
+
+    font-size: 1rem;
+    
+    }
+    
+    .partnerSetumei02{
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+
+    letter-spacing: 0.15rem;
+    
+    }
+    
+    .partnerButtonDiv{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    
+    padding-right: 6px;
+
+    }
+    
+    /* .partnerButtonDiv .buttonColor01 > h5:hover{
+    color:#007bff!important;
+    
+    } */
+    
+    .partnerButtonDiv .buttonColor01{
+    height: 35px;
+    line-height: 35px;
+
+    /* padding-bottom: 1.5%;
+    margin-bottom: 0.5%; */
+    
+    }
+    
+    .footerPage{
+    width: 100%;
+    height: 420px;
+    font-size: 0;
+    
+    }
+    
+    /* .footerBox{
+    
+    } */
+    
+    .upperLine{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+   
+    }
+    
+    .footerSub01{
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+    width: 100%;
+    height: 250px;
+
+    border-top: 1px solid lightgray;
+    
+    }
+
+    .footerTitle01{        
+        font-size: 1.1rem;
+        letter-spacing: 0.5rem;
+        color: #12222d;
+
+    }
+
+    .footerSub02{
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+    width: 100%;
+    height: 250px;
+    
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+        
+    }
+
+    .footerSub03{
+
+    display: none;
+    
+    }
+    
+    .footerTitle02{
+    font-size: 1.1rem;
+    letter-spacing: 0.6rem;
+    color: #12222d;
+    
+    }
+    
+    .footerTitle03{
+    font-size: 0;
+    display: none;
+
+    }
+    
+    .footerSub01 > dl > dd {
+    padding-top: 3px;
+    font-size: 1rem; 
+    letter-spacing: 0.01rem;
+    
+    }
+    
+    .footerSub02 > dl > dd {
+    padding-top: 3px;
+    font-size: 1em; 
+    letter-spacing: 0.01rem;
+    
+    }
+/* 
+    .footerSub03 > dl > dd {
+        padding-top: 3px;
+        font-size: 1em; 
+        letter-spacing: 0.01rem;
+        
+    } */
+
+    .snsLogos{
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 8px;
+
+    }
+
+    .snsLogos > ul {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+    justify-content: space-between;
+
+    }
+
+
+    .snsLogos > ul > li{
+    justify-content: flex-start;
+    margin-right: 50px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+    justify-content: space-between;
+    }
+
+    .snsLogos > ul > li >a{
+      
+    padding-right: 35px;
+    
+    } 
+
+    .upperLine ul{
+    list-style-type: none;
+    color: #12222d;
+    /* color:  #89949b; */
+    margin: 0px;
+    padding: 0px;
+    
+    }
+    
+    .upperLine dl > dt{
+    padding-top: 25px;
+    padding-bottom: 5px;
+
+    padding-left: 45px;
+    
+    }
+    
+    .upperLine dl > dd > ul > li > a > h5:hover{
+    
+    color:#007bff;
+    
+    }
+    
+    .upperLine dl > dd > ul > li > a > h5:active{
+    
+    color:#007bff;
+    
+    }
+    
+    .upperLine dl > dd > ul > li > a > h5:visited{
+    
+    color: #12222d;
+    
+    }
+    
+    /* .footerSub03 > dl > dd > ul {
+    
+    padding-left: 120px;
+    display: none;
+    
+    } */
+    
+    .footerSub01 dl > dd > ul > li > a > h5{
+    padding-top: 10px;
+    /* color:  #89949b;
+    color:  #a0a8ae; */
+    color: #12222d;
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+
+    padding-left: 45px;
+  
+
+    }
+    
+    .footerSub02 dl > dd > ul > li > a > h5{
+    padding-top: 10px;
+    color: #12222d;
+    /* color:  #a0a8ae; */
+    font-size: 0.9rem;
+    letter-spacing: 0.2rem;
+    
+    padding-left: 45px;
+    /* background-color: blue; */
+
+    }
+    
+    .footerSub03 dl > dd > ul > li > a {
+    display: none;
+
+    margin-top: 10px;
+    padding-top: 15px;
+    /* color:  #a0a8ae; */
+    color: #12222d;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+
+    /* display: none; */
+    
+    }
+    
+    .footerLink00, .footerLink01, .footerLink02, .footerLink03, .footerLink04, .footerLink05,.footerLink06{
+    
+    text-decoration: none;
+    
+    }
+
+
+    .footerLink07, .footerLink08, .footerLink09, .footerLink10{
+
+    display: none;
+
+    }
+    
+    /* .footerSub03 > dl > dd > ul > li:nth-child(1){
+    height: 50px;
+    margin:0;
+    padding: 0px 0px 0px 36px; 
+    
+    background-image: url("wantedly_original.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px;
+
+    display: none;
+    
+    } */
+
+    .desktopFooterImg01{
+    width: 50px;
+    height: 50px;
+  
+    }
+    
+    /* .footerSub03 > dl > dd > ul > li:nth-child(2){
+    height: 50px;
+    margin:0;
+    padding: 0px 0px 0px 36px;
+    
+    background-image: url("Facebook-icon.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+
+    display: none;
+    
+    } */
+
+    .desktopFooterImg02{
+        width: 50px;
+        height: 50px;
+
+    }
+    
+    .footerSub03 > dl > dd > ul > li:nth-child(3){
+    height: 50px;
+    margin:0;
+    padding: 0px 0px 0px 36px;
+    
+    background-image: url("./Instagram-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+
+    display: none;
+    
+    }
+
+    .desktopFooterImg03{
+        width: 50px;
+        height: 50px;
+    
+    }
+    
+    
+    .footerSub03 > dl > dd > ul > li:nth-child(4){
+    height: 50px;
+    margin:0;
+    padding: 0px 0px 0px 36px;
+    list-style: none;
+    background-image: url("./Twitter-Icon-Circle.jpg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 40px;
@@ -2095,7 +4249,7 @@ html{
     height: 75px;
     line-height: 75px;
     object-fit: scale-down;
-    margin-left: 15%;
+    margin-left: 22%;
     
     } 
     
@@ -2104,8 +4258,8 @@ html{
     color: #12222d;
     font-size: 0.5rem;
     
-    padding-top: 25px;
-    padding-right: 4%!important;
+    padding-top: 32px;
+    padding-right: 15%!important;
     padding-left: 0px!important;
     
     /* margin-left: 54%; */
@@ -2598,19 +4752,19 @@ html{
     }
     
     .title01 {
-        background: url(MtoneT03.jpg);
+        background: url(./MtoneT03.jpg);
         background-size: cover;
         opacity: 0.85;
     }
     
     .title02 {
-        background: url(MtoneT05.jpg);
+        background: url(./MtoneT05.jpg);
         background-size: cover;
         opacity: 0.85;
     }
     
     .title03 {
-        background: url(MtoneT02.jpg);
+        background: url(./MtoneT02.jpg);
         background-size: cover;
         opacity: 0.85;
     }
@@ -2638,7 +4792,7 @@ html{
     .titleSecond01{
         width: 100%;
         height: 300px;
-        background: url(sachoAisatsu02.jpg);
+        background: url(./sachoAisatsu02.jpg);
        
         background-size: cover;
         background-repeat: no-repeat;
@@ -2756,7 +4910,7 @@ html{
     width: 100%;
     height: 350px;
     
-    background-image: url(codingImage01.jpg);
+    background-image: url(./codingImage01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -2825,7 +4979,13 @@ html{
     margin-left: 100px;
     
     }
-    
+
+    .boxJyohoDown{
+        text-align: center;
+        
+
+    }
+
     .jyohoDownload{
         /* width: 100%;
         height: auto; */
@@ -2905,7 +5065,7 @@ html{
     }
     
     .semititle01 {
-        background: url(moranbong.jpg);
+        background: url(./moranbong.jpg);
         background-size: cover;
         /* opacity: 0.85; */
 
@@ -2914,13 +5074,13 @@ html{
     }
     
     .semititle02 {
-        background: url(sakuratotal.jpg);
+        background: url(./sakuratotal.jpg);
         background-size: cover;
         /* opacity: 0.85; */
     }
     
     .semititle03 {
-        background: url(sakurahoken.jpg);
+        background: url(./sakurahoken.jpg);
         background-size: cover;
         /* opacity: 0.85; */
     }
@@ -3006,7 +5166,7 @@ html{
     height: 250px;
     margin: 0 auto;
     margin-bottom: 10px;
-    background-image: url("moranbong.jpg");
+    background-image: url("./moranbong.jpg");
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -3021,7 +5181,7 @@ html{
     height: 250px;
     margin: 0 auto;
     margin-bottom: 10px;
-    background-image: url("sakuratotal.jpg");
+    background-image: url("./sakuratotal.jpg");
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -3037,7 +5197,7 @@ html{
     margin: 0 auto;
     margin-bottom: 10px;
     
-    background-image: url("sakurahoken.jpg");
+    background-image: url("./sakurahoken.jpg");
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -3208,7 +5368,7 @@ html{
     }
     
     .mbBoardTitle01 {
-        background: url(mtoneBoard01.jpg);
+        background: url(./mtoneBoard01.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0.85;
@@ -3216,14 +5376,14 @@ html{
     }
     
     .mbBoardTitle02 {
-        background: url(mtoneBoard01.jpg);
+        background: url(./mtoneBoard01.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0.85;
     }
     
     .mbBoardTitle03 {
-        background: url(mtoneBoard01.jpg);
+        background: url(./mtoneBoard01.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0.85;
@@ -3512,7 +5672,7 @@ html{
     
     .titlesixth01{
     height: 750px;
-    background: url(hiringJob01.jpg);
+    background: url(./hiringJob01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -3632,7 +5792,7 @@ html{
     align-items: center;
     width: 100%;
     height: 530px;
-    background: url(7page_partnerImg07.jpg);
+    background: url(./7page_partnerImg07.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -3983,7 +6143,7 @@ html{
     margin:0;
     padding: 0px 0px 0px 36px;
     
-    background-image: url("Instagram-logo.jpg");
+    background-image: url("./Instagram-logo.jpg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 40px;
@@ -4004,7 +6164,7 @@ html{
     margin:0;
     padding: 0px 0px 0px 36px;
     list-style: none;
-    background-image: url("Twitter-Icon-Circle.jpg");
+    background-image: url("./Twitter-Icon-Circle.jpg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 40px;
@@ -4493,19 +6653,19 @@ html{
     }
     
     .title01 {
-        background: url(MtoneT03.jpg);
+        background: url(./MtoneT03.jpg);
         background-size: cover;
         opacity: 0.85;
     }
     
     .title02 {
-        background: url(MtoneT05.jpg);
+        background: url(./MtoneT05.jpg);
         background-size: cover;
         opacity: 0.85;
     }
     
     .title03 {
-        background: url(MtoneT02.jpg);
+        background: url(./MtoneT02.jpg);
         background-size: cover;
         opacity: 0.85;
     }
@@ -4546,7 +6706,7 @@ html{
     .titleSecond01{
         width: 100%;
         height: 700px;
-        background: url(sachoAisatsu02.jpg);
+        background: url(./sachoAisatsu02.jpg);
         background-size: cover;
         
         margin-left: -12px;
@@ -4717,7 +6877,7 @@ html{
     max-width: auto;
     height: 700px;
     
-    background-image: url(codingImage01.jpg);
+    background-image: url(./codingImage01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -4774,7 +6934,7 @@ html{
     height: 250px;
     margin: 0 auto;
     margin-bottom: 10px;
-    background-image: url("moranbong.jpg");
+    background-image: url("./moranbong.jpg");
     
     /* background: url(http://www.sakura-com.com/mtone/images/group/image-m.png); */
     
@@ -4788,7 +6948,7 @@ html{
     height: 250px;
     margin: 0 auto;
     margin-bottom: 10px;
-    background-image: url("sakuratotal.jpg");
+    background-image: url("./sakuratotal.jpg");
     
     /* background: url(http://www.sakura-com.com/mtone/images/group/image-st.png); */
     
@@ -4803,7 +6963,7 @@ html{
     margin: 0 auto;
     margin-bottom: 10px;
     
-    background-image: url("sakurahoken.jpg");
+    background-image: url("./sakurahoken.jpg");
     
     /* background: url(http://www.sakura-com.com/mtone/images/group/image-h.png); */
     
@@ -5140,7 +7300,7 @@ html{
     
     .titlesixth01{
     height: 750px;
-    background: url(hiringJob01.jpg);
+    background: url(./hiringJob01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -5258,7 +7418,7 @@ html{
     align-items: center;
     width: 100%;
     height: 530px;
-    background: url(7page_partnerImg07.jpg);
+    background: url(./7page_partnerImg07.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -5467,7 +7627,7 @@ html{
     margin:0;
     padding: 0px 0px 0px 36px;
     
-    background-image: url("wantedly-logo.jpg");
+    background-image: url("./wantedly-logo.jpg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 40px;
@@ -5479,7 +7639,7 @@ html{
     margin:0;
     padding: 0px 0px 0px 36px;
     
-    background-image: url("Facebook-icon.jpg");
+    background-image: url("./Facebook-icon.jpg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 40px;
@@ -5491,7 +7651,7 @@ html{
     margin:0;
     padding: 0px 0px 0px 36px;
     
-    background-image: url("Instagram-logo.jpg");
+    background-image: url("./Instagram-logo.jpg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 40px;
@@ -5503,7 +7663,7 @@ html{
     margin:0;
     padding: 0px 0px 0px 36px;
     list-style: none;
-    background-image: url("Twitter-Icon-Circle.jpg");
+    background-image: url("./Twitter-Icon-Circle.jpg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 40px;
@@ -5926,19 +8086,19 @@ body{
 }
 
 .title01 {
-    background: url(MtoneT03.jpg);
+    background: url(./MtoneT03.jpg);
     background-size: cover;
     opacity: 0.85;
 }
 
 .title02 {
-    background: url(MtoneT05.jpg);
+    background: url(./MtoneT05.jpg);
     background-size: cover;
     opacity: 0.85;
 }
 
 .title03 {
-    background: url(MtoneT02.jpg);
+    background: url(./MtoneT02.jpg);
     background-size: cover;
     opacity: 0.85;
 }
@@ -5979,7 +8139,7 @@ text-align: center;
 .titleSecond01{
     width: 100%;
     height: 700px;
-    background: url(sachoAisatsu02.jpg);
+    background: url(./sachoAisatsu02.jpg);
     background-size: cover;
 
     margin-left: -12px;
@@ -6147,7 +8307,7 @@ margin-left: 100px;
 max-width: auto;
 height: 700px;
 
-background-image: url(codingImage01.jpg);
+background-image: url(./codingImage01.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 
@@ -6208,7 +8368,7 @@ max-width: 100%;
 height: 350px;
 margin: 0 auto;
 margin-bottom: 10px;
-background-image: url("moranbong.jpg");
+background-image: url("./moranbong.jpg");
 
 /* background: url(http://www.sakura-com.com/mtone/images/group/image-m.png); */
 
@@ -6222,7 +8382,7 @@ max-width: 100%;
 height: 350px;
 margin: 0 auto;
 margin-bottom: 10px;
-background-image: url("sakuratotal.jpg");
+background-image: url("./sakuratotal.jpg");
 
 /* background: url(http://www.sakura-com.com/mtone/images/group/image-st.png); */
 
@@ -6237,7 +8397,7 @@ height: 350px;
 margin: 0 auto;
 margin-bottom: 10px;
 
-background-image: url("sakurahoken.jpg");
+background-image: url("./sakurahoken.jpg");
 
 /* background: url(http://www.sakura-com.com/mtone/images/group/image-h.png); */
 
@@ -6574,7 +8734,7 @@ font-size: 0;
 
 .titlesixth01{
 height: 750px;
-background: url(hiringJob01.jpg);
+background: url(./hiringJob01.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 
@@ -6692,7 +8852,7 @@ justify-content: center;
 align-items: center;
 width: 100%;
 height: 530px;
-background: url(7page_partnerImg07.jpg);
+background: url(./7page_partnerImg07.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -6901,7 +9061,7 @@ height: 50px;
 margin:0;
 padding: 0px 0px 0px 36px;
 
-background-image: url("wantedly-logo.jpg");
+background-image: url("./wantedly-logo.jpg");
 background-repeat: no-repeat;
 background-position: left center;
 background-size: 40px;
@@ -6913,7 +9073,7 @@ height: 50px;
 margin:0;
 padding: 0px 0px 0px 36px;
 
-background-image: url("Facebook-icon.jpg");
+background-image: url("./Facebook-icon.jpg");
 background-repeat: no-repeat;
 background-position: left center;
 background-size: 40px;
@@ -6925,7 +9085,7 @@ height: 50px;
 margin:0;
 padding: 0px 0px 0px 36px;
 
-background-image: url("Instagram-logo.jpg");
+background-image: url("./Instagram-logo.jpg");
 background-repeat: no-repeat;
 background-position: left center;
 background-size: 40px;
@@ -6937,7 +9097,7 @@ height: 50px;
 margin:0;
 padding: 0px 0px 0px 36px;
 list-style: none;
-background-image: url("Twitter-Icon-Circle.jpg");
+background-image: url("./Twitter-Icon-Circle.jpg");
 background-repeat: no-repeat;
 background-position: left center;
 background-size: 40px;
@@ -7366,19 +9526,19 @@ margin-left: 24.5%;
 }
 
 .title01 {
-    background: url(MtoneT03.jpg);
+    background: url(./MtoneT03.jpg);
     background-size: cover;
     opacity: 0.85;
 }
 
 .title02 {
-    background: url(MtoneT05.jpg);
+    background: url(./MtoneT05.jpg);
     background-size: cover;
     opacity: 0.85;
 }
 
 .title03 {
-    background: url(MtoneT02.jpg);
+    background: url(./MtoneT02.jpg);
     background-size: cover;
     opacity: 0.85;
 }
@@ -7418,7 +9578,7 @@ text-align: center;
     width: 100%;
     height: 700px;
 
-    background: url(sachoAisatsu02.jpg);
+    background: url(./sachoAisatsu02.jpg);
     background-size: cover;
 
     margin-left: -12px;
@@ -7586,7 +9746,7 @@ margin-left: 100px;
 max-width: auto;
 height: 700px;
 
-background-image: url(codingImage01.jpg);
+background-image: url(./codingImage01.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: left left;
@@ -7650,7 +9810,7 @@ width: 100%;
 height: 350px;
 margin: 0 auto;
 margin-bottom: 10px;
-background-image: url("moranbong.jpg");
+background-image: url("./moranbong.jpg");
 
 /* background: url(http://www.sakura-com.com/mtone/images/group/image-m.png); */
 
@@ -7664,7 +9824,7 @@ max-width: 100%;
 height: 350px;
 margin: 0 auto;
 margin-bottom: 10px;
-background-image: url("sakuratotal.jpg");
+background-image: url("./sakuratotal.jpg");
 
 /* background: url(http://www.sakura-com.com/mtone/images/group/image-st.png); */
 
@@ -7679,7 +9839,7 @@ height: 350px;
 margin: 0 auto;
 margin-bottom: 10px;
 
-background-image: url("sakurahoken.jpg");
+background-image: url("./sakurahoken.jpg");
 /* background: url(http://www.sakura-com.com/mtone/images/group/image-h.png); */
 
 background-size: cover;
@@ -8002,7 +10162,7 @@ font-size: 0;
 .titlesixth01{
 width: 100%;
 height: 750px;
-background: url(hiringJob01.jpg);
+background: url(./hiringJob01.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 
@@ -8120,7 +10280,7 @@ justify-content: center;
 align-items: center;
 width: 100%;
 height: 530px;
-background: url(7page_partnerImg07.jpg);
+background: url(./7page_partnerImg07.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -8329,7 +10489,7 @@ height: 50px;
 margin:0;
 padding: 0px 0px 0px 36px;
 
-background-image: url("wantedly-logo.jpg");
+background-image: url("./wantedly-logo.jpg");
 background-repeat: no-repeat;
 background-position: left center;
 background-size: 40px;
@@ -8341,7 +10501,7 @@ height: 50px;
 margin:0;
 padding: 0px 0px 0px 36px;
 
-background-image: url("Facebook-icon.jpg");
+background-image: url("./Facebook-icon.jpg");
 background-repeat: no-repeat;
 background-position: left center;
 background-size: 40px;
@@ -8353,7 +10513,7 @@ height: 50px;
 margin:0;
 padding: 0px 0px 0px 36px;
 
-background-image: url("Instagram-logo.jpg");
+background-image: url("./Instagram-logo.jpg");
 background-repeat: no-repeat;
 background-position: left center;
 background-size: 40px;
@@ -8365,7 +10525,7 @@ height: 50px;
 margin:0;
 padding: 0px 0px 0px 36px;
 list-style: none;
-background-image: url("Twitter-Icon-Circle.jpg");
+background-image: url("./Twitter-Icon-Circle.jpg");
 background-repeat: no-repeat;
 background-position: left center;
 background-size: 40px;
@@ -8794,19 +10954,19 @@ body{
     }
 
     .title01 {
-        background: url(MtoneT03.jpg);
+        background: url(./MtoneT03.jpg);
         background-size: cover;
         opacity: 0.85;
     }
 
     .title02 {
-        background: url(MtoneT05.jpg);
+        background: url(./MtoneT05.jpg);
         background-size: cover;
         opacity: 0.85;
     }
 
     .title03 {
-        background: url(MtoneT02.jpg);
+        background: url(./MtoneT02.jpg);
         background-size: cover;
         opacity: 0.85;
     }
@@ -8846,7 +11006,7 @@ text-align: center;
 .titleSecond01{
         width: 100%;
         height: 700px;
-        background: url(sachoAisatsu02.jpg);
+        background: url(./sachoAisatsu02.jpg);
         background-size: cover;
 
         margin-left: -12px;
@@ -9014,7 +11174,7 @@ text-align: center;
     width: auto;
     height: 700px;
 
-    background-image: url(codingImage01.jpg);
+    background-image: url(./codingImage01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -9076,7 +11236,7 @@ text-align: center;
     height: 350px;
     margin: 0 auto;
     margin-bottom: 10px;
-    background-image: url("moranbong.jpg");
+    background-image: url("./moranbong.jpg");
 
     /* background: url(http://www.sakura-com.com/mtone/images/group/image-m.png); */
 
@@ -9090,7 +11250,7 @@ text-align: center;
     height: 350px;
     margin: 0 auto;
     margin-bottom: 10px;
-    background-image: url("sakuratotal.jpg");
+    background-image: url("./sakuratotal.jpg");
 
     /* background: url(http://www.sakura-com.com/mtone/images/group/image-st.png); */
 
@@ -9434,7 +11594,7 @@ text-align: center;
 
 .titlesixth01{
     height: 750px;
-    background: url(hiringJob01.jpg);
+    background: url(./hiringJob01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -9552,7 +11712,7 @@ line-height: 1.2rem;
     align-items: center;
     width: 100%;
     height: 530px;
-    background: url(7page_partnerImg07.jpg);
+    background: url(./7page_partnerImg07.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -9760,7 +11920,7 @@ line-height: 1.2rem;
     margin:0;
 	padding: 0px 0px 0px 36px;
 
-	background-image: url("wantedly-logo.jpg");
+	background-image: url("./wantedly-logo.jpg");
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 40px;
@@ -9772,7 +11932,7 @@ line-height: 1.2rem;
     margin:0;
 	padding: 0px 0px 0px 36px;
 
-	background-image: url("Facebook-icon.jpg");
+	background-image: url("./Facebook-icon.jpg");
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 40px;
@@ -9784,7 +11944,7 @@ line-height: 1.2rem;
     margin:0;
 	padding: 0px 0px 0px 36px;
 
-	background-image: url("Instagram-logo.jpg");
+	background-image: url("./Instagram-logo.jpg");
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 40px;
@@ -9796,7 +11956,7 @@ line-height: 1.2rem;
     margin:0;
 	padding: 0px 0px 0px 36px;
 	list-style: none;
-	background-image: url("Twitter-Icon-Circle.jpg");
+	background-image: url("./Twitter-Icon-Circle.jpg");
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 40px;

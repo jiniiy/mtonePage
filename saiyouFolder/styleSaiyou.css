@@ -103,7 +103,7 @@ body {
   /* 두번째 섹션 */
   .main-form {
     max-width: 100%;
-    background-image: url(saiyou.jpg);
+    background-image: url(./saiyou.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -801,7 +801,7 @@ body {
   /* 두번째 섹션 */
   .main-form {
     max-width: 100%;
-    background-image: url(saiyou.jpg);
+    background-image: url(./saiyou.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -819,7 +819,8 @@ body {
   #mail_form > dl > dd {
     /* background-color: green; */
     
-  }+
+  }
+  
   .postLinkArea{
 
     height: 44px;
@@ -1506,7 +1507,7 @@ body {
   .main-form {
 
     width: 100%;
-    background-image: url(saiyou.jpg);
+    background-image: url(./saiyou.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2171,7 +2172,7 @@ header .sub-menu ul li {
 .main-form {
 
   width: 100%;
-  background-image: url(saiyou.jpg);
+  background-image: url(./saiyou.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
