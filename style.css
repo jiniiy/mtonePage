@@ -538,7 +538,7 @@ html{
         
     .secondPage{
         width: 100%;
-        height: 850px;
+        height: 825px;
         font-size: 0;
 
         display: flex;
@@ -747,7 +747,7 @@ html{
     .jyohoDownload{
         margin-top: 85px!important;
 
-        font-size: 8px!important;
+        font-size: 7px!important;
         /* letter-spacing: 0.1rem!important; */
         font-weight: 600!important;
         color: #12222d!important;
@@ -2694,7 +2694,7 @@ html{
         
     .secondPage{
         width: 100%;
-        height: 850px;
+        height: 825px;
         font-size: 0;
 
         display: flex;
@@ -2903,7 +2903,7 @@ html{
     .jyohoDownload{
         margin-top: 85px!important;
 
-        font-size: 8px!important;
+        font-size: 7px!important;
         /* letter-spacing: 0.1rem!important; */
         font-weight: 600!important;
         color: #12222d!important;
