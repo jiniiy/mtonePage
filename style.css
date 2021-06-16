@@ -749,14 +749,14 @@ html{
 
         font-size: 7px!important;
         /* letter-spacing: 0.1rem!important; */
-        /* font-weight: 600!important; */
+        font-weight: 600!important;
         color: #12222d!important;
 
         border: 0.5px solid #e4e4e4;
         border-radius: 1px;
 
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
 
     }
 
@@ -2905,14 +2905,14 @@ html{
 
         font-size: 7px!important;
         /* letter-spacing: 0.1rem!important; */
-        /* font-weight: 600!important; */
+        font-weight: 600!important;
         color: #12222d!important;
 
         border: 0.5px solid #e4e4e4;
         border-radius: 1px;
-
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        
+        padding-left: 20px!important;
+        padding-right: 20px!important;
 
     }
 
