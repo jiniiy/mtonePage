@@ -148,7 +148,7 @@ body {
     font-size: 0.8rem;
     font-weight: 500;
 
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color:yellow; */
 
@@ -160,7 +160,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10px;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -208,7 +208,7 @@ body {
     font-size: 0.8rem;
     font-weight: 500;
 
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -218,7 +218,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -265,7 +265,7 @@ body {
     width: 125px;
     font-size: 0.8rem;
 
-    color:#cc1100;
+    color:#EE224A;
     
   }
 
@@ -275,7 +275,7 @@ body {
 
     margin-left: 5px;
     /* margin-bottom: 10x; */
-    color:#cc1100;
+    color:#EE224A;
 
   } 
 
@@ -329,7 +329,7 @@ body {
   
   #monthSelect{
     position: relative;
-    left: 110px;
+    left: 109.5px;
     top:-40px;
     
     width: 70px;
@@ -344,7 +344,7 @@ body {
   
   #daySelect{
     position: relative;
-    left: 105px;
+    left: 104px;
     top:-40px;
 
     width: 70px;
@@ -370,7 +370,7 @@ body {
     width: 125px;
     font-size: 0.8rem;
 
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -380,7 +380,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -414,7 +414,7 @@ body {
     width: 125px;
     font-size: 0.8rem;
 
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -424,7 +424,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -458,7 +458,7 @@ body {
     width: 125px;
     font-size: 0.8rem;
 
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -468,7 +468,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -489,15 +489,29 @@ body {
 
   }
 
+
   #searchPost{
- 
     font-size: 0.9rem;
-
+  
     /* text-decoration: none; */
-    color:#f5f5eb;
+    color: #f0e995;
     padding-left: 20px;
-
+    text-decoration-line: none;
+  
   }
+  
+  #searchPost:hover{
+    /* position: relative;
+    left: 300px;
+    top: -41px;
+    line-height: 40px;
+    font-size: 16px; */
+    
+    color: #F9DF30;
+   
+  }
+  
+ 
 
   #writingAddress{
     width: 100%;
@@ -514,7 +528,7 @@ body {
     width: 125px;
     font-size: 0.8rem;
 
-    color:#cc1100;
+    color:#EE224A;
     
   }
 
@@ -524,7 +538,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -560,7 +574,7 @@ body {
     width: 125px;
     font-size: 0.8rem;
 
-    color:#0d2f73;
+    color:#91C13E;
 
   }
 
@@ -570,7 +584,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#0d2f73;
+    color:#91C13E;
 
     /* background-color: green; */
 
@@ -608,7 +622,7 @@ body {
     width: 115px;
     font-size: 0.8rem;
     
-    color:#0d2f73;
+    color:#91C13E;
 
   }
 
@@ -618,7 +632,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#0d2f73;
+    color:#91C13E;
     
     /* background-color: green; */
 
@@ -657,11 +671,24 @@ body {
     /* background-color: red; */
     
   }
+
+  #jyouhou > a{
+    color: deepskyblue;
+    text-decoration-color: none;
+
+  }
+
+  #jyouhou > a:hover{
+    
+    font-weight: 600;
+    color: blue;
+    
+  }
   
   #johou{
 
-    padding: 0 20px;
-
+    vertical-align: bottom;
+    
   }
 
   #form_submit{
@@ -854,7 +881,7 @@ body {
     font-size: 0.9rem;
     font-weight: 500;
 
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color:yellow; */
 
@@ -866,7 +893,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10px;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -914,7 +941,7 @@ body {
     font-size: 0.9rem;
     font-weight: 500;
 
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -924,7 +951,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -971,7 +998,7 @@ body {
     width: 125px;
     font-size: 0.9rem;
 
-    color:#cc1100;
+    color:#EE224A;
     
   }
 
@@ -981,7 +1008,7 @@ body {
 
     margin-left: 5px;
     /* margin-bottom: 10x; */
-    color:#cc1100;
+    color:#EE224A;
 
   } 
 
@@ -1076,7 +1103,7 @@ body {
     width: 125px;
     font-size: 0.9rem;
 
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -1086,7 +1113,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -1120,7 +1147,7 @@ body {
     width: 125px;
     font-size: 0.9rem;
 
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -1130,7 +1157,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -1164,7 +1191,7 @@ body {
     width: 125px;
     font-size: 0.9rem;
 
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -1174,7 +1201,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -1196,14 +1223,26 @@ body {
   }
 
   #searchPost{
- 
     font-size: 0.9rem;
-
+  
     /* text-decoration: none; */
-    color:#f5f5eb;
+    color: #f0e995;
     padding-left: 40px;
-
+    text-decoration-line: none;
+  
   }
+  
+  #searchPost:hover{
+    /* position: relative;
+    left: 300px;
+    top: -41px;
+    line-height: 40px;
+    font-size: 16px; */
+    
+    color: #F9DF30;
+   
+  }
+ 
 
   #writingAddress{
     width: 100%;
@@ -1220,7 +1259,7 @@ body {
     width: 125px;
     font-size: 0.9rem;
 
-    color:#cc1100;
+    color:#EE224A;
     
   }
 
@@ -1230,7 +1269,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -1266,7 +1305,7 @@ body {
     width: 125px;
     font-size: 0.9rem;
 
-    color:#0d2f73;
+    color:#91C13E;
 
   }
 
@@ -1276,7 +1315,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#0d2f73;
+    color:#91C13E;
 
     /* background-color: green; */
 
@@ -1314,7 +1353,7 @@ body {
     width: 125px;
     font-size: 0.9rem;
 
-    color:#0d2f73;
+    color:#91C13E;
 
   }
 
@@ -1324,7 +1363,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#0d2f73;
+    color:#91C13E;
     
     /* background-color: green; */
 
@@ -1362,11 +1401,25 @@ body {
     /* background-color: red; */
     
   }
-  
+
+  #jyouhou > a{
+    color: deepskyblue;
+
+    text-decoration-color: none;
+
+  }
+
+  #jyouhou > a:hover{
+      
+    font-weight: 600;
+    color: blue;
+    
+  }
+
   #johou{
 
-    padding: 0 20px;
-
+    vertical-align: bottom;
+    
   }
 
   #form_submit{
@@ -1554,7 +1607,7 @@ body {
   .namae02{
     margin-left: 10px;
     margin-bottom: 10px;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -1616,7 +1669,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -1671,7 +1724,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
   }
@@ -1769,7 +1822,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -1814,7 +1867,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -1859,7 +1912,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -1881,13 +1934,26 @@ body {
   }
 
   #searchPost{
-    position: relative;
+    font-size: 0.9rem;
+  
+    /* text-decoration: none; */
+    color: #f0e995;
+    padding-left: 60px;
+    text-decoration-line: none;
+  
+  }
+  
+  #searchPost:hover{
+    /* position: relative;
     left: 300px;
     top: -41px;
     line-height: 40px;
-    font-size: 16px;
-
+    font-size: 16px; */
+    
+    color: #F9DF30;
+   
   }
+  
 
   #writingAddress{
     width: 100%;
@@ -1914,7 +1980,7 @@ body {
   .writingAddress02{
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -1961,7 +2027,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#0d2f73;
+    color:#91C13E;
 
     /* background-color: green; */
 
@@ -2009,7 +2075,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#0d2f73;
+    color:#91C13E;
 
     /* background-color: green; */
 
@@ -2044,11 +2110,27 @@ body {
 
   }
 
-  #johou{
+  #jyouhou > a{
+    color: deepskyblue;
 
-    padding: 0 20px;
+    text-decoration-color: none;
 
   }
+
+  #jyouhou > a:hover{
+      
+    font-weight: 600;
+    color: blue;
+    
+  }
+
+  #johou{
+
+    vertical-align: middle;
+    
+  }
+
+ 
 
   #form_submit{
     text-align: center;
@@ -2219,7 +2301,7 @@ form{
 .namae02{
   margin-left: 10px;
   margin-bottom: 10px;
-  color:#cc1100;
+  color:#EE224A;
 
   /* background-color: green; */
 
@@ -2281,7 +2363,7 @@ form{
 
   margin-left: 10px;
   margin-bottom: 10x;
-  color:#cc1100;
+  color:#EE224A;
 
 }
 
@@ -2336,7 +2418,7 @@ form{
 
   margin-left: 10px;
   margin-bottom: 10x;
-  color:#cc1100;
+  color:#EE224A;
 
   /* background-color: green; */
 }
@@ -2434,7 +2516,7 @@ form{
 
   margin-left: 10px;
   margin-bottom: 10x;
-  color:#cc1100;
+  color:#EE224A;
 
 }
 
@@ -2479,7 +2561,7 @@ form{
 
   margin-left: 10px;
   margin-bottom: 10x;
-  color:#cc1100;
+  color:#EE224A;
 
 }
 
@@ -2524,7 +2606,7 @@ form{
 
   margin-left: 10px;
   margin-bottom: 10x;
-  color:#cc1100;
+  color:#EE224A;
 
   /* background-color: green; */
 
@@ -2546,12 +2628,24 @@ form{
 }
 
 #searchPost{
-  position: relative;
+  font-size: 0.9rem;
+
+  /* text-decoration: none; */
+  color: #f0e995;
+  padding-left: 60px;
+  text-decoration-line: none;
+
+}
+
+#searchPost:hover{
+  /* position: relative;
   left: 300px;
   top: -41px;
   line-height: 40px;
-  font-size: 16px;
-
+  font-size: 16px; */
+  
+  color: #F9DF30;
+ 
 }
 
 #writingAddress{
@@ -2579,7 +2673,7 @@ form{
 .writingAddress02{
   margin-left: 10px;
   margin-bottom: 10x;
-  color:#cc1100;
+  color:#EE224A;
 
   /* background-color: green; */
 
@@ -2626,7 +2720,7 @@ form{
 
   margin-left: 10px;
   margin-bottom: 10x;
-  color:#0d2f73;
+  color:#91C13E;
 
   /* background-color: green; */
 
@@ -2674,7 +2768,7 @@ form{
 
   margin-left: 10px;
   margin-bottom: 10x;
-  color:#0d2f73;
+  color:#91C13E;
 
   /* background-color: green; */
 
@@ -2708,6 +2802,21 @@ form{
   /* background-color: red; */
 
 }
+
+#jyouhou > a{
+  color: deepskyblue;
+
+  text-decoration-color: none;
+
+}
+
+#jyouhou > a:hover{
+    
+  font-weight: 600;
+  color: blue;
+  
+}
+
 
 #johou{
 
