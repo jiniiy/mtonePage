@@ -160,7 +160,7 @@ html{
       font-size: 0.8rem;
       font-weight: 500;
   
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color:yellow; */
   
@@ -171,7 +171,7 @@ html{
       display: none;
 
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color: green; */
   
@@ -223,7 +223,7 @@ html{
       font-size: 0.8rem;
       font-weight: 500;
 
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color:yellow; */
   
@@ -234,7 +234,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
     }
   
@@ -281,7 +281,7 @@ html{
       width: 125px;
       font-size: 0.8rem;
       
-      color:#0d2f73;
+      color:#91C13E;
   
     }
   
@@ -290,7 +290,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#0d2f73;
+      color:#91C13E;
   
     }
   
@@ -324,7 +324,7 @@ html{
       width: 125px;
       font-size: 0.8rem;
 
-      color:#cc1100;
+      color:#EE224A;
       
     }
   
@@ -333,7 +333,7 @@ html{
       display: none;
       
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
       
     }
   
@@ -367,7 +367,7 @@ html{
       width: 125px;
       font-size: 0.8rem;
 
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color:yellow; */
       
@@ -378,7 +378,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
     }
   
@@ -412,7 +412,7 @@ html{
       width: 125px;
       font-size: 0.8rem;
 
-      color:#cc1100;
+      color:#EE224A;
 
       /* background-color:yellow; */
       
@@ -423,7 +423,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color: green; */
   
@@ -448,7 +448,7 @@ html{
       font-size: 0.8rem;
 
       /* text-decoration: none; */
-      color:#f5f5eb;
+      color: #f0e995;
       padding-left: 30px;
   
     }
@@ -459,8 +459,8 @@ html{
       top: -41px;
       line-height: 40px;
       font-size: 16px; */
-  
-      color: #007bff;
+      
+      color: #F9DF30;
       text-decoration-line: none;
   
     }
@@ -480,7 +480,7 @@ html{
       width: 125px;
       font-size: 0.8rem;
   
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color:yellow; */
       
@@ -491,7 +491,7 @@ html{
       display: none;
 
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color: green; */
   
@@ -527,7 +527,7 @@ html{
       width: 125px;
       font-size: 0.8rem;
   
-      color:#0d2f73;
+      color:#91C13E;
   
       /* background-color:yellow; */
       
@@ -538,7 +538,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#0d2f73;
+      color:#91C13E;
   
       /* background-color: green; */
   
@@ -576,7 +576,7 @@ html{
       width: 115px;
       font-size: 0.8rem;
   
-      color:#0d2f73;
+      color:#91C13E;
   
       /* background-color:yellow; */
       
@@ -587,7 +587,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#0d2f73;
+      color:#91C13E;
   
       /* background-color: green; */
   
@@ -634,6 +634,7 @@ html{
   
     #jyouhou > a{
       color: deepskyblue;
+
       text-decoration-color: none;
   
     }
@@ -641,9 +642,8 @@ html{
     #jyouhou > a:hover{
       
       font-weight: 600;
-  
       color: blue;
-  
+      
     }
   
     #johou{
@@ -844,7 +844,7 @@ html{
       font-size: 0.9rem;
       font-weight: 500;
   
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color:yellow; */
   
@@ -856,7 +856,7 @@ html{
 
       margin-left: 10px;
       margin-bottom: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color: green; */
   
@@ -908,7 +908,7 @@ html{
       font-size: 0.9rem;
       font-weight: 500;
 
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color:yellow; */
   
@@ -919,7 +919,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
     }
   
@@ -966,7 +966,7 @@ html{
       width: 125px;
       font-size: 0.9rem;
       
-      color:#0d2f73;
+      color:#91C13E;
   
     }
   
@@ -975,7 +975,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#0d2f73;
+      color:#91C13E;
   
     }
   
@@ -1009,7 +1009,7 @@ html{
       width: 125px;
       font-size: 0.9rem;
 
-      color:#cc1100;
+      color:#EE224A;
       
     }
   
@@ -1018,7 +1018,7 @@ html{
       display: none;
       
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
       
     }
   
@@ -1052,7 +1052,7 @@ html{
       width: 125px;
       font-size: 0.9rem;
 
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color:yellow; */
       
@@ -1063,7 +1063,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
     }
   
@@ -1097,7 +1097,7 @@ html{
       width: 125px;
       font-size: 0.9rem;
 
-      color:#cc1100;
+      color:#EE224A;
 
       /* background-color:yellow; */
       
@@ -1108,7 +1108,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color: green; */
   
@@ -1133,7 +1133,7 @@ html{
       font-size: 0.9rem;
 
       /* text-decoration: none; */
-      color:#f5f5eb;
+      color: #f0e995;
       padding-left: 40px;
   
     }
@@ -1145,7 +1145,7 @@ html{
       line-height: 40px;
       font-size: 16px; */
   
-      color: #007bff;
+      color: #f9df30;
       text-decoration-line: none;
   
     }
@@ -1165,7 +1165,7 @@ html{
       width: 125px;
       font-size: 0.9rem;
   
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color:yellow; */
       
@@ -1176,7 +1176,7 @@ html{
       display: none;
 
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color: green; */
   
@@ -1212,7 +1212,7 @@ html{
       width: 125px;
       font-size: 0.9rem;
   
-      color:#0d2f73;
+      color:#91C13E;
   
       /* background-color:yellow; */
       
@@ -1223,7 +1223,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#0d2f73;
+      color:#91C13E;
   
       /* background-color: green; */
   
@@ -1261,7 +1261,7 @@ html{
       width: 125px;
       font-size: 0.9rem;
   
-      color:#0d2f73;
+      color:#91C13E;
   
       /* background-color:yellow; */
       
@@ -1272,7 +1272,7 @@ html{
       display: none;
   
       margin-left: 10px;
-      color:#0d2f73;
+      color:#91C13E;
   
       /* background-color: green; */
   
@@ -1527,7 +1527,7 @@ html{
   
     .namae02{
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color: green; */
   
@@ -1588,7 +1588,7 @@ html{
     .hurigana02{
   
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
     }
   
@@ -1643,7 +1643,7 @@ html{
   
       margin-left: 10px;
       margin-bottom: 10x;
-      color:#0d2f73;
+      color:#91C13E;
   
     }
   
@@ -1686,7 +1686,7 @@ html{
     .mail02{
   
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
     }
   
@@ -1730,7 +1730,7 @@ html{
     .telephone02{
   
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
     }
   
@@ -1774,7 +1774,7 @@ html{
     .postNumber02{
   
       margin-left: 10px;
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color: green; */
   
@@ -1802,7 +1802,7 @@ html{
       line-height: 40px;
       font-size: 16px;
   
-      color:deepskyblue;
+      color: #f0e995;
       text-decoration-line: none;
   
     }
@@ -1814,7 +1814,7 @@ html{
       line-height: 40px;
       font-size: 16px; */
   
-      color: #007bff;
+      color: #F9DF30;
       text-decoration-line: none;
   
     }
@@ -1844,7 +1844,7 @@ html{
     .writingAddress02{
       margin-left: 10px;
    
-      color:#cc1100;
+      color:#EE224A;
   
       /* background-color: green; */
   
@@ -1889,7 +1889,7 @@ html{
     .keiken02{
   
       margin-left: 10px;
-      color:#0d2f73;
+      color:#91C13E;
   
       /* background-color: green; */
   
@@ -1936,8 +1936,8 @@ html{
     .question02{
   
       margin-left: 10px;
-      color:#0d2f73;
-  
+      color:#91C13E;
+     
       /* background-color: green; */
   
     }
@@ -1979,7 +1979,7 @@ html{
     #jyouhou > a{
       color: deepskyblue;
       text-decoration-color: none;
-  
+      
     }
   
     #jyouhou > a:hover{
@@ -2167,7 +2167,7 @@ body {
   .namae02{
     margin-left: 10px;
     margin-bottom: 10px;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -2229,7 +2229,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -2284,7 +2284,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#0d2f73;
+    color:#91C13E;
 
   }
 
@@ -2328,7 +2328,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -2373,7 +2373,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
   }
 
@@ -2418,7 +2418,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -2446,7 +2446,7 @@ body {
     line-height: 40px;
     font-size: 16px;
 
-    color:deepskyblue;
+    color: #f0e995;
     text-decoration-line: none;
 
   }
@@ -2458,7 +2458,7 @@ body {
     line-height: 40px;
     font-size: 16px; */
 
-    color: #007bff;
+    color: #F9DF30;
     text-decoration-line: none;
 
   }
@@ -2488,7 +2488,7 @@ body {
   .writingAddress02{
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#cc1100;
+    color:#EE224A;
 
     /* background-color: green; */
 
@@ -2535,7 +2535,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#0d2f73;
+    color:#91C13E;
 
     /* background-color: green; */
 
@@ -2583,7 +2583,7 @@ body {
 
     margin-left: 10px;
     margin-bottom: 10x;
-    color:#0d2f73;
+    color:#91C13E;
 
     /* background-color: green; */
 
