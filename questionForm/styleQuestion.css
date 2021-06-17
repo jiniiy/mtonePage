@@ -647,12 +647,11 @@ html{
     }
   
     #johou{
-      
-      padding: 0 20px;
 
-      /* padding-bottom: 20px; */
-  
+      vertical-align: bottom;
+      
     }
+
   
     #form_submit{
       text-align: center;
@@ -1330,15 +1329,13 @@ html{
       color: blue;
   
     }
-  
-    #johou{
-      
-      padding: 0 20px;
 
-      /* padding-bottom: 20px; */
-  
+    #johou{
+
+      vertical-align: bottom;
+      
     }
-  
+    
     #form_submit{
       text-align: center;
       margin-top: 43px;
@@ -1989,13 +1986,11 @@ html{
       color: blue;
   
     }
-  
+
     #johou{
       
-      /* padding: 0 20px; */
-
-      padding-bottom: 20px;
-  
+      vertical-align: middle;
+      
     }
   
     #form_submit{
